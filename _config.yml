@@ -1,27 +1,27 @@
-title:            Site Title
-description:      Describe your website here.
-logo:             site-logo.png
-disqus_shortname: 
+title:            Kévin Renella
+description:      My own simple blog
+logo:             rounded-avatar.png
+disqus_shortname: drusy
 search:           true
 # Change url to your domain. Leave localhost server or blank when working locally.
 url:              http://localhost:4000
 
 # Owner/author information
 owner:
-  name:           Your Name
-  avatar:         bio-photo.jpg
-  email:          you@email.com
+  name:           Kévin Renella
+  avatar:         profile-kr.png
+  email:          kevin.renella@email.com
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        
-  facebook:       
-  github:         
-  stackexchange:  
-  linkedin:       
+  twitter:        https://twitter.com/_Drusy
+  facebook:       https://www.facebook.com/kevin.renella
+  github:         https://github.com/Drusy
+  stackexchange:  http://stackoverflow.com/users/1984760/kevin-renella
+  linkedin:       https://www.linkedin.com/in/kevinrenella
   instagram:      
   flickr:         
   tumblr:         
   # For Google Authorship https://plus.google.com/authorship
-  google_plus:    
+  google_plus:    https://plus.google.com/u/0/+KevinRenella
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:   
@@ -38,12 +38,12 @@ links:
     url: /articles/
   - title: Theme Setup
     url: /theme-setup/
-  - title: Made Mistakes
-    url: http://mademistakes.com
+  - title: Files Drag & Drop
+    url: http://www.filesdnd.com
     external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
+timezone:    Europe/Paris
 future:      true
 pygments:    true
 markdown:    kramdown

@@ -5,11 +5,16 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>A Post with a Video &#8211; Site Title</title>
+<title>A Post with a Video &#8211; Kévin Renella</title>
 <meta name="description" content="Custom written post descriptions are the way to go... if you're not lazy.">
 <meta name="keywords" content="sample post, video">
 
-
+<!-- Twitter Cards -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://localhost:4000/images/rounded-avatar.png">
+<meta name="twitter:title" content="A Post with a Video">
+<meta name="twitter:description" content="Custom written post descriptions are the way to go... if you're not lazy.">
+<meta name="twitter:creator" content="@https://twitter.com/_Drusy">
 
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
@@ -17,15 +22,15 @@
 <meta property="og:title" content="A Post with a Video">
 <meta property="og:description" content="Custom written post descriptions are the way to go... if you're not lazy.">
 <meta property="og:url" content="http://localhost:4000/articles/video-post/">
-<meta property="og:site_name" content="Site Title">
+<meta property="og:site_name" content="Kévin Renella">
 
 
 
 
 
 <link rel="canonical" href="http://localhost:4000/articles/video-post/">
-<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Site Title Feed">
-
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Kévin Renella Feed">
+<link rel="author" href="https://plus.google.com/u/0/+KevinRenella?rel=author">
 
 <!-- http://t.co/dKP3o1e -->
 <meta name="HandheldFriendly" content="True">
@@ -84,7 +89,7 @@
 	        
 			<li>
 				
-					<a href="http://mademistakes.com">Made Mistakes</a>
+					<a href="http://www.filesdnd.com">Files Drag & Drop</a>
 				 
 			</li>
 	        
@@ -107,10 +112,10 @@
 <header class="masthead">
 	<div class="wrap">
         
-    		<a href="http://localhost:4000" class="site-logo" rel="home" title="Site Title"><img src="http://localhost:4000/images/site-logo.png" width="200" height="200" alt="Site Title logo" class="animated fadeInUp"></a>
+    		<a href="http://localhost:4000" class="site-logo" rel="home" title="Kévin Renella"><img src="http://localhost:4000/images/rounded-avatar.png" width="200" height="200" alt="Kévin Renella logo" class="animated fadeInUp"></a>
         
-        <h1 class="site-title animated fadeIn"><a href="http://localhost:4000">Site Title</a></h1>
-		<h2 class="site-description animated fadeIn" itemprop="description">Describe your website here.</h2>
+        <h1 class="site-title animated fadeIn"><a href="http://localhost:4000">Kévin Renella</a></h1>
+		<h2 class="site-description animated fadeIn" itemprop="description">My own simple blog</h2>
 	</div>
 </header><!-- /.masthead -->
 
@@ -126,17 +131,17 @@
         
       </header>
       <footer class="entry-meta">
-        <img src="http://localhost:4000/images/bio-photo.jpg" alt="Your Name photo" class="author-photo">
-        <span class="author vcard">By <span class="fn"><a href="http://localhost:4000/about/" title="About Your Name">Your Name</a></span></span>
-        <span class="entry-date date published"><time datetime="2013-06-25T00:00:00-04:00"><i class="icon-calendar-empty"></i> June 25, 2013</time></span>
+        <img src="http://localhost:4000/images/profile-kr.png" alt="Kévin Renella photo" class="author-photo">
+        <span class="author vcard">By <span class="fn"><a href="http://localhost:4000/about/" title="About Kévin Renella">Kévin Renella</a></span></span>
+        <span class="entry-date date published"><time datetime="2013-06-25T00:00:00+02:00"><i class="icon-calendar-empty"></i> June 25, 2013</time></span>
         
-        
+        <span class="entry-comments"><i class="icon-comment-alt"></i> <a href="#disqus_thread">Comment</a></span>
         <span><a href="http://localhost:4000/articles/video-post/" rel="bookmark" title="A Post with a Video"><i class="icon-link"></i> Permalink</a></span>
         
         <span class="social-share-facebook">
             <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/articles/video-post/" title="Share on Facebook" itemprop="Facebook"><i class="icon-facebook-sign"></i> Like</a></span>
         <span class="social-share-twitter">
-            <a href="https://twitter.com/intent/tweet?hashtags=articles&text=A Post with a Video&url=http://localhost:4000/articles/video-post/&via=" title="Share on Twitter" itemprop="Twitter"><i class="icon-twitter-sign"></i> Tweet</a></span>
+            <a href="https://twitter.com/intent/tweet?hashtags=articles&text=A Post with a Video&url=http://localhost:4000/articles/video-post/&via=https://twitter.com/_Drusy" title="Share on Twitter" itemprop="Twitter"><i class="icon-twitter-sign"></i> Tweet</a></span>
         <span class="social-share-googleplus">
             <a href="https://plus.google.com/share?url=http://localhost:4000/articles/video-post/" title="Share on Google Plus" itemprop="GooglePlus"><i class="icon-google-plus-sign"></i> +1</a></span>
             <!-- /.social-share -->
@@ -151,7 +156,7 @@
 <div class="highlight"><pre><code class="html"><span class="nt">&lt;iframe</span> <span class="na">width=</span><span class="s">&quot;560&quot;</span> <span class="na">height=</span><span class="s">&quot;315&quot;</span> <span class="na">src=</span><span class="s">&quot;http://www.youtube.com/embed/PWf4WUoMXwg&quot;</span> <span class="na">frameborder=</span><span class="s">&quot;0&quot;</span><span class="nt">&gt;</span> <span class="nt">&lt;/iframe&gt;</span>
 </code></pre></div>
 
-        
+        <div id="disqus_thread"></div><!-- /#disqus_thread -->
       </div><!-- /.entry-content -->
     </div><!-- /.entry-wrapper -->
     <nav class="pagination" role="navigation">
@@ -167,16 +172,16 @@
 
 <div class="footer-wrapper">
   <footer role="contentinfo">
-    <span>&copy; 2014 Your Name. Powered by <a href="http://jekyllrb.com">Jekyll</a> using the <a href="http://mademistakes.com/so-simple/">So Simple Theme</a>.</span>
+    <span>&copy; 2014 Kévin Renella. Powered by <a href="http://jekyllrb.com">Jekyll</a> using the <a href="http://mademistakes.com/so-simple/">So Simple Theme</a>.</span>
 <div class="social-icons">
+	<a href="http://twitter.com/https://twitter.com/_Drusy" title="Kévin Renella on Twitter" target="_blank"><i class="icon-twitter icon-2x"></i></a>
+	<a href="http://facebook.com/https://www.facebook.com/kevin.renella" title="Kévin Renella on Facebook" target="_blank"><i class="icon-facebook icon-2x"></i></a>
+	<a href="https://plus.google.com/u/0/+KevinRenella" title="Kévin Renella on Google+" target="_blank"><i class="icon-google-plus icon-2x"></i></a>
+	<a href="http://linkedin.com/in/https://www.linkedin.com/in/kevinrenella" title="Kévin Renella on LinkedIn" target="_blank"><i class="icon-linkedin icon-2x"></i></a>
+	<a href="http://stackoverflow.com/users/1984760/kevin-renella" title="Kévin Renella on StackExchange" target="_blank"><i class="icon-stackexchange icon-2x"></i></a>
 	
 	
-	
-	
-	
-	
-	
-	
+	<a href="http://github.com/https://github.com/Drusy" title="Kévin Renella on Github" target="_blank"><i class="icon-github icon-2x"></i></a>
 	
 </div><!-- /.social-icons -->
   </footer>
@@ -224,7 +229,7 @@
 
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = ''; // required: replace example with your forum shortname
+    var disqus_shortname = 'drusy'; // required: replace example with your forum shortname
 
     /* * * DON'T EDIT BELOW THIS LINE * * */
     (function() {
