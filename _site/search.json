@@ -9,6 +9,14 @@
 		} ,
 	
 		{
+		  "title"      : "Qt - Remote webcam",
+		  "category"   : "articles",
+		  "url"        : "http://localhost:4000/articles/qt-remote-webcam/",
+		  "date"       : "2011-06-01 00:00:00 +0200",
+		  "shortdate"  : "June 01, 2011"
+		} ,
+	
+		{
 		  "title"      : "iPad account manager",
 		  "category"   : "articles",
 		  "url"        : "http://localhost:4000/articles/ipad-accounts-manager/",
