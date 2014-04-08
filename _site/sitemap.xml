@@ -44,11 +44,15 @@
 
     
     <url>
-        <loc>http://localhost:4000/articles/sfml-pvz/</loc>
+        <loc>http://localhost:4000/articles/files-drag-and-drop/</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/articles/files-drag-and-drop/</loc>
+        <loc>http://localhost:4000/articles/ipad-accounts-manager/</loc>
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/articles/sfml-pvz/</loc>
     </url>
     
 </urlset>
