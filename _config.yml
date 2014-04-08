@@ -39,7 +39,7 @@ links:
   - title: CV/Resume
     url: /cv-resume/
   - title: Files Drag & Drop
-    url: http://www.filesdnd.com
+    url: /articles/files-drag-and-drop/
     external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
