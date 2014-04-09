@@ -13,6 +13,8 @@ GrailsOverflow is a StackOverflow like developed in Grails.
 
 > Grails is an Open Source, full stack, web application framework for the JVM. It takes advantage of the Groovy programming language and convention over configuration to provide a productive and stream-lined development experience.
 
+## Features
+
 Our website includes :
 
 - Google authentication using OAuth 
@@ -48,12 +50,14 @@ Our website includes :
 	<figcaption>Medals & rewards management</figcaption>
 </figure>
 
+## GitHub
+
 GrailsOverflow is Open Source and [can be found on GitHub there](https://github.com/k-yak/grailsoverflow).
 This is an engineering school project ([ISIMA](http://www.isima.fr)), we had time restrictions and so it is a quick & dirty implementation. This project aims to practice and get started with Grails.
 
 You can try the website at [http://grow.drusy.cloudbees.net/](http://grow.drusy.cloudbees.net/). Be patient, free cloudbees hosting could be slow at first launch :)
 
-### We were 2 working on this project
+## We were 2 working on this project
 
 - [Florian Rotagnon](https://github.com/k-yak)
 - [Kévin Renella](https://github.com/Drusy)
