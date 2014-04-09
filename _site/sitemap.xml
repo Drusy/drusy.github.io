@@ -48,6 +48,10 @@
     </url>
     
     <url>
+        <loc>http://localhost:4000/articles/raspberry-robot/</loc>
+    </url>
+    
+    <url>
         <loc>http://localhost:4000/articles/placement-management/</loc>
     </url>
     
@@ -68,11 +72,11 @@
     </url>
     
     <url>
-        <loc>http://localhost:4000/articles/qt-remote-webcam/</loc>
+        <loc>http://localhost:4000/articles/ipad-accounts-manager/</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/articles/ipad-accounts-manager/</loc>
+        <loc>http://localhost:4000/articles/qt-remote-webcam/</loc>
     </url>
     
     <url>
