@@ -18,7 +18,7 @@ Our tracking algorithm use **Meanshift** with a color filtered image as initiali
 
 ### We were 4 working on this project
 
-- Thomas Coulange
-- Florian Rotagnon
-- Thomas Marques
-- Kévin Renella
+- [Thomas Coulange](https://github.com/NitroG42)
+- [Florian Rotagnon](https://github.com/k-yak)
+- [Thomas Marques](https://github.com/ThomasMarques)
+- [Kévin Renella](https://github.com/Drusy)

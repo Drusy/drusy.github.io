@@ -4,13 +4,84 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml" />
 <link rel="alternate" type="text/html" href="http://localhost:4000" />
-<updated>2014-04-09T16:02:33+02:00</updated>
+<updated>2014-04-09T17:14:56+02:00</updated>
 <id>http://localhost:4000/</id>
 <author>
   <name>Kévin Renella</name>
   <uri>http://localhost:4000/</uri>
   <email>kevin.renella@email.com</email>
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[GrailsOverflow]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/articles/grailsoverflow/"/>
+  <id>http://localhost:4000/articles/grailsoverflow</id>
+  <updated>2014-04-08T00:00:00-00:00</updated>
+  <published>2014-01-01T00:00:00+01:00</published>
+  
+  <author>
+    <name>Kévin Renella</name>
+    <uri>http://localhost:4000</uri>
+    <email>kevin.renella@email.com</email>
+  </author>
+  <content type="html">&lt;p&gt;GrailsOverflow is a StackOverflow like developed in Grails.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Grails is an Open Source, full stack, web application framework for the JVM. It takes advantage of the Groovy programming language and convention over configuration to provide a productive and stream-lined development experience.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Our website includes :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Google authentication using OAuth &lt;/li&gt;
+  &lt;li&gt;admin management&lt;/li&gt;
+  &lt;li&gt;rewards/medals on actions (questions, answers, etc.)&lt;/li&gt;
+  &lt;li&gt;vote up/down a question/answer&lt;/li&gt;
+  &lt;li&gt;add tags on questions and manage your favourite tags&lt;/li&gt;
+  &lt;li&gt;sort questions by tags/answered, etc.&lt;/li&gt;
+  &lt;li&gt;search questions and answers&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure&gt;
+    &lt;a href=&quot;/images/grailsoverflow/index.png&quot;&gt;&lt;img src=&quot;/images/grailsoverflow/index.png&quot; /&gt;&lt;/a&gt;
+	&lt;figcaption&gt;GrailsOverflow index&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+    &lt;a href=&quot;/images/grailsoverflow/question-focus.png&quot;&gt;&lt;img src=&quot;/images/grailsoverflow/question-focus.png&quot; /&gt;&lt;/a&gt;
+	&lt;figcaption&gt;Question page with answers&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+    &lt;a href=&quot;/images/grailsoverflow/js-editor.png&quot;&gt;&lt;img src=&quot;/images/grailsoverflow/js-editor.png&quot; /&gt;&lt;/a&gt;
+	&lt;figcaption&gt;Question/Answer advances JS editor&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+    &lt;a href=&quot;/images/grailsoverflow/user-profile.png&quot;&gt;&lt;img src=&quot;/images/grailsoverflow/user-profile.png&quot; /&gt;&lt;/a&gt;
+	&lt;figcaption&gt;User profile&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+    &lt;a href=&quot;/images/grailsoverflow/medals-history.png&quot;&gt;&lt;img src=&quot;/images/grailsoverflow/medals-history.png&quot; /&gt;&lt;/a&gt;
+	&lt;figcaption&gt;Medals &amp;amp; rewards management&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;GrailsOverflow is Open Source and &lt;a href=&quot;https://github.com/k-yak/grailsoverflow&quot;&gt;can be downloaded on GitHub there&lt;/a&gt;.
+This is an engineering school project (&lt;a href=&quot;http://www.isima.fr&quot;&gt;ISIMA&lt;/a&gt;), we had time restrictions and so it is a quick &amp;amp; dirty implementation. This project aims to practice and get started with Grails.&lt;/p&gt;
+
+&lt;p&gt;You can try the website at &lt;a href=&quot;http://grow.drusy.cloudbees.net/&quot;&gt;http://grow.drusy.cloudbees.net/&lt;/a&gt;. Be patient, free cloudbees hosting could be slow at first launch :)&lt;/p&gt;
+
+&lt;h3 id=&quot;we-were-2-working-on-this-project&quot;&gt;We were 2 working on this project&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/k-yak&quot;&gt;Florian Rotagnon&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/Drusy&quot;&gt;Kévin Renella&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/grailsoverflow/&quot;&gt;GrailsOverflow&lt;/a&gt; was originally published by Kévin Renella at &lt;a href=&quot;http://localhost:4000&quot;&gt;Kévin Renella&lt;/a&gt; on January 01, 2014.&lt;/p&gt;</content>
+</entry>
 
 
 <entry>
@@ -102,10 +173,10 @@ The goal was to ￼set up an application with 3 people in order to pilot a robot
 &lt;h3 id=&quot;we-were-4-working-on-this-project&quot;&gt;We were 4 working on this project&lt;/h3&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Thomas Coulange&lt;/li&gt;
-  &lt;li&gt;Florian Rotagnon&lt;/li&gt;
-  &lt;li&gt;Thomas Marques&lt;/li&gt;
-  &lt;li&gt;Kévin Renella&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/NitroG42&quot;&gt;Thomas Coulange&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/k-yak&quot;&gt;Florian Rotagnon&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/ThomasMarques&quot;&gt;Thomas Marques&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/Drusy&quot;&gt;Kévin Renella&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
   &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/raspberry-robot/&quot;&gt;Raspberry PI robot - Tracking algorithm&lt;/a&gt; was originally published by Kévin Renella at &lt;a href=&quot;http://localhost:4000&quot;&gt;Kévin Renella&lt;/a&gt; on July 01, 2012.&lt;/p&gt;</content>
