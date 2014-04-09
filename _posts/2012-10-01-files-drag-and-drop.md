@@ -4,7 +4,7 @@ title: "Files Drag & Drop"
 description: "Simpler file transfer between your devices and your computer"
 category: articles
 modified: 2014-04-08
-tags: [wifi,network,drag & drop,filesdnd,android]
+tags: [wifi,network,transfer,drag & drop,filesdnd,android]
 comments: true
 share: true
 link: http://www.filesdnd.com
@@ -55,6 +55,6 @@ Here's the list of features for the full version :
 The desktop version is Open Source and [available on GitHub](https://github.com/filesdnd), you can find the Android app on the [Android Market](https://play.google.com/store/apps/details?id=com.filesdnd).
 
 ## More
-Files Drag & Drop is a software made by Thomas Coulange & me, for our personnal use. We hope that it could help some more people :)
+Files Drag & Drop is a software made by [Thomas Coulange](https://github.com/NitroG42) & [Kévin Renella](https://github.com/Drusy), for our personnal use. We hope that it could help some more people :)
 
 Don't hesitate to write any questions/suggestions/not-happy-feedback at contact@filesdnd.fr !

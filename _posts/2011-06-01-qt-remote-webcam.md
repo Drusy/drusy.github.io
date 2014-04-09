@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Qt - Remote webcam"
+title: "Remote webcams"
 description: "Remote webcam control using Qt"
 category: articles
 modified: 2014-04-08
-tags: [c++,Qt,remote,webcam]
+tags: [c++,Qt,OpenCV,remote,webcam]
 comments: true
 share: true
 ---

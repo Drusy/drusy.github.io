@@ -4,7 +4,7 @@ title: "Shot detector"
 description: "Competitive Shooting Program"
 category: articles
 modified: 2014-04-08
-tags: [C++,Qt,shooting,competition]
+tags: [C++,Qt,OpenCV,shooting,competition]
 comments: true
 share: true
 ---

@@ -9,15 +9,31 @@
 		} ,
 	
 		{
+		  "title"      : "Nanotechnology Image Processing",
+		  "category"   : "articles",
+		  "url"        : "http://localhost:4000/articles/nanotechnology-image-processing/",
+		  "date"       : "2012-03-01 00:00:00 +0100",
+		  "shortdate"  : "March 01, 2012"
+		} ,
+	
+		{
+		  "title"      : "Battery State",
+		  "category"   : "articles",
+		  "url"        : "http://localhost:4000/articles/battery-state/",
+		  "date"       : "2012-01-01 00:00:00 +0100",
+		  "shortdate"  : "January 01, 2012"
+		} ,
+	
+		{
 		  "title"      : "Shot detector",
-		  "category"   : "project",
-		  "url"        : "http://localhost:4000/project/shot-detector/",
+		  "category"   : "articles",
+		  "url"        : "http://localhost:4000/articles/shot-detector/",
 		  "date"       : "2011-11-01 00:00:00 +0100",
 		  "shortdate"  : "November 01, 2011"
 		} ,
 	
 		{
-		  "title"      : "Qt - Remote webcam",
+		  "title"      : "Remote webcams",
 		  "category"   : "articles",
 		  "url"        : "http://localhost:4000/articles/qt-remote-webcam/",
 		  "date"       : "2011-06-01 00:00:00 +0200",

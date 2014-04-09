@@ -48,7 +48,15 @@
     </url>
     
     <url>
-        <loc>http://localhost:4000/project/shot-detector/</loc>
+        <loc>http://localhost:4000/articles/nanotechnology-image-processing/</loc>
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/articles/battery-state/</loc>
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/articles/shot-detector/</loc>
     </url>
     
     <url>
