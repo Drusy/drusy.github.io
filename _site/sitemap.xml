@@ -48,6 +48,10 @@
     </url>
     
     <url>
+        <loc>http://localhost:4000/project/shot-detector/</loc>
+    </url>
+    
+    <url>
         <loc>http://localhost:4000/articles/qt-remote-webcam/</loc>
     </url>
     

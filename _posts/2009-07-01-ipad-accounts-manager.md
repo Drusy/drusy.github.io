@@ -3,7 +3,7 @@ layout: post
 title: "iPad account manager"
 description: "Placement at the Aberdeen Robert Gordon University"
 category: articles
-modified: 2009-07-01
+modified: 2014-04-08
 tags: [objective-c,iPad]
 comments: true
 share: true

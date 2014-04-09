@@ -5,30 +5,30 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>Qt - Remote webcam &#8211; Kévin Renella</title>
-<meta name="description" content="Remote webcam control using Qt">
-<meta name="keywords" content="c++, Qt, remote, webcam">
+<title>Shot detector &#8211; Kévin Renella</title>
+<meta name="description" content="Competitive Shooting Program">
+<meta name="keywords" content="C++, Qt, shooting, competition">
 
 <!-- Twitter Cards -->
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="http://localhost:4000/images/rounded-avatar.png">
-<meta name="twitter:title" content="Qt - Remote webcam">
-<meta name="twitter:description" content="Remote webcam control using Qt">
+<meta name="twitter:title" content="Shot detector">
+<meta name="twitter:description" content="Competitive Shooting Program">
 <meta name="twitter:creator" content="@https://twitter.com/_Drusy">
 
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Qt - Remote webcam">
-<meta property="og:description" content="Remote webcam control using Qt">
-<meta property="og:url" content="http://localhost:4000/articles/qt-remote-webcam/">
+<meta property="og:title" content="Shot detector">
+<meta property="og:description" content="Competitive Shooting Program">
+<meta property="og:url" content="http://localhost:4000/project/shot-detector/">
 <meta property="og:site_name" content="Kévin Renella">
 
 
 
 
 
-<link rel="canonical" href="http://localhost:4000/articles/qt-remote-webcam/">
+<link rel="canonical" href="http://localhost:4000/project/shot-detector/">
 <link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Kévin Renella Feed">
 <link rel="author" href="https://plus.google.com/u/0/+KevinRenella?rel=author">
 
@@ -125,45 +125,62 @@
     
     <div class="entry-wrapper">
       <header class="entry-header">
-        <span class="entry-tags"><a href="http://localhost:4000/tags/#c++" title="Pages tagged c++">c++</a>&nbsp;&bull;&nbsp;<a href="http://localhost:4000/tags/#Qt" title="Pages tagged Qt">Qt</a>&nbsp;&bull;&nbsp;<a href="http://localhost:4000/tags/#remote" title="Pages tagged remote">remote</a>&nbsp;&bull;&nbsp;<a href="http://localhost:4000/tags/#webcam" title="Pages tagged webcam">webcam</a></span>
+        <span class="entry-tags"><a href="http://localhost:4000/tags/#C++" title="Pages tagged C++">C++</a>&nbsp;&bull;&nbsp;<a href="http://localhost:4000/tags/#Qt" title="Pages tagged Qt">Qt</a>&nbsp;&bull;&nbsp;<a href="http://localhost:4000/tags/#shooting" title="Pages tagged shooting">shooting</a>&nbsp;&bull;&nbsp;<a href="http://localhost:4000/tags/#competition" title="Pages tagged competition">competition</a></span>
         
-          <h1 class="entry-title">Qt - Remote webcam</h1>
+          <h1 class="entry-title">Shot detector</h1>
         
       </header>
       <footer class="entry-meta">
         <img src="http://localhost:4000/images/profile-kr.png" alt="Kévin Renella photo" class="author-photo">
         <span class="author vcard">By <span class="fn"><a href="http://localhost:4000/about/" title="About Kévin Renella">Kévin Renella</a></span></span>
-        <span class="entry-date date published"><time datetime="2011-06-01T00:00:00+02:00"><i class="icon-calendar-empty"></i> June 01, 2011</time></span>
+        <span class="entry-date date published"><time datetime="2011-11-01T00:00:00+01:00"><i class="icon-calendar-empty"></i> November 01, 2011</time></span>
         <span class="entry-date date modified"><time datetime="2014-04-08"><i class="icon-pencil"></i> April 08, 2014</time></span>
         <span class="entry-comments"><i class="icon-comment-alt"></i> <a href="#disqus_thread">Comment</a></span>
-        <span><a href="http://localhost:4000/articles/qt-remote-webcam/" rel="bookmark" title="Qt - Remote webcam"><i class="icon-link"></i> Permalink</a></span>
+        <span><a href="http://localhost:4000/project/shot-detector/" rel="bookmark" title="Shot detector"><i class="icon-link"></i> Permalink</a></span>
         
         <span class="social-share-facebook">
-            <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/articles/qt-remote-webcam/" title="Share on Facebook" itemprop="Facebook"><i class="icon-facebook-sign"></i> Like</a></span>
+            <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/project/shot-detector/" title="Share on Facebook" itemprop="Facebook"><i class="icon-facebook-sign"></i> Like</a></span>
         <span class="social-share-twitter">
-            <a href="https://twitter.com/intent/tweet?hashtags=articles&text=Qt - Remote webcam&url=http://localhost:4000/articles/qt-remote-webcam/&via=https://twitter.com/_Drusy" title="Share on Twitter" itemprop="Twitter"><i class="icon-twitter-sign"></i> Tweet</a></span>
+            <a href="https://twitter.com/intent/tweet?hashtags=project&text=Shot detector&url=http://localhost:4000/project/shot-detector/&via=https://twitter.com/_Drusy" title="Share on Twitter" itemprop="Twitter"><i class="icon-twitter-sign"></i> Tweet</a></span>
         <span class="social-share-googleplus">
-            <a href="https://plus.google.com/share?url=http://localhost:4000/articles/qt-remote-webcam/" title="Share on Google Plus" itemprop="GooglePlus"><i class="icon-google-plus-sign"></i> +1</a></span>
+            <a href="https://plus.google.com/share?url=http://localhost:4000/project/shot-detector/" title="Share on Google Plus" itemprop="GooglePlus"><i class="icon-google-plus-sign"></i> +1</a></span>
             <!-- /.social-share -->
       </footer>
       <div class="entry-content">
-        <p>As I told, my favourite programming language remain the C++, using the Qt framework… So I began to develop some amazing desktop applications such as this remote webcam client. This software allow you to control multiple webcam remotely through wifi network or over the internet.</p>
+        <p>For a long time, Metallic silhouette shooting was one of my passion :)</p>
 
-<p>This application was developped in C++/Qt use OpenCV to retrieve webcam handlers and images. To test this application in real conditions, I tried to compile it on a Raspberry PI and it worked pretty well (with some lags), so I definitively can make many webcams for a little price and spy the places I want :)</p>
+<h2 id="metallic-silhouette-shooting-">Metallic silhouette shooting ?</h2>
 
 <figure>
-	<a href="/images/webcam/qt-webcam.jpg"><img src="/images/webcam/qt-webcam.jpg" /></a>
+	<img src="/images/shot-detector/sms-targets.jpg" />
 </figure>
+
+<blockquote>
+  <p>Silhouette shooting involves firing at steel targets shaped like chickens, pigs, turkeys, and rams from various distances depending on the specific match. Unlike most conventional target games that utilize paper targets and numerical scoring rings, every shot fired at a metallic silhouette produces an immediate and clearly visible and audible result. It is either a hit or a miss.</p>
+
+  <p>All metallic silhouette shooting events held at Zia, whether using rifles or handguns, are fired standing from the unsupported off hand position. Accessories such as adjustable or hooked butt plates, palm rests, shooting coats, or slings are not allowed.</p>
+</blockquote>
+
+<p>So, the goal is to shoot  small (too small…) metallic targets on various distances, and all of that is outdoor. But what happen if it’s a hard winter, a very very important championship is coming and you have to train yourself ?!</p>
+
+<p>The shot detector is made for you, you can adapt your guns with a beam pointer laser, shot indoor (without real bullets…) and see your results with the shot detector app!</p>
+
+<figure>
+	<a href="/images/shot-detector/shot-detector.png"><img src="/images/shot-detector/shot-detector-small.png" /></a>
+	<figcaption>Shot detector screenshot</figcaption>
+</figure>
+
+<p>For this software, I have chosen C++/Qt and OpenCV for camera handler and image processing.</p>
 
         <div id="disqus_thread"></div><!-- /#disqus_thread -->
       </div><!-- /.entry-content -->
     </div><!-- /.entry-wrapper -->
     <nav class="pagination" role="navigation">
       
-        <a href="http://localhost:4000/articles/ipad-accounts-manager/" class="btn" title="iPad account manager">Previous article</a>
+        <a href="http://localhost:4000/articles/qt-remote-webcam/" class="btn" title="Qt - Remote webcam">Previous article</a>
       
       
-        <a href="http://localhost:4000/project/shot-detector/" class="btn" title="Shot detector">Next article</a>
+        <a href="http://localhost:4000/articles/files-drag-and-drop/" class="btn" title="Files Drag & Drop">Next article</a>
       
     </nav><!-- /.pagination -->
   </article>

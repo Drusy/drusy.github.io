@@ -156,6 +156,8 @@ Files Drag &amp; Drop is a software that will let you easily transfer files from
 <p>Once you have installed the app on two devices (or on PC/Mac with the desktop version), Files Drag &amp; Drop will automatically detect your devices on the Wi-Fi network. Then, simply drag &amp; drop the content you want to send onto the device of your choice and your dat will be transfered.
 From an Android device, use the share function of your device and choose Files Drag &amp; Drop.</p>
 
+<p>More technicaly, we are using the Apple Bonjour protocol to detect devices over the Wi-Fi network. After a few days testing the app, we met some issues detecting devices due to multicast compatibility of routers and devices. So we decided to implement a broadcast detection manually to resolve our detection problems. Once your devices are properly detected and you simply drop a file (or text/url) on them, a TCP connection is established and the transfer begins.</p>
+
 <p>Try it, it’s awesome. </p>
 
 <h2 id="why-should-you-choose-files-drag--drop-">Why should you choose Files Drag &amp; Drop ?</h2>
@@ -201,7 +203,7 @@ You can buy the full version in app, for approximatively $3.</p>
     </div><!-- /.entry-wrapper -->
     <nav class="pagination" role="navigation">
       
-        <a href="http://localhost:4000/articles/qt-remote-webcam/" class="btn" title="Qt - Remote webcam">Previous article</a>
+        <a href="http://localhost:4000/project/shot-detector/" class="btn" title="Shot detector">Previous article</a>
       
       
     </nav><!-- /.pagination -->

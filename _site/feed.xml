@@ -4,7 +4,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml" />
 <link rel="alternate" type="text/html" href="http://localhost:4000" />
-<updated>2014-04-08T18:29:43+02:00</updated>
+<updated>2014-04-09T10:39:48+02:00</updated>
 <id>http://localhost:4000/</id>
 <author>
   <name>Kévin Renella</name>
@@ -33,6 +33,8 @@ Files Drag &amp;amp; Drop is a software that will let you easily transfer files 
 &lt;h2 id=&quot;how-it-works-&quot;&gt;How it works :&lt;/h2&gt;
 &lt;p&gt;Once you have installed the app on two devices (or on PC/Mac with the desktop version), Files Drag &amp;amp; Drop will automatically detect your devices on the Wi-Fi network. Then, simply drag &amp;amp; drop the content you want to send onto the device of your choice and your dat will be transfered.
 From an Android device, use the share function of your device and choose Files Drag &amp;amp; Drop.&lt;/p&gt;
+
+&lt;p&gt;More technicaly, we are using the Apple Bonjour protocol to detect devices over the Wi-Fi network. After a few days testing the app, we met some issues detecting devices due to multicast compatibility of routers and devices. So we decided to implement a broadcast detection manually to resolve our detection problems. Once your devices are properly detected and you simply drop a file (or text/url) on them, a TCP connection is established and the transfer begins.&lt;/p&gt;
 
 &lt;p&gt;Try it, it’s awesome. &lt;/p&gt;
 
@@ -79,6 +81,47 @@ You can buy the full version in app, for approximatively $3.&lt;/p&gt;
 
 
 <entry>
+  <title type="html"><![CDATA[Shot detector]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/project/shot-detector/"/>
+  <id>http://localhost:4000/project/shot-detector</id>
+  <updated>2014-04-08T00:00:00-00:00</updated>
+  <published>2011-11-01T00:00:00+01:00</published>
+  
+  <author>
+    <name>Kévin Renella</name>
+    <uri>http://localhost:4000</uri>
+    <email>kevin.renella@email.com</email>
+  </author>
+  <content type="html">&lt;p&gt;For a long time, Metallic silhouette shooting was one of my passion :)&lt;/p&gt;
+
+&lt;h2 id=&quot;metallic-silhouette-shooting-&quot;&gt;Metallic silhouette shooting ?&lt;/h2&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;/images/shot-detector/sms-targets.jpg&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Silhouette shooting involves firing at steel targets shaped like chickens, pigs, turkeys, and rams from various distances depending on the specific match. Unlike most conventional target games that utilize paper targets and numerical scoring rings, every shot fired at a metallic silhouette produces an immediate and clearly visible and audible result. It is either a hit or a miss.&lt;/p&gt;
+
+  &lt;p&gt;All metallic silhouette shooting events held at Zia, whether using rifles or handguns, are fired standing from the unsupported off hand position. Accessories such as adjustable or hooked butt plates, palm rests, shooting coats, or slings are not allowed.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;So, the goal is to shoot  small (too small…) metallic targets on various distances, and all of that is outdoor. But what happen if it’s a hard winter, a very very important championship is coming and you have to train yourself ?!&lt;/p&gt;
+
+&lt;p&gt;The shot detector is made for you, you can adapt your guns with a beam pointer laser, shot indoor (without real bullets…) and see your results with the shot detector app!&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;a href=&quot;/images/shot-detector/shot-detector.png&quot;&gt;&lt;img src=&quot;/images/shot-detector/shot-detector-small.png&quot; /&gt;&lt;/a&gt;
+	&lt;figcaption&gt;Shot detector screenshot&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;For this software, I have chosen C++/Qt and OpenCV for camera handler and image processing.&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/project/shot-detector/&quot;&gt;Shot detector&lt;/a&gt; was originally published by Kévin Renella at &lt;a href=&quot;http://localhost:4000&quot;&gt;Kévin Renella&lt;/a&gt; on November 01, 2011.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
   <title type="html"><![CDATA[Qt - Remote webcam]]></title>
   <link rel="alternate" type="text/html" href="http://localhost:4000/articles/qt-remote-webcam/"/>
   <id>http://localhost:4000/articles/qt-remote-webcam</id>
@@ -106,7 +149,7 @@ You can buy the full version in app, for approximatively $3.&lt;/p&gt;
   <title type="html"><![CDATA[iPad account manager]]></title>
   <link rel="alternate" type="text/html" href="http://localhost:4000/articles/ipad-accounts-manager/"/>
   <id>http://localhost:4000/articles/ipad-accounts-manager</id>
-  <updated>2009-07-01T00:00:00-00:00</updated>
+  <updated>2014-04-08T00:00:00-00:00</updated>
   <published>2009-07-01T00:00:00+02:00</published>
   
   <author>
@@ -128,7 +171,7 @@ You can buy the full version in app, for approximatively $3.&lt;/p&gt;
   <title type="html"><![CDATA[Plants vs Zombies SFML]]></title>
   <link rel="alternate" type="text/html" href="http://localhost:4000/articles/sfml-pvz/"/>
   <id>http://localhost:4000/articles/sfml-pvz</id>
-  <updated>2009-01-01T00:00:00-00:00</updated>
+  <updated>2014-04-08T00:00:00-00:00</updated>
   <published>2009-01-01T00:00:00+01:00</published>
   
   <author>

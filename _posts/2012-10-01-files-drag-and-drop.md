@@ -19,6 +19,8 @@ The goal was to make transfers between an Android device and a computer (running
 Once you have installed the app on two devices (or on PC/Mac with the desktop version), Files Drag & Drop will automatically detect your devices on the Wi-Fi network. Then, simply drag & drop the content you want to send onto the device of your choice and your dat will be transfered.
 From an Android device, use the share function of your device and choose Files Drag & Drop.
 
+More technicaly, we are using the Apple Bonjour protocol to detect devices over the Wi-Fi network. After a few days testing the app, we met some issues detecting devices due to multicast compatibility of routers and devices. So we decided to implement a broadcast detection manually to resolve our detection problems. Once your devices are properly detected and you simply drop a file (or text/url) on them, a TCP connection is established and the transfer begins.
+
 Try it, it's awesome. 
 
 ## Why should you choose Files Drag & Drop ?
