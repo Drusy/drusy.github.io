@@ -27,7 +27,7 @@ So, the goal is to shoot  small (too small...) metallic targets on various dista
 The shot detector is made for you, you can adapt your guns with a beam pointer laser, shot indoor (without real bullets...) and see your results with the shot detector app!
 
 <figure>
-	<a href="/images/shot-detector/shot-detector.png"><img src="/images/shot-detector/shot-detector-small.png" /></a>
+	<a href="/images/shot-detector/shot-detector.jpg"><img src="/images/shot-detector/shot-detector-small.jpg" /></a>
 	<figcaption>Shot detector screenshot</figcaption>
 </figure>
 

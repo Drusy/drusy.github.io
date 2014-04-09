@@ -48,7 +48,7 @@ Our website includes :
 	<figcaption>Medals & rewards management</figcaption>
 </figure>
 
-GrailsOverflow is Open Source and [can be downloaded on GitHub there](https://github.com/k-yak/grailsoverflow).
+GrailsOverflow is Open Source and [can be found on GitHub there](https://github.com/k-yak/grailsoverflow).
 This is an engineering school project ([ISIMA](http://www.isima.fr)), we had time restrictions and so it is a quick & dirty implementation. This project aims to practice and get started with Grails.
 
 You can try the website at [http://grow.drusy.cloudbees.net/](http://grow.drusy.cloudbees.net/). Be patient, free cloudbees hosting could be slow at first launch :)

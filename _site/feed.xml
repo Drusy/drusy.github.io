@@ -4,13 +4,78 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml" />
 <link rel="alternate" type="text/html" href="http://localhost:4000" />
-<updated>2014-04-09T17:14:56+02:00</updated>
+<updated>2014-04-09T18:57:29+02:00</updated>
 <id>http://localhost:4000/</id>
 <author>
   <name>Kévin Renella</name>
   <uri>http://localhost:4000/</uri>
   <email>kevin.renella@email.com</email>
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[Image processing - SKFCM algorithm]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/articles/skfcm-algorithm/"/>
+  <id>http://localhost:4000/articles/skfcm-algorithm</id>
+  <updated>2014-04-08T00:00:00-00:00</updated>
+  <published>2014-02-01T00:00:00+01:00</published>
+  
+  <author>
+    <name>Kévin Renella</name>
+    <uri>http://localhost:4000</uri>
+    <email>kevin.renella@email.com</email>
+  </author>
+  <content type="html">&lt;h2 id=&quot;subject-presentation&quot;&gt;Subject presentation&lt;/h2&gt;
+
+&lt;p&gt;Image segmentation plays a crucial role in many areas of medical imaging. We have implemented a solution for segmenting image from the article [31] Dao-Qiang Zhang and Chen Song-Can, researchers from the Chinese Academy of Sciences (coupled to the computer department of the Chinese University of Aeronautics and astronautics).&lt;/p&gt;
+
+&lt;p&gt;The image processing method presented in this article, Spatially constrained KFCM (SKFCM) allows an image segmentation fuzzy regions, inspired by the Fuzzy C-Means method (FCM), but using a distance induced by a kernel function (from vector machines support or SVM), and a consideration of the neighborhood by the introduction of spatial constraints in the objective function of FCM.&lt;/p&gt;
+
+&lt;h2 id=&quot;theory&quot;&gt;Theory&lt;/h2&gt;
+
+&lt;p&gt;It is first necessary to define what a fuzzy set.&lt;/p&gt;
+
+&lt;p&gt;A fuzzy set is a set whose edges are poorly defined. This results to a membership function values in [0,1], as opposed to the conventional case where the membership function takes two values 0 or 1. This allows to define sets of a more flexible manner, tolerant inaccurate, incomplete and / or uncertain.&lt;/p&gt;
+
+&lt;p&gt;This property is exploited by image processing, and more precisely in classification where the classes, also known as regions are represented by fuzzy sets. This is useful when the regions can not be defined clearly and precisely. Their handling gradant the vagueness can handle imprecise data, uncertain and / or redundant in a more flexible manner.&lt;/p&gt;
+
+&lt;p&gt;Fuzzy clustering allows overlapping classes (also called regions). A non-fuzzy segmentation can be obtained by assigning each pixel to the class for which its membership degree is maximum.&lt;/p&gt;
+
+&lt;p&gt;The algorithm of the Fuzzy C-Means (FCM) is a fuzzy clustering algorithm based on optimization of a quadratic criterion of classification where each class is represented by its center of gravity. The algorithm requires knowing the number of classes in advance and generates classes itératiff process by minimizing an objective function. Thus, it provides a fuzzy partition of the image by giving each pixel a degree of membership in a given region.&lt;/p&gt;
+
+&lt;h2 id=&quot;results&quot;&gt;Results&lt;/h2&gt;
+
+&lt;figure class=&quot;third&quot;&gt;
+    &lt;a href=&quot;/images/skfcm-algorithm/brain.jpg&quot;&gt;&lt;img src=&quot;/images/skfcm-algorithm/brain-small.jpg&quot; /&gt;&lt;/a&gt;
+    &lt;a href=&quot;/images/skfcm-algorithm/brain-exclusive.jpg&quot;&gt;&lt;img src=&quot;/images/skfcm-algorithm/brain-exclusive-small.jpg&quot; /&gt;&lt;/a&gt;
+    &lt;a href=&quot;/images/skfcm-algorithm/brain-shared.jpg&quot;&gt;&lt;img src=&quot;/images/skfcm-algorithm/brain-shared-small.jpg&quot; /&gt;&lt;/a&gt;
+	&lt;figcaption&gt;SKFCM on brain RMI images&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure class=&quot;third&quot;&gt;
+    &lt;a href=&quot;/images/skfcm-algorithm/fish.jpg&quot;&gt;&lt;img src=&quot;/images/skfcm-algorithm/fish.jpg&quot; /&gt;&lt;/a&gt;
+    &lt;a href=&quot;/images/skfcm-algorithm/fish-exclusive.jpg&quot;&gt;&lt;img src=&quot;/images/skfcm-algorithm/fish-exclusive.jpg&quot; /&gt;&lt;/a&gt;
+    &lt;a href=&quot;/images/skfcm-algorithm/fish-shared.jpg&quot;&gt;&lt;img src=&quot;/images/skfcm-algorithm/fish-shared.jpg&quot; /&gt;&lt;/a&gt;
+	&lt;figcaption&gt;SKFCM on a fish&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The SKFCM algorithm provides a segmented image noised and respecting the fuzzy regions of the original image. Indeed, this aspect is very well represented by the picture of the fish. In the original image can be difficult to distinguish caudal fins of fish. With SKFCM algorithm, fuzzy segmentation and reconstruction help highlight these fins on the processed image.&lt;/p&gt;
+
+&lt;p&gt;On MRI images taken in recent appear slightly noisy. It is for this reason that conventional segmentation methods as FCM does not allow a clear image segmentation. However, algortihme SKFCM provides a clear segmented image from an image with Gaussian noise characteristic of catches taken by magnetic resonance. That is why this method seems very appropriate for this kind of images, particularly useful for the detection of tumors in the brain.&lt;/p&gt;
+
+&lt;h2 id=&quot;github&quot;&gt;GitHub&lt;/h2&gt;
+
+&lt;p&gt;Our implementation of the SKFCM algorithm is Open Source and &lt;a href=&quot;https://github.com/Drusy/SKFCM-Algorithm&quot;&gt;can be found on GitHub there&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;we-were-2-working-on-this-project&quot;&gt;We were 2 working on this project&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Maxime Arriaza&lt;/li&gt;
+  &lt;li&gt;Kévin Renella&lt;/li&gt;
+&lt;/ul&gt;
+
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/skfcm-algorithm/&quot;&gt;Image processing - SKFCM algorithm&lt;/a&gt; was originally published by Kévin Renella at &lt;a href=&quot;http://localhost:4000&quot;&gt;Kévin Renella&lt;/a&gt; on February 01, 2014.&lt;/p&gt;</content>
+</entry>
 
 
 <entry>
@@ -68,7 +133,7 @@
 	&lt;figcaption&gt;Medals &amp;amp; rewards management&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;GrailsOverflow is Open Source and &lt;a href=&quot;https://github.com/k-yak/grailsoverflow&quot;&gt;can be downloaded on GitHub there&lt;/a&gt;.
+&lt;p&gt;GrailsOverflow is Open Source and &lt;a href=&quot;https://github.com/k-yak/grailsoverflow&quot;&gt;can be found on GitHub there&lt;/a&gt;.
 This is an engineering school project (&lt;a href=&quot;http://www.isima.fr&quot;&gt;ISIMA&lt;/a&gt;), we had time restrictions and so it is a quick &amp;amp; dirty implementation. This project aims to practice and get started with Grails.&lt;/p&gt;
 
 &lt;p&gt;You can try the website at &lt;a href=&quot;http://grow.drusy.cloudbees.net/&quot;&gt;http://grow.drusy.cloudbees.net/&lt;/a&gt;. Be patient, free cloudbees hosting could be slow at first launch :)&lt;/p&gt;
@@ -365,7 +430,7 @@ The goal was to ￼set up an application with 3 people in order to pilot a robot
 &lt;p&gt;The shot detector is made for you, you can adapt your guns with a beam pointer laser, shot indoor (without real bullets…) and see your results with the shot detector app!&lt;/p&gt;
 
 &lt;figure&gt;
-	&lt;a href=&quot;/images/shot-detector/shot-detector.png&quot;&gt;&lt;img src=&quot;/images/shot-detector/shot-detector-small.png&quot; /&gt;&lt;/a&gt;
+	&lt;a href=&quot;/images/shot-detector/shot-detector.jpg&quot;&gt;&lt;img src=&quot;/images/shot-detector/shot-detector-small.jpg&quot; /&gt;&lt;/a&gt;
 	&lt;figcaption&gt;Shot detector screenshot&lt;/figcaption&gt;
 &lt;/figure&gt;
 

@@ -5,30 +5,30 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>GrailsOverflow &#8211; Kévin Renella</title>
-<meta name="description" content="StackOverflow like developed in Groovy on rails">
-<meta name="keywords" content="groovy, grails, stackoverflow, grailsoverflow, grow">
+<title>Image processing - SKFCM algorithm &#8211; Kévin Renella</title>
+<meta name="description" content="Medical image segmentation">
+<meta name="keywords" content="C, CImg, SKFCM, algorithm, image processing">
 
 <!-- Twitter Cards -->
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="http://localhost:4000/images/rounded-avatar.png">
-<meta name="twitter:title" content="GrailsOverflow">
-<meta name="twitter:description" content="StackOverflow like developed in Groovy on rails">
+<meta name="twitter:title" content="Image processing - SKFCM algorithm">
+<meta name="twitter:description" content="Medical image segmentation">
 <meta name="twitter:creator" content="@https://twitter.com/_Drusy">
 
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
-<meta property="og:title" content="GrailsOverflow">
-<meta property="og:description" content="StackOverflow like developed in Groovy on rails">
-<meta property="og:url" content="http://localhost:4000/articles/grailsoverflow/">
+<meta property="og:title" content="Image processing - SKFCM algorithm">
+<meta property="og:description" content="Medical image segmentation">
+<meta property="og:url" content="http://localhost:4000/articles/skfcm-algorithm/">
 <meta property="og:site_name" content="Kévin Renella">
 
 
 
 
 
-<link rel="canonical" href="http://localhost:4000/articles/grailsoverflow/">
+<link rel="canonical" href="http://localhost:4000/articles/skfcm-algorithm/">
 <link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Kévin Renella Feed">
 <link rel="author" href="https://plus.google.com/u/0/+KevinRenella?rel=author">
 
@@ -125,81 +125,75 @@
     
     <div class="entry-wrapper">
       <header class="entry-header">
-        <span class="entry-tags"><a href="http://localhost:4000/tags/#groovy" title="Pages tagged groovy">groovy</a>&nbsp;&bull;&nbsp;<a href="http://localhost:4000/tags/#grails" title="Pages tagged grails">grails</a>&nbsp;&bull;&nbsp;<a href="http://localhost:4000/tags/#stackoverflow" title="Pages tagged stackoverflow">stackoverflow</a>&nbsp;&bull;&nbsp;<a href="http://localhost:4000/tags/#grailsoverflow" title="Pages tagged grailsoverflow">grailsoverflow</a>&nbsp;&bull;&nbsp;<a href="http://localhost:4000/tags/#grow" title="Pages tagged grow">grow</a></span>
+        <span class="entry-tags"><a href="http://localhost:4000/tags/#C" title="Pages tagged C">C</a>&nbsp;&bull;&nbsp;<a href="http://localhost:4000/tags/#CImg" title="Pages tagged CImg">CImg</a>&nbsp;&bull;&nbsp;<a href="http://localhost:4000/tags/#SKFCM" title="Pages tagged SKFCM">SKFCM</a>&nbsp;&bull;&nbsp;<a href="http://localhost:4000/tags/#algorithm" title="Pages tagged algorithm">algorithm</a>&nbsp;&bull;&nbsp;<a href="http://localhost:4000/tags/#image processing" title="Pages tagged image processing">image processing</a></span>
         
-          <h1 class="entry-title">GrailsOverflow</h1>
+          <h1 class="entry-title">Image processing - SKFCM algorithm</h1>
         
       </header>
       <footer class="entry-meta">
         <img src="http://localhost:4000/images/profile-kr.png" alt="Kévin Renella photo" class="author-photo">
         <span class="author vcard">By <span class="fn"><a href="http://localhost:4000/about/" title="About Kévin Renella">Kévin Renella</a></span></span>
-        <span class="entry-date date published"><time datetime="2014-01-01T00:00:00+01:00"><i class="icon-calendar-empty"></i> January 01, 2014</time></span>
+        <span class="entry-date date published"><time datetime="2014-02-01T00:00:00+01:00"><i class="icon-calendar-empty"></i> February 01, 2014</time></span>
         <span class="entry-date date modified"><time datetime="2014-04-08"><i class="icon-pencil"></i> April 08, 2014</time></span>
         <span class="entry-comments"><i class="icon-comment-alt"></i> <a href="#disqus_thread">Comment</a></span>
-        <span><a href="http://localhost:4000/articles/grailsoverflow/" rel="bookmark" title="GrailsOverflow"><i class="icon-link"></i> Permalink</a></span>
+        <span><a href="http://localhost:4000/articles/skfcm-algorithm/" rel="bookmark" title="Image processing - SKFCM algorithm"><i class="icon-link"></i> Permalink</a></span>
         
         <span class="social-share-facebook">
-            <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/articles/grailsoverflow/" title="Share on Facebook" itemprop="Facebook"><i class="icon-facebook-sign"></i> Like</a></span>
+            <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/articles/skfcm-algorithm/" title="Share on Facebook" itemprop="Facebook"><i class="icon-facebook-sign"></i> Like</a></span>
         <span class="social-share-twitter">
-            <a href="https://twitter.com/intent/tweet?hashtags=articles&text=GrailsOverflow&url=http://localhost:4000/articles/grailsoverflow/&via=https://twitter.com/_Drusy" title="Share on Twitter" itemprop="Twitter"><i class="icon-twitter-sign"></i> Tweet</a></span>
+            <a href="https://twitter.com/intent/tweet?hashtags=articles&text=Image processing - SKFCM algorithm&url=http://localhost:4000/articles/skfcm-algorithm/&via=https://twitter.com/_Drusy" title="Share on Twitter" itemprop="Twitter"><i class="icon-twitter-sign"></i> Tweet</a></span>
         <span class="social-share-googleplus">
-            <a href="https://plus.google.com/share?url=http://localhost:4000/articles/grailsoverflow/" title="Share on Google Plus" itemprop="GooglePlus"><i class="icon-google-plus-sign"></i> +1</a></span>
+            <a href="https://plus.google.com/share?url=http://localhost:4000/articles/skfcm-algorithm/" title="Share on Google Plus" itemprop="GooglePlus"><i class="icon-google-plus-sign"></i> +1</a></span>
             <!-- /.social-share -->
       </footer>
       <div class="entry-content">
-        <p>GrailsOverflow is a StackOverflow like developed in Grails.</p>
+        <h2 id="subject-presentation">Subject presentation</h2>
 
-<blockquote>
-  <p>Grails is an Open Source, full stack, web application framework for the JVM. It takes advantage of the Groovy programming language and convention over configuration to provide a productive and stream-lined development experience.</p>
-</blockquote>
+<p>Image segmentation plays a crucial role in many areas of medical imaging. We have implemented a solution for segmenting image from the article [31] Dao-Qiang Zhang and Chen Song-Can, researchers from the Chinese Academy of Sciences (coupled to the computer department of the Chinese University of Aeronautics and astronautics).</p>
 
-<p>Our website includes :</p>
+<p>The image processing method presented in this article, Spatially constrained KFCM (SKFCM) allows an image segmentation fuzzy regions, inspired by the Fuzzy C-Means method (FCM), but using a distance induced by a kernel function (from vector machines support or SVM), and a consideration of the neighborhood by the introduction of spatial constraints in the objective function of FCM.</p>
+
+<h2 id="theory">Theory</h2>
+
+<p>It is first necessary to define what a fuzzy set.</p>
+
+<p>A fuzzy set is a set whose edges are poorly defined. This results to a membership function values in [0,1], as opposed to the conventional case where the membership function takes two values 0 or 1. This allows to define sets of a more flexible manner, tolerant inaccurate, incomplete and / or uncertain.</p>
+
+<p>This property is exploited by image processing, and more precisely in classification where the classes, also known as regions are represented by fuzzy sets. This is useful when the regions can not be defined clearly and precisely. Their handling gradant the vagueness can handle imprecise data, uncertain and / or redundant in a more flexible manner.</p>
+
+<p>Fuzzy clustering allows overlapping classes (also called regions). A non-fuzzy segmentation can be obtained by assigning each pixel to the class for which its membership degree is maximum.</p>
+
+<p>The algorithm of the Fuzzy C-Means (FCM) is a fuzzy clustering algorithm based on optimization of a quadratic criterion of classification where each class is represented by its center of gravity. The algorithm requires knowing the number of classes in advance and generates classes itératiff process by minimizing an objective function. Thus, it provides a fuzzy partition of the image by giving each pixel a degree of membership in a given region.</p>
+
+<h2 id="results">Results</h2>
+
+<figure class="third">
+    <a href="/images/skfcm-algorithm/brain.jpg"><img src="/images/skfcm-algorithm/brain-small.jpg" /></a>
+    <a href="/images/skfcm-algorithm/brain-exclusive.jpg"><img src="/images/skfcm-algorithm/brain-exclusive-small.jpg" /></a>
+    <a href="/images/skfcm-algorithm/brain-shared.jpg"><img src="/images/skfcm-algorithm/brain-shared-small.jpg" /></a>
+	<figcaption>SKFCM on brain RMI images</figcaption>
+</figure>
+
+<figure class="third">
+    <a href="/images/skfcm-algorithm/fish.jpg"><img src="/images/skfcm-algorithm/fish.jpg" /></a>
+    <a href="/images/skfcm-algorithm/fish-exclusive.jpg"><img src="/images/skfcm-algorithm/fish-exclusive.jpg" /></a>
+    <a href="/images/skfcm-algorithm/fish-shared.jpg"><img src="/images/skfcm-algorithm/fish-shared.jpg" /></a>
+	<figcaption>SKFCM on a fish</figcaption>
+</figure>
+
+<p>The SKFCM algorithm provides a segmented image noised and respecting the fuzzy regions of the original image. Indeed, this aspect is very well represented by the picture of the fish. In the original image can be difficult to distinguish caudal fins of fish. With SKFCM algorithm, fuzzy segmentation and reconstruction help highlight these fins on the processed image.</p>
+
+<p>On MRI images taken in recent appear slightly noisy. It is for this reason that conventional segmentation methods as FCM does not allow a clear image segmentation. However, algortihme SKFCM provides a clear segmented image from an image with Gaussian noise characteristic of catches taken by magnetic resonance. That is why this method seems very appropriate for this kind of images, particularly useful for the detection of tumors in the brain.</p>
+
+<h2 id="github">GitHub</h2>
+
+<p>Our implementation of the SKFCM algorithm is Open Source and <a href="https://github.com/Drusy/SKFCM-Algorithm">can be found on GitHub there</a>.</p>
+
+<h2 id="we-were-2-working-on-this-project">We were 2 working on this project</h2>
 
 <ul>
-  <li>Google authentication using OAuth </li>
-  <li>admin management</li>
-  <li>rewards/medals on actions (questions, answers, etc.)</li>
-  <li>vote up/down a question/answer</li>
-  <li>add tags on questions and manage your favourite tags</li>
-  <li>sort questions by tags/answered, etc.</li>
-  <li>search questions and answers</li>
-</ul>
-
-<figure>
-    <a href="/images/grailsoverflow/index.png"><img src="/images/grailsoverflow/index.png" /></a>
-	<figcaption>GrailsOverflow index</figcaption>
-</figure>
-
-<figure>
-    <a href="/images/grailsoverflow/question-focus.png"><img src="/images/grailsoverflow/question-focus.png" /></a>
-	<figcaption>Question page with answers</figcaption>
-</figure>
-
-<figure>
-    <a href="/images/grailsoverflow/js-editor.png"><img src="/images/grailsoverflow/js-editor.png" /></a>
-	<figcaption>Question/Answer advances JS editor</figcaption>
-</figure>
-
-<figure>
-    <a href="/images/grailsoverflow/user-profile.png"><img src="/images/grailsoverflow/user-profile.png" /></a>
-	<figcaption>User profile</figcaption>
-</figure>
-
-<figure>
-    <a href="/images/grailsoverflow/medals-history.png"><img src="/images/grailsoverflow/medals-history.png" /></a>
-	<figcaption>Medals &amp; rewards management</figcaption>
-</figure>
-
-<p>GrailsOverflow is Open Source and <a href="https://github.com/k-yak/grailsoverflow">can be found on GitHub there</a>.
-This is an engineering school project (<a href="http://www.isima.fr">ISIMA</a>), we had time restrictions and so it is a quick &amp; dirty implementation. This project aims to practice and get started with Grails.</p>
-
-<p>You can try the website at <a href="http://grow.drusy.cloudbees.net/">http://grow.drusy.cloudbees.net/</a>. Be patient, free cloudbees hosting could be slow at first launch :)</p>
-
-<h3 id="we-were-2-working-on-this-project">We were 2 working on this project</h3>
-
-<ul>
-  <li><a href="https://github.com/k-yak">Florian Rotagnon</a></li>
-  <li><a href="https://github.com/Drusy">Kévin Renella</a></li>
+  <li>Maxime Arriaza</li>
+  <li>Kévin Renella</li>
 </ul>
 
         <div id="disqus_thread"></div><!-- /#disqus_thread -->
@@ -207,10 +201,8 @@ This is an engineering school project (<a href="http://www.isima.fr">ISIMA</a>),
     </div><!-- /.entry-wrapper -->
     <nav class="pagination" role="navigation">
       
-        <a href="http://localhost:4000/articles/files-drag-and-drop/" class="btn" title="Files Drag & Drop">Previous article</a>
+        <a href="http://localhost:4000/articles/grailsoverflow/" class="btn" title="GrailsOverflow">Previous article</a>
       
-      
-        <a href="http://localhost:4000/articles/skfcm-algorithm/" class="btn" title="Image processing - SKFCM algorithm">Next article</a>
       
     </nav><!-- /.pagination -->
   </article>
