@@ -4,7 +4,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml" />
 <link rel="alternate" type="text/html" href="http://localhost:4000" />
-<updated>2014-04-09T11:44:37+02:00</updated>
+<updated>2014-04-09T12:16:09+02:00</updated>
 <id>http://localhost:4000/</id>
 <author>
   <name>Kévin Renella</name>
@@ -124,6 +124,37 @@ You can buy the full version in app, for approximatively $3.&lt;/p&gt;
 &lt;/ul&gt;
 
   &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/nanotechnology-image-processing/&quot;&gt;Nanotechnology Image Processing&lt;/a&gt; was originally published by Kévin Renella at &lt;a href=&quot;http://localhost:4000&quot;&gt;Kévin Renella&lt;/a&gt; on March 01, 2012.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Lagrange plot]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/articles/lagrange-plot/"/>
+  <id>http://localhost:4000/articles/lagrange-plot</id>
+  <updated>2014-04-08T00:00:00-00:00</updated>
+  <published>2012-02-01T00:00:00+01:00</published>
+  
+  <author>
+    <name>Kévin Renella</name>
+    <uri>http://localhost:4000</uri>
+    <email>kevin.renella@email.com</email>
+  </author>
+  <content type="html">&lt;p&gt;First year engineering school project, a very little bit of mathematics but fortunatly Qt is always there to save my life :)&lt;/p&gt;
+
+&lt;figure class=&quot;half&quot;&gt;
+	&lt;a href=&quot;/images/lagrange-plot/lagrange-plot-curves.png&quot;&gt;&lt;img src=&quot;/images/lagrange-plot/lagrange-plot-curves.png&quot; /&gt;&lt;/a&gt;
+	&lt;a href=&quot;/images/lagrange-plot/lagrange-plot-results.png&quot;&gt;&lt;img src=&quot;/images/lagrange-plot/lagrange-plot-results.png&quot; /&gt;&lt;/a&gt;
+	&lt;figcaption&gt;Lagrange plot screenshots&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;we-were-2-working-on-this-project&quot;&gt;We were 2 working on this project&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Jeremy Martin&lt;/li&gt;
+  &lt;li&gt;Kévin Renella&lt;/li&gt;
+&lt;/ul&gt;
+
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/lagrange-plot/&quot;&gt;Lagrange plot&lt;/a&gt; was originally published by Kévin Renella at &lt;a href=&quot;http://localhost:4000&quot;&gt;Kévin Renella&lt;/a&gt; on February 01, 2012.&lt;/p&gt;</content>
 </entry>
 
 
