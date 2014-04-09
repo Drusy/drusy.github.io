@@ -56,6 +56,10 @@
     </url>
     
     <url>
+        <loc>http://localhost:4000/articles/zombies-mas/</loc>
+    </url>
+    
+    <url>
         <loc>http://localhost:4000/articles/raspberry-robot/</loc>
     </url>
     

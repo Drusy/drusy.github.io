@@ -25,6 +25,14 @@
 		} ,
 	
 		{
+		  "title"      : "Agents based Simulation - Zombies attack!",
+		  "category"   : "articles",
+		  "url"        : "http://localhost:4000/articles/zombies-mas/",
+		  "date"       : "2013-02-01 00:00:00 +0100",
+		  "shortdate"  : "February 01, 2013"
+		} ,
+	
+		{
 		  "title"      : "Raspberry PI robot - Tracking algorithm",
 		  "category"   : "articles",
 		  "url"        : "http://localhost:4000/articles/raspberry-robot/",
