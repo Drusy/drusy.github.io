@@ -44,6 +44,10 @@
 
     
     <url>
+        <loc>http://localhost:4000/articles/drive-jsf/</loc>
+    </url>
+    
+    <url>
         <loc>http://localhost:4000/articles/hotspotmap/</loc>
     </url>
     

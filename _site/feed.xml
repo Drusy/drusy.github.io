@@ -4,13 +4,80 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml" />
 <link rel="alternate" type="text/html" href="http://localhost:4000" />
-<updated>2014-04-09T22:16:21+02:00</updated>
+<updated>2014-04-10T11:33:18+02:00</updated>
 <id>http://localhost:4000/</id>
 <author>
   <name>Kévin Renella</name>
   <uri>http://localhost:4000/</uri>
   <email>kevin.renella@email.com</email>
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[Drive.jsf]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/articles/drive-jsf/"/>
+  <id>http://localhost:4000/articles/drive-jsf</id>
+  <updated>2014-04-08T00:00:00-00:00</updated>
+  <published>2014-04-01T00:00:00+02:00</published>
+  
+  <author>
+    <name>Kévin Renella</name>
+    <uri>http://localhost:4000</uri>
+    <email>kevin.renella@email.com</email>
+  </author>
+  <content type="html">&lt;p&gt;Drive.jsf is a Google Drive like developped in JSF using &lt;a href=&quot;http://primefaces.org/&quot;&gt;PrimeFaces&lt;/a&gt; components.&lt;/p&gt;
+
+&lt;h2 id=&quot;features&quot;&gt;Features&lt;/h2&gt;
+
+&lt;p&gt;Our cloud solution includes :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Google OAuth authentication to access the application&lt;/li&gt;
+  &lt;li&gt;Documents management page
+    &lt;ul&gt;
+      &lt;li&gt;Navigation tree (using double click)&lt;/li&gt;
+      &lt;li&gt;Delete a file/folder&lt;/li&gt;
+      &lt;li&gt;Download a file or a folder (as a zip)&lt;/li&gt;
+      &lt;li&gt;Share a document&lt;/li&gt;
+      &lt;li&gt;Upload a file / Create a new folder&lt;/li&gt;
+      &lt;li&gt;Find your documents&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Sharing management page
+    &lt;ul&gt;
+      &lt;li&gt;See documents you shared&lt;/li&gt;
+      &lt;li&gt;See documents shared to you&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Contextual menus&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For that project, we used a smart database structure that store decoupled data. This method allows us unlimited duplication of files at low cost. A file has a logical connection to a given data. To know if a file data already exists, we use the MD5 checksum.&lt;/p&gt;
+
+&lt;figure class=&quot;half&quot;&gt;
+	&lt;a href=&quot;/images/drive-jsf/drive-index.png&quot;&gt;&lt;img src=&quot;/images/drive-jsf/drive-index-small.png&quot; /&gt;&lt;/a&gt;
+	&lt;a href=&quot;/images/drive-jsf/files-list.png&quot;&gt;&lt;img src=&quot;/images/drive-jsf/files-list-small.png&quot; /&gt;&lt;/a&gt;
+	&lt;a href=&quot;/images/drive-jsf/google-authentication.png&quot;&gt;&lt;img src=&quot;/images/drive-jsf/google-authentication-small.png&quot; /&gt;&lt;/a&gt;
+    &lt;a href=&quot;/images/drive-jsf/context-menu.png&quot;&gt;&lt;img src=&quot;/images/drive-jsf/context-menu.png&quot; /&gt;&lt;/a&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+    &lt;a href=&quot;/images/drive-jsf/search.png&quot;&gt;&lt;img src=&quot;/images/drive-jsf/search.png&quot; /&gt;&lt;/a&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;github&quot;&gt;GitHub&lt;/h2&gt;
+
+&lt;p&gt;Drive.jsf is Open Source and &lt;a href=&quot;https://github.com/Aleanar/drive.jsf&quot;&gt;can be found on GitHub there&lt;/a&gt;.
+This is an engineering school project (&lt;a href=&quot;http://www.isima.fr&quot;&gt;ISIMA&lt;/a&gt;), we had time restrictions and so it is a quick &amp;amp; dirty implementation. This project aims to practice and get started with JSF &amp;amp; PrimeFaces.&lt;/p&gt;
+
+&lt;h2 id=&quot;we-were-2-working-on-this-software&quot;&gt;We were 2 working on this software&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/Aleanar&quot;&gt;Alexandre Mottet&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/Drusy&quot;&gt;Kévin Renella&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/drive-jsf/&quot;&gt;Drive.jsf&lt;/a&gt; was originally published by Kévin Renella at &lt;a href=&quot;http://localhost:4000&quot;&gt;Kévin Renella&lt;/a&gt; on April 01, 2014.&lt;/p&gt;</content>
+</entry>
 
 
 <entry>

@@ -2,7 +2,7 @@
 layout: page
 permalink: /about/
 title: About
-tags: [Jekyll, theme, simple, minimal, minimalism, responsive]
+tags: [kevin renella,website,blog,about]
 modified: 2014-04-08
 ---
 

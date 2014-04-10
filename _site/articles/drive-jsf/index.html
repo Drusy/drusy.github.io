@@ -5,30 +5,30 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>CV / Resume &#8211; Kévin Renella</title>
-<meta name="description" content="Instructions on how to install and customize the Jekyll theme So Simple.">
-<meta name="keywords" content="Jekyll, theme, install, setup">
+<title>Drive.jsf &#8211; Kévin Renella</title>
+<meta name="description" content="Cloud documents storage solution">
+<meta name="keywords" content="Java EE, PrimeFaces, cloud storage">
 
 <!-- Twitter Cards -->
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="http://localhost:4000/images/rounded-avatar.png">
-<meta name="twitter:title" content="CV / Resume">
-<meta name="twitter:description" content="Instructions on how to install and customize the Jekyll theme So Simple.">
+<meta name="twitter:title" content="Drive.jsf">
+<meta name="twitter:description" content="Cloud documents storage solution">
 <meta name="twitter:creator" content="@https://twitter.com/_Drusy">
 
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
-<meta property="og:title" content="CV / Resume">
-<meta property="og:description" content="Instructions on how to install and customize the Jekyll theme So Simple.">
-<meta property="og:url" content="http://localhost:4000/cv-resume/">
+<meta property="og:title" content="Drive.jsf">
+<meta property="og:description" content="Cloud documents storage solution">
+<meta property="og:url" content="http://localhost:4000/articles/drive-jsf/">
 <meta property="og:site_name" content="Kévin Renella">
 
 
 
 
 
-<link rel="canonical" href="http://localhost:4000/cv-resume/">
+<link rel="canonical" href="http://localhost:4000/articles/drive-jsf/">
 <link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Kévin Renella Feed">
 <link rel="author" href="https://plus.google.com/u/0/+KevinRenella?rel=author">
 
@@ -63,7 +63,7 @@
 
 </head>
 
-<body id="page">
+<body id="post">
 
 <div class="navigation-wrapper">
 	<nav role="navigation" id="site-nav" class="animated drop">
@@ -121,17 +121,92 @@
 
 
 <div id="main" role="main">
-  <article class="entry">
+  <article class="hentry">
     
     <div class="entry-wrapper">
       <header class="entry-header">
-        <h1 class="entry-title">CV / Resume</h1>
-      </header>
-      <div class="entry-content">
+        <span class="entry-tags"><a href="http://localhost:4000/tags/#Java EE" title="Pages tagged Java EE">Java EE</a>&nbsp;&bull;&nbsp;<a href="http://localhost:4000/tags/#PrimeFaces" title="Pages tagged PrimeFaces">PrimeFaces</a>&nbsp;&bull;&nbsp;<a href="http://localhost:4000/tags/#cloud storage" title="Pages tagged cloud storage">cloud storage</a></span>
         
+          <h1 class="entry-title">Drive.jsf</h1>
+        
+      </header>
+      <footer class="entry-meta">
+        <img src="http://localhost:4000/images/profile-kr.png" alt="Kévin Renella photo" class="author-photo">
+        <span class="author vcard">By <span class="fn"><a href="http://localhost:4000/about/" title="About Kévin Renella">Kévin Renella</a></span></span>
+        <span class="entry-date date published"><time datetime="2014-04-01T00:00:00+02:00"><i class="icon-calendar-empty"></i> April 01, 2014</time></span>
+        <span class="entry-date date modified"><time datetime="2014-04-08"><i class="icon-pencil"></i> April 08, 2014</time></span>
+        <span class="entry-comments"><i class="icon-comment-alt"></i> <a href="#disqus_thread">Comment</a></span>
+        <span><a href="http://localhost:4000/articles/drive-jsf/" rel="bookmark" title="Drive.jsf"><i class="icon-link"></i> Permalink</a></span>
+        
+        <span class="social-share-facebook">
+            <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/articles/drive-jsf/" title="Share on Facebook" itemprop="Facebook"><i class="icon-facebook-sign"></i> Like</a></span>
+        <span class="social-share-twitter">
+            <a href="https://twitter.com/intent/tweet?hashtags=articles&text=Drive.jsf&url=http://localhost:4000/articles/drive-jsf/&via=https://twitter.com/_Drusy" title="Share on Twitter" itemprop="Twitter"><i class="icon-twitter-sign"></i> Tweet</a></span>
+        <span class="social-share-googleplus">
+            <a href="https://plus.google.com/share?url=http://localhost:4000/articles/drive-jsf/" title="Share on Google Plus" itemprop="GooglePlus"><i class="icon-google-plus-sign"></i> +1</a></span>
+            <!-- /.social-share -->
+      </footer>
+      <div class="entry-content">
+        <p>Drive.jsf is a Google Drive like developped in JSF using <a href="http://primefaces.org/">PrimeFaces</a> components.</p>
 
+<h2 id="features">Features</h2>
+
+<p>Our cloud solution includes :</p>
+
+<ul>
+  <li>Google OAuth authentication to access the application</li>
+  <li>Documents management page
+    <ul>
+      <li>Navigation tree (using double click)</li>
+      <li>Delete a file/folder</li>
+      <li>Download a file or a folder (as a zip)</li>
+      <li>Share a document</li>
+      <li>Upload a file / Create a new folder</li>
+      <li>Find your documents</li>
+    </ul>
+  </li>
+  <li>Sharing management page
+    <ul>
+      <li>See documents you shared</li>
+      <li>See documents shared to you</li>
+    </ul>
+  </li>
+  <li>Contextual menus</li>
+</ul>
+
+<p>For that project, we used a smart database structure that store decoupled data. This method allows us unlimited duplication of files at low cost. A file has a logical connection to a given data. To know if a file data already exists, we use the MD5 checksum.</p>
+
+<figure class="half">
+	<a href="/images/drive-jsf/drive-index.png"><img src="/images/drive-jsf/drive-index-small.png" /></a>
+	<a href="/images/drive-jsf/files-list.png"><img src="/images/drive-jsf/files-list-small.png" /></a>
+	<a href="/images/drive-jsf/google-authentication.png"><img src="/images/drive-jsf/google-authentication-small.png" /></a>
+    <a href="/images/drive-jsf/context-menu.png"><img src="/images/drive-jsf/context-menu.png" /></a>
+</figure>
+<figure>
+    <a href="/images/drive-jsf/search.png"><img src="/images/drive-jsf/search.png" /></a>
+</figure>
+
+<h2 id="github">GitHub</h2>
+
+<p>Drive.jsf is Open Source and <a href="https://github.com/Aleanar/drive.jsf">can be found on GitHub there</a>.
+This is an engineering school project (<a href="http://www.isima.fr">ISIMA</a>), we had time restrictions and so it is a quick &amp; dirty implementation. This project aims to practice and get started with JSF &amp; PrimeFaces.</p>
+
+<h2 id="we-were-2-working-on-this-software">We were 2 working on this software</h2>
+
+<ul>
+  <li><a href="https://github.com/Aleanar">Alexandre Mottet</a></li>
+  <li><a href="https://github.com/Drusy">Kévin Renella</a></li>
+</ul>
+
+        <div id="disqus_thread"></div><!-- /#disqus_thread -->
       </div><!-- /.entry-content -->
     </div><!-- /.entry-wrapper -->
+    <nav class="pagination" role="navigation">
+      
+        <a href="http://localhost:4000/articles/hotspotmap/" class="btn" title="HotspotMap">Previous article</a>
+      
+      
+    </nav><!-- /.pagination -->
   </article>
 </div><!-- /#main -->
 
@@ -192,7 +267,27 @@
 </script>
 
 
-          
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'drusy'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>	        
 
 </body>
 </html>
