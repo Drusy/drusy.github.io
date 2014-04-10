@@ -13,6 +13,8 @@ As I told, my favourite programming language remain the C++, using the Qt framew
 
 This application was developped in C++/Qt use OpenCV to retrieve webcam handlers and images. To test this application in real conditions, I tried to compile it on a Raspberry PI and it worked pretty well (with some lags), so I definitively can make many webcams for a little price and spy the places I want :)
 
-<figure>
-	<a href="/images/webcam/qt-webcam.jpg"><img src="/images/webcam/qt-webcam.jpg" /></a>
-</figure>
+<div class="zoom-gallery">
+    <figure>
+        <a href="/images/webcam/qt-webcam.jpg"><img src="/images/webcam/qt-webcam.jpg" /></a>
+    </figure>
+</div>

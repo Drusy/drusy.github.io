@@ -29,19 +29,23 @@ The algorithm of the Fuzzy C-Means (FCM) is a fuzzy clustering algorithm based o
 
 ## Results
 
-<figure class="third">
-    <a href="/images/skfcm-algorithm/brain.jpg"><img src="/images/skfcm-algorithm/brain-small.jpg" /></a>
-    <a href="/images/skfcm-algorithm/brain-exclusive.jpg"><img src="/images/skfcm-algorithm/brain-exclusive-small.jpg" /></a>
-    <a href="/images/skfcm-algorithm/brain-shared.jpg"><img src="/images/skfcm-algorithm/brain-shared-small.jpg" /></a>
-	<figcaption>SKFCM on brain RMI images</figcaption>
-</figure>
+<div class="zoom-gallery">
+    <figure class="third">
+        <a href="/images/skfcm-algorithm/brain.jpg"><img src="/images/skfcm-algorithm/brain-small.jpg" /></a>
+        <a href="/images/skfcm-algorithm/brain-exclusive.jpg"><img src="/images/skfcm-algorithm/brain-exclusive-small.jpg" /></a>
+        <a href="/images/skfcm-algorithm/brain-shared.jpg"><img src="/images/skfcm-algorithm/brain-shared-small.jpg" /></a>
+        <figcaption>SKFCM on brain RMI images</figcaption>
+    </figure>
+</div>
 
-<figure class="third">
-    <a href="/images/skfcm-algorithm/fish.jpg"><img src="/images/skfcm-algorithm/fish.jpg" /></a>
-    <a href="/images/skfcm-algorithm/fish-exclusive.jpg"><img src="/images/skfcm-algorithm/fish-exclusive.jpg" /></a>
-    <a href="/images/skfcm-algorithm/fish-shared.jpg"><img src="/images/skfcm-algorithm/fish-shared.jpg" /></a>
-	<figcaption>SKFCM on a fish</figcaption>
-</figure>
+<div class="zoom-gallery">
+    <figure class="third">
+        <a href="/images/skfcm-algorithm/fish.jpg"><img src="/images/skfcm-algorithm/fish.jpg" /></a>
+        <a href="/images/skfcm-algorithm/fish-exclusive.jpg"><img src="/images/skfcm-algorithm/fish-exclusive.jpg" /></a>
+        <a href="/images/skfcm-algorithm/fish-shared.jpg"><img src="/images/skfcm-algorithm/fish-shared.jpg" /></a>
+        <figcaption>SKFCM on a fish</figcaption>
+    </figure>
+</div>
 
 The SKFCM algorithm provides a segmented image noised and respecting the fuzzy regions of the original image. Indeed, this aspect is very well represented by the picture of the fish. In the original image can be difficult to distinguish caudal fins of fish. With SKFCM algorithm, fuzzy segmentation and reconstruction help highlight these fins on the processed image.
 

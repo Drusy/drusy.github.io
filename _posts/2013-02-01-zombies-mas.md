@@ -17,12 +17,14 @@ This funny application of the C++ simualtion programming is a good way to work w
 
 ## How it looks ?
 
-<figure class="third">
-    <a href="/images/zombies-sma/population-town.png"><img src="/images/zombies-sma/population-town-small.jpg" /></a>
-    <a href="/images/zombies-sma/sample-simulation.png"><img src="/images/zombies-sma/sample-simulation-small.jpg" /></a>
-    <a href="/images/zombies-sma/zombies-propagation.png"><img src="/images/zombies-sma/zombies-propagation-small.jpg" /></a>
-	<figcaption>Zombies attack!</figcaption>
-</figure>
+<div class="zoom-gallery">
+    <figure class="third">
+        <a href="/images/zombies-sma/population-town.png"><img src="/images/zombies-sma/population-town-small.jpg" /></a>
+        <a href="/images/zombies-sma/sample-simulation.png"><img src="/images/zombies-sma/sample-simulation-small.jpg" /></a>
+        <a href="/images/zombies-sma/zombies-propagation.png"><img src="/images/zombies-sma/zombies-propagation-small.jpg" /></a>
+        <figcaption>Zombies attack!</figcaption>
+    </figure>
+</div>
 
 ## GitHub
 

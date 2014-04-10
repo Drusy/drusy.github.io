@@ -39,6 +39,7 @@
 
 <!-- For all browsers -->
 <link rel="stylesheet" href="http://localhost:4000/assets/css/main.min.css">
+<link rel="stylesheet" href="http://localhost:4000/assets/css/custom.css">
 <!-- Webfonts -->
 <script src="//use.edgefonts.net/source-sans-pro:n2,i2,n3,i3,n4,i4,n6,i6,n7,i7,n9,i9;source-code-pro:n4,n7;volkhov.js"></script>
 
@@ -60,6 +61,16 @@
 <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://localhost:4000/images/apple-touch-icon-114x114-precomposed.png">
 <!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://localhost:4000/images/apple-touch-icon-144x144-precomposed.png">
+
+<!-- Magnific popup -->
+<!-- Magnific Popup core CSS file -->
+<link rel="stylesheet" href="http://localhost:4000/assets/magnific-popup/magnific-popup.css"> 
+
+<!-- jQuery 1.7.2+ or Zepto.js 1.0+ -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> 
+
+<!-- Magnific Popup core JS file -->
+<script src="http://localhost:4000/assets/magnific-popup/jquery.magnific-popup.js"></script> 
 
 </head>
 
@@ -198,6 +209,35 @@
         bs.canvas.removeClass('search-overlay');
     });
   })( jQuery, window );
+</script>
+
+
+<!-- Magnific popup -->
+<script>
+$(document).ready(function() {
+    $('.zoom-gallery').magnificPopup({
+        delegate: 'a',
+        type: 'image',
+        closeOnContentClick: false,
+        closeBtnInside: false,
+        mainClass: 'mfp-with-zoom mfp-img-mobile',
+        removalDelay: 300,
+        image: {
+            verticalFit: true
+        },
+        gallery: {
+            enabled: true
+        },
+        zoom: {
+            enabled: true,
+            duration: 300, // don't foget to change the duration also in CSS
+            opener: function(element) {
+                return element.find('img');
+            }
+        }
+
+    });
+});
 </script>
 
 

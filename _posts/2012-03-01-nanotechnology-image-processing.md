@@ -11,13 +11,15 @@ share: true
 
 This project started from a school project in 2011 and I worked again on this project in 2012 for the [LASMEA](http://w3.anr-proteus.fr/?q=node/124) laboratory.  
 
-<figure class="half">
-	<a href="/images/nanotechnology-image-processing/about.jpg"><img src="/images/nanotechnology-image-processing/about-small.jpg" /></a>
-	<a href="/images/nanotechnology-image-processing/drop-detector.jpg"><img src="/images/nanotechnology-image-processing/drop-detector-small.jpg" /></a>
-    <a href="/images/nanotechnology-image-processing/nano-hole-detector.jpg"><img src="/images/nanotechnology-image-processing/nano-hole-detector-small.jpg" /></a>
-	<a href="/images/nanotechnology-image-processing/image-filters.jpg"><img src="/images/nanotechnology-image-processing/image-filters-small.jpg" /></a>
-	<figcaption>Nanotechnology Image Processing screenshots</figcaption>
-</figure>
+<div class="zoom-gallery">
+    <figure class="half">
+        <a href="/images/nanotechnology-image-processing/about.jpg"><img src="/images/nanotechnology-image-processing/about-small.jpg" /></a>
+        <a href="/images/nanotechnology-image-processing/drop-detector.jpg"><img src="/images/nanotechnology-image-processing/drop-detector-small.jpg" /></a>
+        <a href="/images/nanotechnology-image-processing/nano-hole-detector.jpg"><img src="/images/nanotechnology-image-processing/nano-hole-detector-small.jpg" /></a>
+        <a href="/images/nanotechnology-image-processing/image-filters.jpg"><img src="/images/nanotechnology-image-processing/image-filters-small.jpg" /></a>
+        <figcaption>Nanotechnology Image Processing screenshots</figcaption>
+    </figure>
+</div>
 
 ## Summary extracted from the project report
 

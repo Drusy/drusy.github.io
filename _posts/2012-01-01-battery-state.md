@@ -18,10 +18,12 @@ Any of the available software on windows fits my needs about battery usage, wear
 
 I have written this software with C++/Qt and using the native C API of windows to get the battery informations.
 
-<figure class="half">
-	<a href="/images/battery-state/battery-state.png"><img src="/images/battery-state/battery-state.png" /></a>
-	<a href="/images/battery-state/battery-tray.png"><img src="/images/battery-state/battery-tray.png" /></a>
-	<figcaption>Battery State screenshots</figcaption>
-</figure>
+<div class="zoom-gallery">
+    <figure class="half">
+        <a href="/images/battery-state/battery-state.png"><img src="/images/battery-state/battery-state.png" /></a>
+        <a href="/images/battery-state/battery-tray.png"><img src="/images/battery-state/battery-tray.png" /></a>
+        <figcaption>Battery State screenshots</figcaption>
+    </figure>
+</div>
 
 Currently this is a quick and dirty implementation and it is restricted to Windows but I plan to extend the compatibility to OS X, make it a bit more sexy and clean the code to put it on GitHub.

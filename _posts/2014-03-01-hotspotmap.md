@@ -29,13 +29,15 @@ HotspotMap is my first project using PHP 5.0. My academic background usually tur
 
 HotspotMap use a lot of JavaScript and particulary the Google Map API. Furthermore, we provided a REST API to communicate with the application so we had an intensive use of ajax to populate our view.
 
-<figure class="half">
-	<a href="/images/hotspotmap/hotspotmap-index.png"><img src="/images/hotspotmap/hotspotmap-index-small.jpg" /></a>
-	<a href="/images/hotspotmap/hotspotmap-details.png"><img src="/images/hotspotmap/hotspotmap-details-small.jpg" /></a>
-</figure>
-<figure>
-	<a href="/images/hotspotmap/hotspotmap-connection.png"><img src="/images/hotspotmap/hotspotmap-connection.png" /></a>
-</figure>
+<div class="zoom-gallery">
+    <figure class="half">
+        <a href="/images/hotspotmap/hotspotmap-index.png"><img src="/images/hotspotmap/hotspotmap-index-small.jpg" /></a>
+        <a href="/images/hotspotmap/hotspotmap-details.png"><img src="/images/hotspotmap/hotspotmap-details-small.jpg" /></a>
+    </figure>
+    <figure>
+        <a href="/images/hotspotmap/hotspotmap-connection.png"><img src="/images/hotspotmap/hotspotmap-connection.png" /></a>
+    </figure>
+</div>
 
 ## GitHub
 

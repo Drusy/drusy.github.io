@@ -25,30 +25,32 @@ Our website includes :
 - sort questions by tags/answered, etc.
 - search questions and answers
 
-<figure>
-    <a href="/images/grailsoverflow/index.png"><img src="/images/grailsoverflow/index.png" /></a>
-	<figcaption>GrailsOverflow index</figcaption>
-</figure>
+<div class="zoom-gallery">
+    <figure>
+        <a href="/images/grailsoverflow/index.png"><img src="/images/grailsoverflow/index.png" /></a>
+        <figcaption>GrailsOverflow index</figcaption>
+    </figure>
 
-<figure>
-    <a href="/images/grailsoverflow/question-focus.png"><img src="/images/grailsoverflow/question-focus.png" /></a>
-	<figcaption>Question page with answers</figcaption>
-</figure>
+    <figure>
+        <a href="/images/grailsoverflow/question-focus.png"><img src="/images/grailsoverflow/question-focus.png" /></a>
+        <figcaption>Question page with answers</figcaption>
+    </figure>
 
-<figure>
-    <a href="/images/grailsoverflow/js-editor.png"><img src="/images/grailsoverflow/js-editor.png" /></a>
-	<figcaption>Question/Answer advances JS editor</figcaption>
-</figure>
+    <figure>
+        <a href="/images/grailsoverflow/js-editor.png"><img src="/images/grailsoverflow/js-editor.png" /></a>
+        <figcaption>Question/Answer advances JS editor</figcaption>
+    </figure>
 
-<figure>
-    <a href="/images/grailsoverflow/user-profile.png"><img src="/images/grailsoverflow/user-profile.png" /></a>
-	<figcaption>User profile</figcaption>
-</figure>
+    <figure>
+        <a href="/images/grailsoverflow/user-profile.png"><img src="/images/grailsoverflow/user-profile.png" /></a>
+        <figcaption>User profile</figcaption>
+    </figure>
 
-<figure>
-    <a href="/images/grailsoverflow/medals-history.png"><img src="/images/grailsoverflow/medals-history.png" /></a>
-	<figcaption>Medals & rewards management</figcaption>
-</figure>
+    <figure>
+        <a href="/images/grailsoverflow/medals-history.png"><img src="/images/grailsoverflow/medals-history.png" /></a>
+        <figcaption>Medals & rewards management</figcaption>
+    </figure>
+</div>
 
 ## GitHub
 

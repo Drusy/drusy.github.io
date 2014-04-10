@@ -28,16 +28,19 @@ You don't need to get the IP address of your device, don't need to remember a pa
 It works only through Wifi for now, but we have plans to widen the possibilities in future.
 
 ## How it looks :
-<figure class="half">
-	<a href="/images/filesdnd/screen-android-home.jpg"><img src="/images/filesdnd/screen-android-home.jpg" /></a>
-	<a href="/images/filesdnd/screen-android-send.jpg"><img src="/images/filesdnd/screen-android-send.jpg" /></a>
-	<figcaption>Files Drag & Drop Android</figcaption>
-</figure>
 
-<figure>
-	<a href="/images/filesdnd/screen-desktop.png"><img src="/images/filesdnd/screen-desktop.png" /></a>
-	<figcaption>Files Drag & Drop Desktop</figcaption>
-</figure>
+<div class="zoom-gallery">
+    <figure class="half">
+        <a href="/images/filesdnd/screen-android-home.jpg"><img src="/images/filesdnd/screen-android-home.jpg" /></a>
+        <a href="/images/filesdnd/screen-android-send.jpg"><img src="/images/filesdnd/screen-android-send.jpg" /></a>
+        <figcaption>Files Drag & Drop Android</figcaption>
+    </figure>
+
+    <figure>
+        <a href="/images/filesdnd/screen-desktop.png"><img src="/images/filesdnd/screen-desktop.png" /></a>
+        <figcaption>Files Drag & Drop Desktop</figcaption>
+    </figure>
+</div>
 
 ## Pricing
 The desktop version is completly free, but the Android version is a trial. You can use most of the features, but you are limited to 5 file downloads per day (but no limit on upload, or text/url).

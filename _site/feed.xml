@@ -4,7 +4,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml" />
 <link rel="alternate" type="text/html" href="http://localhost:4000" />
-<updated>2014-04-10T11:33:18+02:00</updated>
+<updated>2014-04-10T13:29:20+02:00</updated>
 <id>http://localhost:4000/</id>
 <author>
   <name>Kévin Renella</name>
@@ -54,15 +54,17 @@
 
 &lt;p&gt;For that project, we used a smart database structure that store decoupled data. This method allows us unlimited duplication of files at low cost. A file has a logical connection to a given data. To know if a file data already exists, we use the MD5 checksum.&lt;/p&gt;
 
-&lt;figure class=&quot;half&quot;&gt;
-	&lt;a href=&quot;/images/drive-jsf/drive-index.png&quot;&gt;&lt;img src=&quot;/images/drive-jsf/drive-index-small.png&quot; /&gt;&lt;/a&gt;
-	&lt;a href=&quot;/images/drive-jsf/files-list.png&quot;&gt;&lt;img src=&quot;/images/drive-jsf/files-list-small.png&quot; /&gt;&lt;/a&gt;
-	&lt;a href=&quot;/images/drive-jsf/google-authentication.png&quot;&gt;&lt;img src=&quot;/images/drive-jsf/google-authentication-small.png&quot; /&gt;&lt;/a&gt;
-    &lt;a href=&quot;/images/drive-jsf/context-menu.png&quot;&gt;&lt;img src=&quot;/images/drive-jsf/context-menu.png&quot; /&gt;&lt;/a&gt;
-&lt;/figure&gt;
-&lt;figure&gt;
-    &lt;a href=&quot;/images/drive-jsf/search.png&quot;&gt;&lt;img src=&quot;/images/drive-jsf/search.png&quot; /&gt;&lt;/a&gt;
-&lt;/figure&gt;
+&lt;div class=&quot;zoom-gallery&quot;&gt;
+    &lt;figure class=&quot;half&quot;&gt;
+        &lt;a href=&quot;/images/drive-jsf/drive-index.png&quot;&gt;&lt;img src=&quot;/images/drive-jsf/drive-index-small.png&quot; /&gt;&lt;/a&gt;
+        &lt;a href=&quot;/images/drive-jsf/files-list.png&quot;&gt;&lt;img src=&quot;/images/drive-jsf/files-list-small.png&quot; /&gt;&lt;/a&gt;
+        &lt;a href=&quot;/images/drive-jsf/google-authentication.png&quot;&gt;&lt;img src=&quot;/images/drive-jsf/google-authentication-small.png&quot; /&gt;&lt;/a&gt;
+        &lt;a href=&quot;/images/drive-jsf/context-menu.png&quot;&gt;&lt;img src=&quot;/images/drive-jsf/context-menu.png&quot; /&gt;&lt;/a&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+        &lt;a href=&quot;/images/drive-jsf/search.png&quot; class=&quot;image-link&quot;&gt;&lt;img src=&quot;/images/drive-jsf/search.png&quot; /&gt;&lt;/a&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
 
 &lt;h2 id=&quot;github&quot;&gt;GitHub&lt;/h2&gt;
 
@@ -116,13 +118,15 @@ This is an engineering school project (&lt;a href=&quot;http://www.isima.fr&quot
 
 &lt;p&gt;HotspotMap use a lot of JavaScript and particulary the Google Map API. Furthermore, we provided a REST API to communicate with the application so we had an intensive use of ajax to populate our view.&lt;/p&gt;
 
-&lt;figure class=&quot;half&quot;&gt;
-	&lt;a href=&quot;/images/hotspotmap/hotspotmap-index.png&quot;&gt;&lt;img src=&quot;/images/hotspotmap/hotspotmap-index-small.jpg&quot; /&gt;&lt;/a&gt;
-	&lt;a href=&quot;/images/hotspotmap/hotspotmap-details.png&quot;&gt;&lt;img src=&quot;/images/hotspotmap/hotspotmap-details-small.jpg&quot; /&gt;&lt;/a&gt;
-&lt;/figure&gt;
-&lt;figure&gt;
-	&lt;a href=&quot;/images/hotspotmap/hotspotmap-connection.png&quot;&gt;&lt;img src=&quot;/images/hotspotmap/hotspotmap-connection.png&quot; /&gt;&lt;/a&gt;
-&lt;/figure&gt;
+&lt;div class=&quot;zoom-gallery&quot;&gt;
+    &lt;figure class=&quot;half&quot;&gt;
+        &lt;a href=&quot;/images/hotspotmap/hotspotmap-index.png&quot;&gt;&lt;img src=&quot;/images/hotspotmap/hotspotmap-index-small.jpg&quot; /&gt;&lt;/a&gt;
+        &lt;a href=&quot;/images/hotspotmap/hotspotmap-details.png&quot;&gt;&lt;img src=&quot;/images/hotspotmap/hotspotmap-details-small.jpg&quot; /&gt;&lt;/a&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+        &lt;a href=&quot;/images/hotspotmap/hotspotmap-connection.png&quot;&gt;&lt;img src=&quot;/images/hotspotmap/hotspotmap-connection.png&quot; /&gt;&lt;/a&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
 
 &lt;h2 id=&quot;github&quot;&gt;GitHub&lt;/h2&gt;
 
@@ -172,19 +176,23 @@ This is an engineering school project (&lt;a href=&quot;http://www.isima.fr&quot
 
 &lt;h2 id=&quot;results&quot;&gt;Results&lt;/h2&gt;
 
-&lt;figure class=&quot;third&quot;&gt;
-    &lt;a href=&quot;/images/skfcm-algorithm/brain.jpg&quot;&gt;&lt;img src=&quot;/images/skfcm-algorithm/brain-small.jpg&quot; /&gt;&lt;/a&gt;
-    &lt;a href=&quot;/images/skfcm-algorithm/brain-exclusive.jpg&quot;&gt;&lt;img src=&quot;/images/skfcm-algorithm/brain-exclusive-small.jpg&quot; /&gt;&lt;/a&gt;
-    &lt;a href=&quot;/images/skfcm-algorithm/brain-shared.jpg&quot;&gt;&lt;img src=&quot;/images/skfcm-algorithm/brain-shared-small.jpg&quot; /&gt;&lt;/a&gt;
-	&lt;figcaption&gt;SKFCM on brain RMI images&lt;/figcaption&gt;
-&lt;/figure&gt;
+&lt;div class=&quot;zoom-gallery&quot;&gt;
+    &lt;figure class=&quot;third&quot;&gt;
+        &lt;a href=&quot;/images/skfcm-algorithm/brain.jpg&quot;&gt;&lt;img src=&quot;/images/skfcm-algorithm/brain-small.jpg&quot; /&gt;&lt;/a&gt;
+        &lt;a href=&quot;/images/skfcm-algorithm/brain-exclusive.jpg&quot;&gt;&lt;img src=&quot;/images/skfcm-algorithm/brain-exclusive-small.jpg&quot; /&gt;&lt;/a&gt;
+        &lt;a href=&quot;/images/skfcm-algorithm/brain-shared.jpg&quot;&gt;&lt;img src=&quot;/images/skfcm-algorithm/brain-shared-small.jpg&quot; /&gt;&lt;/a&gt;
+        &lt;figcaption&gt;SKFCM on brain RMI images&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
 
-&lt;figure class=&quot;third&quot;&gt;
-    &lt;a href=&quot;/images/skfcm-algorithm/fish.jpg&quot;&gt;&lt;img src=&quot;/images/skfcm-algorithm/fish.jpg&quot; /&gt;&lt;/a&gt;
-    &lt;a href=&quot;/images/skfcm-algorithm/fish-exclusive.jpg&quot;&gt;&lt;img src=&quot;/images/skfcm-algorithm/fish-exclusive.jpg&quot; /&gt;&lt;/a&gt;
-    &lt;a href=&quot;/images/skfcm-algorithm/fish-shared.jpg&quot;&gt;&lt;img src=&quot;/images/skfcm-algorithm/fish-shared.jpg&quot; /&gt;&lt;/a&gt;
-	&lt;figcaption&gt;SKFCM on a fish&lt;/figcaption&gt;
-&lt;/figure&gt;
+&lt;div class=&quot;zoom-gallery&quot;&gt;
+    &lt;figure class=&quot;third&quot;&gt;
+        &lt;a href=&quot;/images/skfcm-algorithm/fish.jpg&quot;&gt;&lt;img src=&quot;/images/skfcm-algorithm/fish.jpg&quot; /&gt;&lt;/a&gt;
+        &lt;a href=&quot;/images/skfcm-algorithm/fish-exclusive.jpg&quot;&gt;&lt;img src=&quot;/images/skfcm-algorithm/fish-exclusive.jpg&quot; /&gt;&lt;/a&gt;
+        &lt;a href=&quot;/images/skfcm-algorithm/fish-shared.jpg&quot;&gt;&lt;img src=&quot;/images/skfcm-algorithm/fish-shared.jpg&quot; /&gt;&lt;/a&gt;
+        &lt;figcaption&gt;SKFCM on a fish&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
 
 &lt;p&gt;The SKFCM algorithm provides a segmented image noised and respecting the fuzzy regions of the original image. Indeed, this aspect is very well represented by the picture of the fish. In the original image can be difficult to distinguish caudal fins of fish. With SKFCM algorithm, fuzzy segmentation and reconstruction help highlight these fins on the processed image.&lt;/p&gt;
 
@@ -237,30 +245,32 @@ This is an engineering school project (&lt;a href=&quot;http://www.isima.fr&quot
   &lt;li&gt;search questions and answers&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;figure&gt;
-    &lt;a href=&quot;/images/grailsoverflow/index.png&quot;&gt;&lt;img src=&quot;/images/grailsoverflow/index.png&quot; /&gt;&lt;/a&gt;
-	&lt;figcaption&gt;GrailsOverflow index&lt;/figcaption&gt;
-&lt;/figure&gt;
+&lt;div class=&quot;zoom-gallery&quot;&gt;
+    &lt;figure&gt;
+        &lt;a href=&quot;/images/grailsoverflow/index.png&quot;&gt;&lt;img src=&quot;/images/grailsoverflow/index.png&quot; /&gt;&lt;/a&gt;
+        &lt;figcaption&gt;GrailsOverflow index&lt;/figcaption&gt;
+    &lt;/figure&gt;
 
-&lt;figure&gt;
-    &lt;a href=&quot;/images/grailsoverflow/question-focus.png&quot;&gt;&lt;img src=&quot;/images/grailsoverflow/question-focus.png&quot; /&gt;&lt;/a&gt;
-	&lt;figcaption&gt;Question page with answers&lt;/figcaption&gt;
-&lt;/figure&gt;
+    &lt;figure&gt;
+        &lt;a href=&quot;/images/grailsoverflow/question-focus.png&quot;&gt;&lt;img src=&quot;/images/grailsoverflow/question-focus.png&quot; /&gt;&lt;/a&gt;
+        &lt;figcaption&gt;Question page with answers&lt;/figcaption&gt;
+    &lt;/figure&gt;
 
-&lt;figure&gt;
-    &lt;a href=&quot;/images/grailsoverflow/js-editor.png&quot;&gt;&lt;img src=&quot;/images/grailsoverflow/js-editor.png&quot; /&gt;&lt;/a&gt;
-	&lt;figcaption&gt;Question/Answer advances JS editor&lt;/figcaption&gt;
-&lt;/figure&gt;
+    &lt;figure&gt;
+        &lt;a href=&quot;/images/grailsoverflow/js-editor.png&quot;&gt;&lt;img src=&quot;/images/grailsoverflow/js-editor.png&quot; /&gt;&lt;/a&gt;
+        &lt;figcaption&gt;Question/Answer advances JS editor&lt;/figcaption&gt;
+    &lt;/figure&gt;
 
-&lt;figure&gt;
-    &lt;a href=&quot;/images/grailsoverflow/user-profile.png&quot;&gt;&lt;img src=&quot;/images/grailsoverflow/user-profile.png&quot; /&gt;&lt;/a&gt;
-	&lt;figcaption&gt;User profile&lt;/figcaption&gt;
-&lt;/figure&gt;
+    &lt;figure&gt;
+        &lt;a href=&quot;/images/grailsoverflow/user-profile.png&quot;&gt;&lt;img src=&quot;/images/grailsoverflow/user-profile.png&quot; /&gt;&lt;/a&gt;
+        &lt;figcaption&gt;User profile&lt;/figcaption&gt;
+    &lt;/figure&gt;
 
-&lt;figure&gt;
-    &lt;a href=&quot;/images/grailsoverflow/medals-history.png&quot;&gt;&lt;img src=&quot;/images/grailsoverflow/medals-history.png&quot; /&gt;&lt;/a&gt;
-	&lt;figcaption&gt;Medals &amp;amp; rewards management&lt;/figcaption&gt;
-&lt;/figure&gt;
+    &lt;figure&gt;
+        &lt;a href=&quot;/images/grailsoverflow/medals-history.png&quot;&gt;&lt;img src=&quot;/images/grailsoverflow/medals-history.png&quot; /&gt;&lt;/a&gt;
+        &lt;figcaption&gt;Medals &amp;amp; rewards management&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
 
 &lt;h2 id=&quot;github&quot;&gt;GitHub&lt;/h2&gt;
 
@@ -310,16 +320,19 @@ From an Android device, use the share function of your device and choose Files D
 It works only through Wifi for now, but we have plans to widen the possibilities in future.&lt;/p&gt;
 
 &lt;h2 id=&quot;how-it-looks-&quot;&gt;How it looks :&lt;/h2&gt;
-&lt;figure class=&quot;half&quot;&gt;
-	&lt;a href=&quot;/images/filesdnd/screen-android-home.jpg&quot;&gt;&lt;img src=&quot;/images/filesdnd/screen-android-home.jpg&quot; /&gt;&lt;/a&gt;
-	&lt;a href=&quot;/images/filesdnd/screen-android-send.jpg&quot;&gt;&lt;img src=&quot;/images/filesdnd/screen-android-send.jpg&quot; /&gt;&lt;/a&gt;
-	&lt;figcaption&gt;Files Drag &amp;amp; Drop Android&lt;/figcaption&gt;
-&lt;/figure&gt;
 
-&lt;figure&gt;
-	&lt;a href=&quot;/images/filesdnd/screen-desktop.png&quot;&gt;&lt;img src=&quot;/images/filesdnd/screen-desktop.png&quot; /&gt;&lt;/a&gt;
-	&lt;figcaption&gt;Files Drag &amp;amp; Drop Desktop&lt;/figcaption&gt;
-&lt;/figure&gt;
+&lt;div class=&quot;zoom-gallery&quot;&gt;
+    &lt;figure class=&quot;half&quot;&gt;
+        &lt;a href=&quot;/images/filesdnd/screen-android-home.jpg&quot;&gt;&lt;img src=&quot;/images/filesdnd/screen-android-home.jpg&quot; /&gt;&lt;/a&gt;
+        &lt;a href=&quot;/images/filesdnd/screen-android-send.jpg&quot;&gt;&lt;img src=&quot;/images/filesdnd/screen-android-send.jpg&quot; /&gt;&lt;/a&gt;
+        &lt;figcaption&gt;Files Drag &amp;amp; Drop Android&lt;/figcaption&gt;
+    &lt;/figure&gt;
+
+    &lt;figure&gt;
+        &lt;a href=&quot;/images/filesdnd/screen-desktop.png&quot;&gt;&lt;img src=&quot;/images/filesdnd/screen-desktop.png&quot; /&gt;&lt;/a&gt;
+        &lt;figcaption&gt;Files Drag &amp;amp; Drop Desktop&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
 
 &lt;h2 id=&quot;pricing&quot;&gt;Pricing&lt;/h2&gt;
 &lt;p&gt;The desktop version is completly free, but the Android version is a trial. You can use most of the features, but you are limited to 5 file downloads per day (but no limit on upload, or text/url).
@@ -367,12 +380,14 @@ You can buy the full version in app, for approximatively $3.&lt;/p&gt;
 
 &lt;h2 id=&quot;how-it-looks-&quot;&gt;How it looks ?&lt;/h2&gt;
 
-&lt;figure class=&quot;third&quot;&gt;
-    &lt;a href=&quot;/images/zombies-sma/population-town.png&quot;&gt;&lt;img src=&quot;/images/zombies-sma/population-town-small.jpg&quot; /&gt;&lt;/a&gt;
-    &lt;a href=&quot;/images/zombies-sma/sample-simulation.png&quot;&gt;&lt;img src=&quot;/images/zombies-sma/sample-simulation-small.jpg&quot; /&gt;&lt;/a&gt;
-    &lt;a href=&quot;/images/zombies-sma/zombies-propagation.png&quot;&gt;&lt;img src=&quot;/images/zombies-sma/zombies-propagation-small.jpg&quot; /&gt;&lt;/a&gt;
-	&lt;figcaption&gt;Zombies attack!&lt;/figcaption&gt;
-&lt;/figure&gt;
+&lt;div class=&quot;zoom-gallery&quot;&gt;
+    &lt;figure class=&quot;third&quot;&gt;
+        &lt;a href=&quot;/images/zombies-sma/population-town.png&quot;&gt;&lt;img src=&quot;/images/zombies-sma/population-town-small.jpg&quot; /&gt;&lt;/a&gt;
+        &lt;a href=&quot;/images/zombies-sma/sample-simulation.png&quot;&gt;&lt;img src=&quot;/images/zombies-sma/sample-simulation-small.jpg&quot; /&gt;&lt;/a&gt;
+        &lt;a href=&quot;/images/zombies-sma/zombies-propagation.png&quot;&gt;&lt;img src=&quot;/images/zombies-sma/zombies-propagation-small.jpg&quot; /&gt;&lt;/a&gt;
+        &lt;figcaption&gt;Zombies attack!&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
 
 &lt;h2 id=&quot;github&quot;&gt;GitHub&lt;/h2&gt;
 
@@ -445,15 +460,18 @@ The goal was to ￼set up an application with 3 people in order to pilot a robot
   &lt;li&gt;embedded search&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;figure class=&quot;half&quot;&gt;
-	&lt;a href=&quot;/images/placement-manager/report.jpg&quot;&gt;&lt;img src=&quot;/images/placement-manager/report-small.jpg&quot; /&gt;&lt;/a&gt;
-	&lt;a href=&quot;/images/placement-manager/settings.jpg&quot;&gt;&lt;img src=&quot;/images/placement-manager/settings-small.jpg&quot; /&gt;&lt;/a&gt;
-    &lt;a href=&quot;/images/placement-manager/summary.jpg&quot;&gt;&lt;img src=&quot;/images/placement-manager/summary-small.jpg&quot; /&gt;&lt;/a&gt;
-	&lt;a href=&quot;/images/placement-manager/todo-list.jpg&quot;&gt;&lt;img src=&quot;/images/placement-manager/todo-list-small.jpg&quot; /&gt;&lt;/a&gt;
-    &lt;figcaption&gt;Placement Manager screenshots&lt;/figcaption&gt;
-&lt;/figure&gt;
+&lt;div class=&quot;zoom-gallery&quot;&gt;
+    &lt;figure class=&quot;half&quot;&gt;
+        &lt;a href=&quot;/images/placement-manager/report.jpg&quot;&gt;&lt;img src=&quot;/images/placement-manager/report-small.jpg&quot; /&gt;&lt;/a&gt;
+        &lt;a href=&quot;/images/placement-manager/settings.jpg&quot;&gt;&lt;img src=&quot;/images/placement-manager/settings-small.jpg&quot; /&gt;&lt;/a&gt;
+        &lt;a href=&quot;/images/placement-manager/summary.jpg&quot;&gt;&lt;img src=&quot;/images/placement-manager/summary-small.jpg&quot; /&gt;&lt;/a&gt;
+        &lt;a href=&quot;/images/placement-manager/todo-list.jpg&quot;&gt;&lt;img src=&quot;/images/placement-manager/todo-list-small.jpg&quot; /&gt;&lt;/a&gt;
+        &lt;figcaption&gt;Placement Manager screenshots&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;div class=&quot;zoom-gallery&quot;&gt;
 
-&lt;p&gt;At this point, I began to be experienced with Qt, so I tried to make my code as generic as possible using dynamic views and stacked views. I also implemented multi-threaded SQLite request to optimize automatic saves and give to the user a better experience.&lt;/p&gt;
+At this point, I began to be experienced with Qt, so I tried to make my code as generic as possible using dynamic views and stacked views. I also implemented multi-threaded SQLite request to optimize automatic saves and give to the user a better experience.
+&lt;/div&gt;&lt;/div&gt;
 
   &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/placement-management/&quot;&gt;Placement manager&lt;/a&gt; was originally published by Kévin Renella at &lt;a href=&quot;http://localhost:4000&quot;&gt;Kévin Renella&lt;/a&gt; on June 01, 2012.&lt;/p&gt;</content>
 </entry>
@@ -473,13 +491,15 @@ The goal was to ￼set up an application with 3 people in order to pilot a robot
   </author>
   <content type="html">&lt;p&gt;This project started from a school project in 2011 and I worked again on this project in 2012 for the &lt;a href=&quot;http://w3.anr-proteus.fr/?q=node/124&quot;&gt;LASMEA&lt;/a&gt; laboratory.  &lt;/p&gt;
 
-&lt;figure class=&quot;half&quot;&gt;
-	&lt;a href=&quot;/images/nanotechnology-image-processing/about.jpg&quot;&gt;&lt;img src=&quot;/images/nanotechnology-image-processing/about-small.jpg&quot; /&gt;&lt;/a&gt;
-	&lt;a href=&quot;/images/nanotechnology-image-processing/drop-detector.jpg&quot;&gt;&lt;img src=&quot;/images/nanotechnology-image-processing/drop-detector-small.jpg&quot; /&gt;&lt;/a&gt;
-    &lt;a href=&quot;/images/nanotechnology-image-processing/nano-hole-detector.jpg&quot;&gt;&lt;img src=&quot;/images/nanotechnology-image-processing/nano-hole-detector-small.jpg&quot; /&gt;&lt;/a&gt;
-	&lt;a href=&quot;/images/nanotechnology-image-processing/image-filters.jpg&quot;&gt;&lt;img src=&quot;/images/nanotechnology-image-processing/image-filters-small.jpg&quot; /&gt;&lt;/a&gt;
-	&lt;figcaption&gt;Nanotechnology Image Processing screenshots&lt;/figcaption&gt;
-&lt;/figure&gt;
+&lt;div class=&quot;zoom-gallery&quot;&gt;
+    &lt;figure class=&quot;half&quot;&gt;
+        &lt;a href=&quot;/images/nanotechnology-image-processing/about.jpg&quot;&gt;&lt;img src=&quot;/images/nanotechnology-image-processing/about-small.jpg&quot; /&gt;&lt;/a&gt;
+        &lt;a href=&quot;/images/nanotechnology-image-processing/drop-detector.jpg&quot;&gt;&lt;img src=&quot;/images/nanotechnology-image-processing/drop-detector-small.jpg&quot; /&gt;&lt;/a&gt;
+        &lt;a href=&quot;/images/nanotechnology-image-processing/nano-hole-detector.jpg&quot;&gt;&lt;img src=&quot;/images/nanotechnology-image-processing/nano-hole-detector-small.jpg&quot; /&gt;&lt;/a&gt;
+        &lt;a href=&quot;/images/nanotechnology-image-processing/image-filters.jpg&quot;&gt;&lt;img src=&quot;/images/nanotechnology-image-processing/image-filters-small.jpg&quot; /&gt;&lt;/a&gt;
+        &lt;figcaption&gt;Nanotechnology Image Processing screenshots&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
 
 &lt;h2 id=&quot;summary-extracted-from-the-project-report&quot;&gt;Summary extracted from the project report&lt;/h2&gt;
 
@@ -520,11 +540,13 @@ The goal was to ￼set up an application with 3 people in order to pilot a robot
   </author>
   <content type="html">&lt;p&gt;First year engineering school project, a very little bit of mathematics but fortunately Qt is always there to save my life :)&lt;/p&gt;
 
-&lt;figure class=&quot;half&quot;&gt;
-	&lt;a href=&quot;/images/lagrange-plot/lagrange-plot-curves.png&quot;&gt;&lt;img src=&quot;/images/lagrange-plot/lagrange-plot-curves.png&quot; /&gt;&lt;/a&gt;
-	&lt;a href=&quot;/images/lagrange-plot/lagrange-plot-results.png&quot;&gt;&lt;img src=&quot;/images/lagrange-plot/lagrange-plot-results.png&quot; /&gt;&lt;/a&gt;
-	&lt;figcaption&gt;Lagrange plot screenshots&lt;/figcaption&gt;
-&lt;/figure&gt;
+&lt;div class=&quot;zoom-gallery&quot;&gt;
+    &lt;figure class=&quot;half&quot;&gt;
+        &lt;a href=&quot;/images/lagrange-plot/lagrange-plot-curves.png&quot;&gt;&lt;img src=&quot;/images/lagrange-plot/lagrange-plot-curves.png&quot; /&gt;&lt;/a&gt;
+        &lt;a href=&quot;/images/lagrange-plot/lagrange-plot-results.png&quot;&gt;&lt;img src=&quot;/images/lagrange-plot/lagrange-plot-results.png&quot; /&gt;&lt;/a&gt;
+        &lt;figcaption&gt;Lagrange plot screenshots&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
 
 &lt;h3 id=&quot;we-were-2-working-on-this-project&quot;&gt;We were 2 working on this project&lt;/h3&gt;
 
@@ -560,11 +582,13 @@ The goal was to ￼set up an application with 3 people in order to pilot a robot
 
 &lt;p&gt;I have written this software with C++/Qt and using the native C API of windows to get the battery informations.&lt;/p&gt;
 
-&lt;figure class=&quot;half&quot;&gt;
-	&lt;a href=&quot;/images/battery-state/battery-state.png&quot;&gt;&lt;img src=&quot;/images/battery-state/battery-state.png&quot; /&gt;&lt;/a&gt;
-	&lt;a href=&quot;/images/battery-state/battery-tray.png&quot;&gt;&lt;img src=&quot;/images/battery-state/battery-tray.png&quot; /&gt;&lt;/a&gt;
-	&lt;figcaption&gt;Battery State screenshots&lt;/figcaption&gt;
-&lt;/figure&gt;
+&lt;div class=&quot;zoom-gallery&quot;&gt;
+    &lt;figure class=&quot;half&quot;&gt;
+        &lt;a href=&quot;/images/battery-state/battery-state.png&quot;&gt;&lt;img src=&quot;/images/battery-state/battery-state.png&quot; /&gt;&lt;/a&gt;
+        &lt;a href=&quot;/images/battery-state/battery-tray.png&quot;&gt;&lt;img src=&quot;/images/battery-state/battery-tray.png&quot; /&gt;&lt;/a&gt;
+        &lt;figcaption&gt;Battery State screenshots&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
 
 &lt;p&gt;Currently this is a quick and dirty implementation and it is restricted to Windows but I plan to extend the compatibility to OS X, make it a bit more sexy and clean the code to put it on GitHub.&lt;/p&gt;
 
@@ -602,10 +626,12 @@ The goal was to ￼set up an application with 3 people in order to pilot a robot
 
 &lt;p&gt;The shot detector is made for you, you can adapt your guns with a beam pointer laser, shot indoor (without real bullets…) and see your results with the shot detector app!&lt;/p&gt;
 
-&lt;figure&gt;
-	&lt;a href=&quot;/images/shot-detector/shot-detector.jpg&quot;&gt;&lt;img src=&quot;/images/shot-detector/shot-detector-small.jpg&quot; /&gt;&lt;/a&gt;
-	&lt;figcaption&gt;Shot detector screenshot&lt;/figcaption&gt;
-&lt;/figure&gt;
+&lt;div class=&quot;zoom-gallery&quot;&gt;
+    &lt;figure&gt;
+        &lt;a href=&quot;/images/shot-detector/shot-detector.jpg&quot;&gt;&lt;img src=&quot;/images/shot-detector/shot-detector-small.jpg&quot; /&gt;&lt;/a&gt;
+        &lt;figcaption&gt;Shot detector screenshot&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
 
 &lt;p&gt;For this software, I have chosen C++/Qt and OpenCV for camera handler and image processing.&lt;/p&gt;
 
@@ -651,9 +677,11 @@ The goal was to ￼set up an application with 3 people in order to pilot a robot
 
 &lt;p&gt;This application was developped in C++/Qt use OpenCV to retrieve webcam handlers and images. To test this application in real conditions, I tried to compile it on a Raspberry PI and it worked pretty well (with some lags), so I definitively can make many webcams for a little price and spy the places I want :)&lt;/p&gt;
 
-&lt;figure&gt;
-	&lt;a href=&quot;/images/webcam/qt-webcam.jpg&quot;&gt;&lt;img src=&quot;/images/webcam/qt-webcam.jpg&quot; /&gt;&lt;/a&gt;
-&lt;/figure&gt;
+&lt;div class=&quot;zoom-gallery&quot;&gt;
+    &lt;figure&gt;
+        &lt;a href=&quot;/images/webcam/qt-webcam.jpg&quot;&gt;&lt;img src=&quot;/images/webcam/qt-webcam.jpg&quot; /&gt;&lt;/a&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
 
   &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/qt-remote-webcam/&quot;&gt;Remote webcams&lt;/a&gt; was originally published by Kévin Renella at &lt;a href=&quot;http://localhost:4000&quot;&gt;Kévin Renella&lt;/a&gt; on June 01, 2011.&lt;/p&gt;</content>
 </entry>

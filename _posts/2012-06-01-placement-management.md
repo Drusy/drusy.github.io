@@ -19,12 +19,14 @@ I worked for the [LASMEA](http://w3.anr-proteus.fr/?q=node/124) laboratory in 20
 - have a reminder for todo tasks
 - embedded search
 
-<figure class="half">
-	<a href="/images/placement-manager/report.jpg"><img src="/images/placement-manager/report-small.jpg" /></a>
-	<a href="/images/placement-manager/settings.jpg"><img src="/images/placement-manager/settings-small.jpg" /></a>
-    <a href="/images/placement-manager/summary.jpg"><img src="/images/placement-manager/summary-small.jpg" /></a>
-	<a href="/images/placement-manager/todo-list.jpg"><img src="/images/placement-manager/todo-list-small.jpg" /></a>
-    <figcaption>Placement Manager screenshots</figcaption>
-</figure>
+<div class="zoom-gallery">
+    <figure class="half">
+        <a href="/images/placement-manager/report.jpg"><img src="/images/placement-manager/report-small.jpg" /></a>
+        <a href="/images/placement-manager/settings.jpg"><img src="/images/placement-manager/settings-small.jpg" /></a>
+        <a href="/images/placement-manager/summary.jpg"><img src="/images/placement-manager/summary-small.jpg" /></a>
+        <a href="/images/placement-manager/todo-list.jpg"><img src="/images/placement-manager/todo-list-small.jpg" /></a>
+        <figcaption>Placement Manager screenshots</figcaption>
+    </figure>
+<div class="zoom-gallery">
 
 At this point, I began to be experienced with Qt, so I tried to make my code as generic as possible using dynamic views and stacked views. I also implemented multi-threaded SQLite request to optimize automatic saves and give to the user a better experience.

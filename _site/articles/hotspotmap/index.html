@@ -39,6 +39,7 @@
 
 <!-- For all browsers -->
 <link rel="stylesheet" href="http://localhost:4000/assets/css/main.min.css">
+<link rel="stylesheet" href="http://localhost:4000/assets/css/custom.css">
 <!-- Webfonts -->
 <script src="//use.edgefonts.net/source-sans-pro:n2,i2,n3,i3,n4,i4,n6,i6,n7,i7,n9,i9;source-code-pro:n4,n7;volkhov.js"></script>
 
@@ -60,6 +61,16 @@
 <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://localhost:4000/images/apple-touch-icon-114x114-precomposed.png">
 <!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://localhost:4000/images/apple-touch-icon-144x144-precomposed.png">
+
+<!-- Magnific popup -->
+<!-- Magnific Popup core CSS file -->
+<link rel="stylesheet" href="http://localhost:4000/assets/magnific-popup/magnific-popup.css"> 
+
+<!-- jQuery 1.7.2+ or Zepto.js 1.0+ -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> 
+
+<!-- Magnific Popup core JS file -->
+<script src="http://localhost:4000/assets/magnific-popup/jquery.magnific-popup.js"></script> 
 
 </head>
 
@@ -171,13 +182,15 @@
 
 <p>HotspotMap use a lot of JavaScript and particulary the Google Map API. Furthermore, we provided a REST API to communicate with the application so we had an intensive use of ajax to populate our view.</p>
 
-<figure class="half">
-	<a href="/images/hotspotmap/hotspotmap-index.png"><img src="/images/hotspotmap/hotspotmap-index-small.jpg" /></a>
-	<a href="/images/hotspotmap/hotspotmap-details.png"><img src="/images/hotspotmap/hotspotmap-details-small.jpg" /></a>
-</figure>
-<figure>
-	<a href="/images/hotspotmap/hotspotmap-connection.png"><img src="/images/hotspotmap/hotspotmap-connection.png" /></a>
-</figure>
+<div class="zoom-gallery">
+    <figure class="half">
+        <a href="/images/hotspotmap/hotspotmap-index.png"><img src="/images/hotspotmap/hotspotmap-index-small.jpg" /></a>
+        <a href="/images/hotspotmap/hotspotmap-details.png"><img src="/images/hotspotmap/hotspotmap-details-small.jpg" /></a>
+    </figure>
+    <figure>
+        <a href="/images/hotspotmap/hotspotmap-connection.png"><img src="/images/hotspotmap/hotspotmap-connection.png" /></a>
+    </figure>
+</div>
 
 <h2 id="github">GitHub</h2>
 
@@ -259,6 +272,35 @@ This is an engineering school project (<a href="http://www.isima.fr">ISIMA</a>),
         bs.canvas.removeClass('search-overlay');
     });
   })( jQuery, window );
+</script>
+
+
+<!-- Magnific popup -->
+<script>
+$(document).ready(function() {
+    $('.zoom-gallery').magnificPopup({
+        delegate: 'a',
+        type: 'image',
+        closeOnContentClick: false,
+        closeBtnInside: false,
+        mainClass: 'mfp-with-zoom mfp-img-mobile',
+        removalDelay: 300,
+        image: {
+            verticalFit: true
+        },
+        gallery: {
+            enabled: true
+        },
+        zoom: {
+            enabled: true,
+            duration: 300, // don't foget to change the duration also in CSS
+            opener: function(element) {
+                return element.find('img');
+            }
+        }
+
+    });
+});
 </script>
 
 
