@@ -9,9 +9,9 @@ comments: true
 share: true
 ---
 
-HotspotMap is an application that shows Hotspots dedicated to developpers. The goal is to find the best place to work when you are far from your workplace or your home.
+HotspotMap is an application that shows Hotspots dedicated to developers. The goal is to find the best place to work when you are far from your workplace or your home.
 
-HotspotMap is my first project using PHP 5.0. My academic background usually turned me through Java EE and I was happy to discover how are really made most of the website we can find over the internet. To be efficient, we used a Symphony based framework called [Silex](http://silex.sensiolabs.org/).
+HotspotMap is my first project using PHP 5.0. My academic background usually turned me through Java EE and I was happy to discover how are made most of the website we can find over the internet. To be efficient, we used a Symphony based framework called [Silex](http://silex.sensiolabs.org/).
 
 ## Silex
 

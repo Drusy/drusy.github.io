@@ -10,4 +10,4 @@ Hey, I am Kévin Renella, currently student in an engineering school of computer
 
 Today my skills evolved and I continue to improve my knowledge by working on continuous integration, software package & integration, software architecture & analysis and on some (small) Open Source projects. After a few years of programmer experience, my favourite programming language stays C++/Qt!
 
-Here you can find my articles, software and resume!
+Here you can find my articles, projects and resume!

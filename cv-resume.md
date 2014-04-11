@@ -55,7 +55,7 @@ Application deployment is currently managed by Jenkins, a **continuous integrati
 <span class="right">June, 2013 to April, 2013</span>
 <br />Commissariat à l'énergie atomique (CEA) | France
 
- There is many regulatory aspect related to fires in the Basic Nuclear Installations (BNI). It requests from the french nuclear operators (ANDRA, AREVA, CEA, EDF) to prove that their installations comply with the legislation, so the CEA developped a numerical simulation software to simulate fire in a nuclear experimental plant. 
+ There is many regulatory aspect related to fires in the Basic Nuclear Installations (BNI). It requests from the french nuclear operators (ANDRA, AREVA, CEA, EDF) to prove that their installations comply with the legislation, so the CEA developed a numerical simulation software to simulate fire in a nuclear experimental plant. 
 
 My job was to design and develop an alternative to Excel to manipulate the results from the numerical simulation software of the **CEA**. The software was realized unsing **C++** and the **Qt** framework.
 

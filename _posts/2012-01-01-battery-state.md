@@ -9,14 +9,14 @@ comments: true
 share: true
 ---
 
-Any of the available software on windows fits my needs about battery usage, wear level etc. so I decided to made to develop my own. I would like a software that :
+Any of the available software on windows fits my needs about battery usage, wear level etc. so I decided to develop my own. I would like a software that :
 
 - is really light
-- that can show me the waer level of my battery
+- that can show me the wear level of my battery
 - is running in background
 - show the basics about the laptop battery
 
-I have written this software with C++/Qt and using the native C API of windows to get the battery informations.
+I have written this software with C++/Qt and using the native C API of Windows to get the battery informations.
 
 <div class="zoom-gallery">
     <figure class="half">
@@ -26,4 +26,4 @@ I have written this software with C++/Qt and using the native C API of windows t
     </figure>
 </div>
 
-Currently this is a quick and dirty implementation and it is restricted to Windows but I plan to extend the compatibility to OS X, make it a bit more sexy and clean the code to put it on GitHub.
+Currently this is a quick and dirty implementation and it is restricted to Windows but I plan to extend the compatibility to OS X, make it a bit more sexy and clean the code to push it on GitHub.

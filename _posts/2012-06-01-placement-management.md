@@ -12,9 +12,9 @@ share: true
 I worked for the [LASMEA](http://w3.anr-proteus.fr/?q=node/124) laboratory in 2012 to improve the [hole detector](/articles/nanotechnology-image-processing/) and to develop a placement manager in C++/Qt. Before the development of this software, the management of students placements was done by editing Excel files. So, the goal is to simply :
 
 - manage the students for schools and companies
-- assign placement to students 
+- assign placements to students 
 - real time saving using SQLite
-- advances settings using XML
+- advanced settings using XML
 - print internship agreement
 - have a reminder for todo tasks
 - embedded search

@@ -2,30 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
 <title type="text">Kévin Renella</title>
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
-<link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml" />
-<link rel="alternate" type="text/html" href="http://localhost:4000" />
-<updated>2014-04-10T13:29:20+02:00</updated>
-<id>http://localhost:4000/</id>
+<link rel="self" type="application/atom+xml" href="http://drusy.github.io/feed.xml" />
+<link rel="alternate" type="text/html" href="http://drusy.github.io" />
+<updated>2014-04-11T19:53:08+02:00</updated>
+<id>http://drusy.github.io/</id>
 <author>
   <name>Kévin Renella</name>
-  <uri>http://localhost:4000/</uri>
+  <uri>http://drusy.github.io/</uri>
   <email>kevin.renella@email.com</email>
 </author>
 
 
 <entry>
   <title type="html"><![CDATA[Drive.jsf]]></title>
-  <link rel="alternate" type="text/html" href="http://localhost:4000/articles/drive-jsf/"/>
-  <id>http://localhost:4000/articles/drive-jsf</id>
+  <link rel="alternate" type="text/html" href="http://drusy.github.io/articles/drive-jsf/"/>
+  <id>http://drusy.github.io/articles/drive-jsf</id>
   <updated>2014-04-08T00:00:00-00:00</updated>
   <published>2014-04-01T00:00:00+02:00</published>
   
   <author>
     <name>Kévin Renella</name>
-    <uri>http://localhost:4000</uri>
+    <uri>http://drusy.github.io</uri>
     <email>kevin.renella@email.com</email>
   </author>
-  <content type="html">&lt;p&gt;Drive.jsf is a Google Drive like developped in JSF using &lt;a href=&quot;http://primefaces.org/&quot;&gt;PrimeFaces&lt;/a&gt; components.&lt;/p&gt;
+  <content type="html">&lt;p&gt;Drive.jsf is a Google Drive like developed in JSF using &lt;a href=&quot;http://primefaces.org/&quot;&gt;PrimeFaces&lt;/a&gt; components.&lt;/p&gt;
 
 &lt;h2 id=&quot;features&quot;&gt;Features&lt;/h2&gt;
 
@@ -78,25 +78,25 @@ This is an engineering school project (&lt;a href=&quot;http://www.isima.fr&quot
   &lt;li&gt;&lt;a href=&quot;https://github.com/Drusy&quot;&gt;Kévin Renella&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/drive-jsf/&quot;&gt;Drive.jsf&lt;/a&gt; was originally published by Kévin Renella at &lt;a href=&quot;http://localhost:4000&quot;&gt;Kévin Renella&lt;/a&gt; on April 01, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://drusy.github.io/articles/drive-jsf/&quot;&gt;Drive.jsf&lt;/a&gt; was originally published by Kévin Renella at &lt;a href=&quot;http://drusy.github.io&quot;&gt;Kévin Renella&lt;/a&gt; on April 01, 2014.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[HotspotMap]]></title>
-  <link rel="alternate" type="text/html" href="http://localhost:4000/articles/hotspotmap/"/>
-  <id>http://localhost:4000/articles/hotspotmap</id>
+  <link rel="alternate" type="text/html" href="http://drusy.github.io/articles/hotspotmap/"/>
+  <id>http://drusy.github.io/articles/hotspotmap</id>
   <updated>2014-04-08T00:00:00-00:00</updated>
   <published>2014-03-01T00:00:00+01:00</published>
   
   <author>
     <name>Kévin Renella</name>
-    <uri>http://localhost:4000</uri>
+    <uri>http://drusy.github.io</uri>
     <email>kevin.renella@email.com</email>
   </author>
-  <content type="html">&lt;p&gt;HotspotMap is an application that shows Hotspots dedicated to developpers. The goal is to find the best place to work when you are far from your workplace or your home.&lt;/p&gt;
+  <content type="html">&lt;p&gt;HotspotMap is an application that shows Hotspots dedicated to developers. The goal is to find the best place to work when you are far from your workplace or your home.&lt;/p&gt;
 
-&lt;p&gt;HotspotMap is my first project using PHP 5.0. My academic background usually turned me through Java EE and I was happy to discover how are really made most of the website we can find over the internet. To be efficient, we used a Symphony based framework called &lt;a href=&quot;http://silex.sensiolabs.org/&quot;&gt;Silex&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;HotspotMap is my first project using PHP 5.0. My academic background usually turned me through Java EE and I was happy to discover how are made most of the website we can find over the internet. To be efficient, we used a Symphony based framework called &lt;a href=&quot;http://silex.sensiolabs.org/&quot;&gt;Silex&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2 id=&quot;silex&quot;&gt;Silex&lt;/h2&gt;
 
@@ -140,20 +140,20 @@ This is an engineering school project (&lt;a href=&quot;http://www.isima.fr&quot
   &lt;li&gt;&lt;a href=&quot;https://github.com/Drusy&quot;&gt;Kévin Renella&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/hotspotmap/&quot;&gt;HotspotMap&lt;/a&gt; was originally published by Kévin Renella at &lt;a href=&quot;http://localhost:4000&quot;&gt;Kévin Renella&lt;/a&gt; on March 01, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://drusy.github.io/articles/hotspotmap/&quot;&gt;HotspotMap&lt;/a&gt; was originally published by Kévin Renella at &lt;a href=&quot;http://drusy.github.io&quot;&gt;Kévin Renella&lt;/a&gt; on March 01, 2014.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Image processing - SKFCM algorithm]]></title>
-  <link rel="alternate" type="text/html" href="http://localhost:4000/articles/skfcm-algorithm/"/>
-  <id>http://localhost:4000/articles/skfcm-algorithm</id>
+  <link rel="alternate" type="text/html" href="http://drusy.github.io/articles/skfcm-algorithm/"/>
+  <id>http://drusy.github.io/articles/skfcm-algorithm</id>
   <updated>2014-04-08T00:00:00-00:00</updated>
   <published>2014-02-01T00:00:00+01:00</published>
   
   <author>
     <name>Kévin Renella</name>
-    <uri>http://localhost:4000</uri>
+    <uri>http://drusy.github.io</uri>
     <email>kevin.renella@email.com</email>
   </author>
   <content type="html">&lt;h2 id=&quot;subject-presentation&quot;&gt;Subject presentation&lt;/h2&gt;
@@ -209,20 +209,20 @@ This is an engineering school project (&lt;a href=&quot;http://www.isima.fr&quot
   &lt;li&gt;Kévin Renella&lt;/li&gt;
 &lt;/ul&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/skfcm-algorithm/&quot;&gt;Image processing - SKFCM algorithm&lt;/a&gt; was originally published by Kévin Renella at &lt;a href=&quot;http://localhost:4000&quot;&gt;Kévin Renella&lt;/a&gt; on February 01, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://drusy.github.io/articles/skfcm-algorithm/&quot;&gt;Image processing - SKFCM algorithm&lt;/a&gt; was originally published by Kévin Renella at &lt;a href=&quot;http://drusy.github.io&quot;&gt;Kévin Renella&lt;/a&gt; on February 01, 2014.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[GrailsOverflow]]></title>
-  <link rel="alternate" type="text/html" href="http://localhost:4000/articles/grailsoverflow/"/>
-  <id>http://localhost:4000/articles/grailsoverflow</id>
+  <link rel="alternate" type="text/html" href="http://drusy.github.io/articles/grailsoverflow/"/>
+  <id>http://drusy.github.io/articles/grailsoverflow</id>
   <updated>2014-04-08T00:00:00-00:00</updated>
   <published>2014-01-01T00:00:00+01:00</published>
   
   <author>
     <name>Kévin Renella</name>
-    <uri>http://localhost:4000</uri>
+    <uri>http://drusy.github.io</uri>
     <email>kevin.renella@email.com</email>
   </author>
   <content type="html">&lt;p&gt;GrailsOverflow is a StackOverflow like developed in Grails.&lt;/p&gt;
@@ -286,20 +286,20 @@ This is an engineering school project (&lt;a href=&quot;http://www.isima.fr&quot
   &lt;li&gt;&lt;a href=&quot;https://github.com/Drusy&quot;&gt;Kévin Renella&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/grailsoverflow/&quot;&gt;GrailsOverflow&lt;/a&gt; was originally published by Kévin Renella at &lt;a href=&quot;http://localhost:4000&quot;&gt;Kévin Renella&lt;/a&gt; on January 01, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://drusy.github.io/articles/grailsoverflow/&quot;&gt;GrailsOverflow&lt;/a&gt; was originally published by Kévin Renella at &lt;a href=&quot;http://drusy.github.io&quot;&gt;Kévin Renella&lt;/a&gt; on January 01, 2014.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Files Drag & Drop]]></title>
   <link rel="alternate" type="text/html" href="http://www.filesdnd.com"/>
-  <id>http://localhost:4000/articles/files-drag-and-drop</id>
+  <id>http://drusy.github.io/articles/files-drag-and-drop</id>
   <updated>2014-04-08T00:00:00-00:00</updated>
   <published>2013-03-01T00:00:00+01:00</published>
   
   <author>
     <name>Kévin Renella</name>
-    <uri>http://localhost:4000</uri>
+    <uri>http://drusy.github.io</uri>
     <email>kevin.renella@email.com</email>
   </author>
   <content type="html">&lt;p&gt;&lt;img style=&quot;float: right;&quot; src=&quot;/images/filesdnd/logo-blue-filesdnd.png&quot; /&gt;
@@ -356,20 +356,20 @@ You can buy the full version in app, for approximatively $3.&lt;/p&gt;
 
 &lt;p&gt;Don’t hesitate to write any questions/suggestions/not-happy-feedback at contact@filesdnd.fr !&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/files-drag-and-drop/&quot;&gt;Files Drag & Drop&lt;/a&gt; was originally published by Kévin Renella at &lt;a href=&quot;http://localhost:4000&quot;&gt;Kévin Renella&lt;/a&gt; on March 01, 2013.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://drusy.github.io/articles/files-drag-and-drop/&quot;&gt;Files Drag & Drop&lt;/a&gt; was originally published by Kévin Renella at &lt;a href=&quot;http://drusy.github.io&quot;&gt;Kévin Renella&lt;/a&gt; on March 01, 2013.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Agents based Simulation - Zombies attack!]]></title>
-  <link rel="alternate" type="text/html" href="http://localhost:4000/articles/zombies-mas/"/>
-  <id>http://localhost:4000/articles/zombies-mas</id>
+  <link rel="alternate" type="text/html" href="http://drusy.github.io/articles/zombies-mas/"/>
+  <id>http://drusy.github.io/articles/zombies-mas</id>
   <updated>2014-04-08T00:00:00-00:00</updated>
   <published>2013-02-01T00:00:00+01:00</published>
   
   <author>
     <name>Kévin Renella</name>
-    <uri>http://localhost:4000</uri>
+    <uri>http://drusy.github.io</uri>
     <email>kevin.renella@email.com</email>
   </author>
   <content type="html">&lt;h2 id=&quot;goal&quot;&gt;Goal&lt;/h2&gt;
@@ -400,20 +400,20 @@ You can buy the full version in app, for approximatively $3.&lt;/p&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/Drusy&quot;&gt;Kévin Renella&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/zombies-mas/&quot;&gt;Agents based Simulation - Zombies attack!&lt;/a&gt; was originally published by Kévin Renella at &lt;a href=&quot;http://localhost:4000&quot;&gt;Kévin Renella&lt;/a&gt; on February 01, 2013.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://drusy.github.io/articles/zombies-mas/&quot;&gt;Agents based Simulation - Zombies attack!&lt;/a&gt; was originally published by Kévin Renella at &lt;a href=&quot;http://drusy.github.io&quot;&gt;Kévin Renella&lt;/a&gt; on February 01, 2013.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Raspberry PI robot - Tracking algorithm]]></title>
-  <link rel="alternate" type="text/html" href="http://localhost:4000/articles/raspberry-robot/"/>
-  <id>http://localhost:4000/articles/raspberry-robot</id>
+  <link rel="alternate" type="text/html" href="http://drusy.github.io/articles/raspberry-robot/"/>
+  <id>http://drusy.github.io/articles/raspberry-robot</id>
   <updated>2014-04-08T00:00:00-00:00</updated>
   <published>2012-07-01T00:00:00+02:00</published>
   
   <author>
     <name>Kévin Renella</name>
-    <uri>http://localhost:4000</uri>
+    <uri>http://drusy.github.io</uri>
     <email>kevin.renella@email.com</email>
   </author>
   <content type="html">&lt;p&gt;For our second year of engineering school project, we developed a tracking algorithm for an autonomous robot based on a Raspberry PI.
@@ -432,29 +432,29 @@ The goal was to ￼set up an application with 3 people in order to pilot a robot
   &lt;li&gt;&lt;a href=&quot;https://github.com/Drusy&quot;&gt;Kévin Renella&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/raspberry-robot/&quot;&gt;Raspberry PI robot - Tracking algorithm&lt;/a&gt; was originally published by Kévin Renella at &lt;a href=&quot;http://localhost:4000&quot;&gt;Kévin Renella&lt;/a&gt; on July 01, 2012.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://drusy.github.io/articles/raspberry-robot/&quot;&gt;Raspberry PI robot - Tracking algorithm&lt;/a&gt; was originally published by Kévin Renella at &lt;a href=&quot;http://drusy.github.io&quot;&gt;Kévin Renella&lt;/a&gt; on July 01, 2012.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Placement manager]]></title>
-  <link rel="alternate" type="text/html" href="http://localhost:4000/articles/placement-management/"/>
-  <id>http://localhost:4000/articles/placement-management</id>
+  <link rel="alternate" type="text/html" href="http://drusy.github.io/articles/placement-management/"/>
+  <id>http://drusy.github.io/articles/placement-management</id>
   <updated>2014-04-08T00:00:00-00:00</updated>
   <published>2012-06-01T00:00:00+02:00</published>
   
   <author>
     <name>Kévin Renella</name>
-    <uri>http://localhost:4000</uri>
+    <uri>http://drusy.github.io</uri>
     <email>kevin.renella@email.com</email>
   </author>
   <content type="html">&lt;p&gt;I worked for the &lt;a href=&quot;http://w3.anr-proteus.fr/?q=node/124&quot;&gt;LASMEA&lt;/a&gt; laboratory in 2012 to improve the &lt;a href=&quot;/articles/nanotechnology-image-processing/&quot;&gt;hole detector&lt;/a&gt; and to develop a placement manager in C++/Qt. Before the development of this software, the management of students placements was done by editing Excel files. So, the goal is to simply :&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;manage the students for schools and companies&lt;/li&gt;
-  &lt;li&gt;assign placement to students &lt;/li&gt;
+  &lt;li&gt;assign placements to students &lt;/li&gt;
   &lt;li&gt;real time saving using SQLite&lt;/li&gt;
-  &lt;li&gt;advances settings using XML&lt;/li&gt;
+  &lt;li&gt;advanced settings using XML&lt;/li&gt;
   &lt;li&gt;print internship agreement&lt;/li&gt;
   &lt;li&gt;have a reminder for todo tasks&lt;/li&gt;
   &lt;li&gt;embedded search&lt;/li&gt;
@@ -473,23 +473,23 @@ The goal was to ￼set up an application with 3 people in order to pilot a robot
 At this point, I began to be experienced with Qt, so I tried to make my code as generic as possible using dynamic views and stacked views. I also implemented multi-threaded SQLite request to optimize automatic saves and give to the user a better experience.
 &lt;/div&gt;&lt;/div&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/placement-management/&quot;&gt;Placement manager&lt;/a&gt; was originally published by Kévin Renella at &lt;a href=&quot;http://localhost:4000&quot;&gt;Kévin Renella&lt;/a&gt; on June 01, 2012.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://drusy.github.io/articles/placement-management/&quot;&gt;Placement manager&lt;/a&gt; was originally published by Kévin Renella at &lt;a href=&quot;http://drusy.github.io&quot;&gt;Kévin Renella&lt;/a&gt; on June 01, 2012.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Nanotechnology Image Processing]]></title>
-  <link rel="alternate" type="text/html" href="http://localhost:4000/articles/nanotechnology-image-processing/"/>
-  <id>http://localhost:4000/articles/nanotechnology-image-processing</id>
+  <link rel="alternate" type="text/html" href="http://drusy.github.io/articles/nanotechnology-image-processing/"/>
+  <id>http://drusy.github.io/articles/nanotechnology-image-processing</id>
   <updated>2014-04-08T00:00:00-00:00</updated>
   <published>2012-03-01T00:00:00+01:00</published>
   
   <author>
     <name>Kévin Renella</name>
-    <uri>http://localhost:4000</uri>
+    <uri>http://drusy.github.io</uri>
     <email>kevin.renella@email.com</email>
   </author>
-  <content type="html">&lt;p&gt;This project started from a school project in 2011 and I worked again on this project in 2012 for the &lt;a href=&quot;http://w3.anr-proteus.fr/?q=node/124&quot;&gt;LASMEA&lt;/a&gt; laboratory.  &lt;/p&gt;
+  <content type="html">&lt;p&gt;This project started from a school project in 2011 and I worked again on that in 2012 for the &lt;a href=&quot;http://w3.anr-proteus.fr/?q=node/124&quot;&gt;LASMEA&lt;/a&gt; laboratory.  &lt;/p&gt;
 
 &lt;div class=&quot;zoom-gallery&quot;&gt;
     &lt;figure class=&quot;half&quot;&gt;
@@ -507,11 +507,11 @@ At this point, I began to be experienced with Qt, so I tried to make my code as 
 
 &lt;p&gt;The goal of this project was to develop a software application capable of analyzing pictures of nanomaterials, detecting roughly circular holes on those pictures, and determining the radius and smoothness of the detected holes, in order to calculate some physical properties of the pictured material. The final application had to be user-friendly and cross-platform, as it aimed to be used by both students and researchers. Initially, this project was a continuation of what had been started last year by another group of students. However, the existing code was hardly reusable, so we re-did everything from the ground up.&lt;/p&gt;
 
-&lt;p&gt;We first started by learning some mathematics and algorithms that are used in the complex fields of computer vision and feature detection. We chose to use the OpenCV library, which is composed of numerous highly-optimized real-time image processing algorithms. We then developped the core of the project, in paralell with the user interface. When both were sufficiently evolved, we linked them up.&lt;/p&gt;
+&lt;p&gt;We first started by learning some mathematics and algorithms that are used in the complex fields of computer vision and feature detection. We chose to use the OpenCV library, which is composed of numerous highly-optimized real-time image processing algorithms. We then developed the core of the project, in paralell with the user interface. When both were sufficiently evolved, we linked them up.&lt;/p&gt;
 
 &lt;p&gt;The OpenCV built-in circle detection method had poor performance and the result quality was extremely dependant on parameters, which varied by great amounts from one image to another. For this reason, we developed a brand new algorithm to detect holes faster and with better accuracy. The blazing speed achieved by this new algorithm allowed us to implement image analysis on video streams provided by webcams or video records. It also permitted estimation of the holes’ smoothness, which was not possible using the algorithm provided by OpenCV.&lt;/p&gt;
 
-&lt;p&gt;The application underwent many changes during its development, as users requested features and modifications. For example, we added a preview of the binary image our algorithm works on, as well as a user-driven detection method in which a user simply has to click a hole, and then lets the program do the rest. Considering we finished the application somewhat early, we later started developping some additional features that were not part of the initial project, such as tangent detection on microscopic drops.&lt;/p&gt;
+&lt;p&gt;The application underwent many changes during its development, as users requested features and modifications. For example, we added a preview of the binary image our algorithm works on, as well as a user-driven detection method in which a user simply has to click a hole, and then lets the program do the rest. Considering we finished the application somewhat early, we later started developing some additional features that were not part of the initial project, such as tangent detection on microscopic drops.&lt;/p&gt;
 
 &lt;h2 id=&quot;we-were-4-working-on-this-software&quot;&gt;We were 4 working on this software&lt;/h2&gt;
 
@@ -522,20 +522,20 @@ At this point, I began to be experienced with Qt, so I tried to make my code as 
   &lt;li&gt;Jean-Baptiste Viller&lt;/li&gt;
 &lt;/ul&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/nanotechnology-image-processing/&quot;&gt;Nanotechnology Image Processing&lt;/a&gt; was originally published by Kévin Renella at &lt;a href=&quot;http://localhost:4000&quot;&gt;Kévin Renella&lt;/a&gt; on March 01, 2012.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://drusy.github.io/articles/nanotechnology-image-processing/&quot;&gt;Nanotechnology Image Processing&lt;/a&gt; was originally published by Kévin Renella at &lt;a href=&quot;http://drusy.github.io&quot;&gt;Kévin Renella&lt;/a&gt; on March 01, 2012.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Lagrange plot]]></title>
-  <link rel="alternate" type="text/html" href="http://localhost:4000/articles/lagrange-plot/"/>
-  <id>http://localhost:4000/articles/lagrange-plot</id>
+  <link rel="alternate" type="text/html" href="http://drusy.github.io/articles/lagrange-plot/"/>
+  <id>http://drusy.github.io/articles/lagrange-plot</id>
   <updated>2014-04-08T00:00:00-00:00</updated>
   <published>2012-02-01T00:00:00+01:00</published>
   
   <author>
     <name>Kévin Renella</name>
-    <uri>http://localhost:4000</uri>
+    <uri>http://drusy.github.io</uri>
     <email>kevin.renella@email.com</email>
   </author>
   <content type="html">&lt;p&gt;First year engineering school project, a very little bit of mathematics but fortunately Qt is always there to save my life :)&lt;/p&gt;
@@ -555,32 +555,32 @@ At this point, I began to be experienced with Qt, so I tried to make my code as 
   &lt;li&gt;Kévin Renella&lt;/li&gt;
 &lt;/ul&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/lagrange-plot/&quot;&gt;Lagrange plot&lt;/a&gt; was originally published by Kévin Renella at &lt;a href=&quot;http://localhost:4000&quot;&gt;Kévin Renella&lt;/a&gt; on February 01, 2012.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://drusy.github.io/articles/lagrange-plot/&quot;&gt;Lagrange plot&lt;/a&gt; was originally published by Kévin Renella at &lt;a href=&quot;http://drusy.github.io&quot;&gt;Kévin Renella&lt;/a&gt; on February 01, 2012.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Battery State]]></title>
-  <link rel="alternate" type="text/html" href="http://localhost:4000/articles/battery-state/"/>
-  <id>http://localhost:4000/articles/battery-state</id>
+  <link rel="alternate" type="text/html" href="http://drusy.github.io/articles/battery-state/"/>
+  <id>http://drusy.github.io/articles/battery-state</id>
   <updated>2014-04-08T00:00:00-00:00</updated>
   <published>2012-01-01T00:00:00+01:00</published>
   
   <author>
     <name>Kévin Renella</name>
-    <uri>http://localhost:4000</uri>
+    <uri>http://drusy.github.io</uri>
     <email>kevin.renella@email.com</email>
   </author>
-  <content type="html">&lt;p&gt;Any of the available software on windows fits my needs about battery usage, wear level etc. so I decided to made to develop my own. I would like a software that :&lt;/p&gt;
+  <content type="html">&lt;p&gt;Any of the available software on windows fits my needs about battery usage, wear level etc. so I decided to develop my own. I would like a software that :&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;is really light&lt;/li&gt;
-  &lt;li&gt;that can show me the waer level of my battery&lt;/li&gt;
+  &lt;li&gt;that can show me the wear level of my battery&lt;/li&gt;
   &lt;li&gt;is running in background&lt;/li&gt;
   &lt;li&gt;show the basics about the laptop battery&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;I have written this software with C++/Qt and using the native C API of windows to get the battery informations.&lt;/p&gt;
+&lt;p&gt;I have written this software with C++/Qt and using the native C API of Windows to get the battery informations.&lt;/p&gt;
 
 &lt;div class=&quot;zoom-gallery&quot;&gt;
     &lt;figure class=&quot;half&quot;&gt;
@@ -590,22 +590,22 @@ At this point, I began to be experienced with Qt, so I tried to make my code as 
     &lt;/figure&gt;
 &lt;/div&gt;
 
-&lt;p&gt;Currently this is a quick and dirty implementation and it is restricted to Windows but I plan to extend the compatibility to OS X, make it a bit more sexy and clean the code to put it on GitHub.&lt;/p&gt;
+&lt;p&gt;Currently this is a quick and dirty implementation and it is restricted to Windows but I plan to extend the compatibility to OS X, make it a bit more sexy and clean the code to push it on GitHub.&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/battery-state/&quot;&gt;Battery State&lt;/a&gt; was originally published by Kévin Renella at &lt;a href=&quot;http://localhost:4000&quot;&gt;Kévin Renella&lt;/a&gt; on January 01, 2012.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://drusy.github.io/articles/battery-state/&quot;&gt;Battery State&lt;/a&gt; was originally published by Kévin Renella at &lt;a href=&quot;http://drusy.github.io&quot;&gt;Kévin Renella&lt;/a&gt; on January 01, 2012.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Shot detector]]></title>
-  <link rel="alternate" type="text/html" href="http://localhost:4000/articles/shot-detector/"/>
-  <id>http://localhost:4000/articles/shot-detector</id>
+  <link rel="alternate" type="text/html" href="http://drusy.github.io/articles/shot-detector/"/>
+  <id>http://drusy.github.io/articles/shot-detector</id>
   <updated>2014-04-08T00:00:00-00:00</updated>
   <published>2011-11-01T00:00:00+01:00</published>
   
   <author>
     <name>Kévin Renella</name>
-    <uri>http://localhost:4000</uri>
+    <uri>http://drusy.github.io</uri>
     <email>kevin.renella@email.com</email>
   </author>
   <content type="html">&lt;p&gt;For a long time, Metallic silhouette shooting was one of my passion :)&lt;/p&gt;
@@ -635,47 +635,47 @@ At this point, I began to be experienced with Qt, so I tried to make my code as 
 
 &lt;p&gt;For this software, I have chosen C++/Qt and OpenCV for camera handler and image processing.&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/shot-detector/&quot;&gt;Shot detector&lt;/a&gt; was originally published by Kévin Renella at &lt;a href=&quot;http://localhost:4000&quot;&gt;Kévin Renella&lt;/a&gt; on November 01, 2011.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://drusy.github.io/articles/shot-detector/&quot;&gt;Shot detector&lt;/a&gt; was originally published by Kévin Renella at &lt;a href=&quot;http://drusy.github.io&quot;&gt;Kévin Renella&lt;/a&gt; on November 01, 2011.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[iPad account manager]]></title>
-  <link rel="alternate" type="text/html" href="http://localhost:4000/articles/ipad-accounts-manager/"/>
-  <id>http://localhost:4000/articles/ipad-accounts-manager</id>
+  <link rel="alternate" type="text/html" href="http://drusy.github.io/articles/ipad-accounts-manager/"/>
+  <id>http://drusy.github.io/articles/ipad-accounts-manager</id>
   <updated>2014-04-08T00:00:00-00:00</updated>
   <published>2011-07-01T00:00:00+02:00</published>
   
   <author>
     <name>Kévin Renella</name>
-    <uri>http://localhost:4000</uri>
+    <uri>http://drusy.github.io</uri>
     <email>kevin.renella@email.com</email>
   </author>
-  <content type="html">&lt;p&gt;My first experience as a mobile developer began on iOS with the iPad when I travelled to Scotland for 3 month. I have chosen my own subject and worked on an account management application synchronised on the web. This application allow the user to register every single transaction to keep its accont management up to date.&lt;/p&gt;
+  <content type="html">&lt;p&gt;My first experience as a mobile developer began on iOS with the iPad when I travelled to Scotland for 3 month. I have chosen my own subject and worked on an account management application synchronised on the web. This application allow the user to register every single transaction to keep its account management up to date.&lt;/p&gt;
 
 &lt;p&gt;The code should remain private, but I am sharing this demo.&lt;/p&gt;
 
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;http://www.youtube.com/embed/VIRzOkRzKeA&quot; frameborder=&quot;0&quot;&gt; &lt;/iframe&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/ipad-accounts-manager/&quot;&gt;iPad account manager&lt;/a&gt; was originally published by Kévin Renella at &lt;a href=&quot;http://localhost:4000&quot;&gt;Kévin Renella&lt;/a&gt; on July 01, 2011.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://drusy.github.io/articles/ipad-accounts-manager/&quot;&gt;iPad account manager&lt;/a&gt; was originally published by Kévin Renella at &lt;a href=&quot;http://drusy.github.io&quot;&gt;Kévin Renella&lt;/a&gt; on July 01, 2011.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Remote webcams]]></title>
-  <link rel="alternate" type="text/html" href="http://localhost:4000/articles/qt-remote-webcam/"/>
-  <id>http://localhost:4000/articles/qt-remote-webcam</id>
+  <link rel="alternate" type="text/html" href="http://drusy.github.io/articles/qt-remote-webcam/"/>
+  <id>http://drusy.github.io/articles/qt-remote-webcam</id>
   <updated>2014-04-08T00:00:00-00:00</updated>
   <published>2011-06-01T00:00:00+02:00</published>
   
   <author>
     <name>Kévin Renella</name>
-    <uri>http://localhost:4000</uri>
+    <uri>http://drusy.github.io</uri>
     <email>kevin.renella@email.com</email>
   </author>
-  <content type="html">&lt;p&gt;As I told, my favourite programming language remain the C++, using the Qt framework… So I began to develop some amazing desktop applications such as this remote webcam client. This software allow you to control multiple webcam remotely through wifi network or over the internet.&lt;/p&gt;
+  <content type="html">&lt;p&gt;As I told, my favourite programming language remain the C++, using the Qt framework… So I began to develop some amazing desktop applications such as this remote webcam client. This software allow you to control multiple webcam remotely through Wi-Fi network or over the internet.&lt;/p&gt;
 
-&lt;p&gt;This application was developped in C++/Qt use OpenCV to retrieve webcam handlers and images. To test this application in real conditions, I tried to compile it on a Raspberry PI and it worked pretty well (with some lags), so I definitively can make many webcams for a little price and spy the places I want :)&lt;/p&gt;
+&lt;p&gt;This application was developed in C++/Qt use OpenCV to retrieve webcam handlers and images. To test this application in real conditions, I tried to compile it on a Raspberry PI and it worked pretty well (with some lags), so I definitively can make many webcams for a little price and spy the places I want :)&lt;/p&gt;
 
 &lt;div class=&quot;zoom-gallery&quot;&gt;
     &lt;figure&gt;
@@ -683,20 +683,20 @@ At this point, I began to be experienced with Qt, so I tried to make my code as 
     &lt;/figure&gt;
 &lt;/div&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/qt-remote-webcam/&quot;&gt;Remote webcams&lt;/a&gt; was originally published by Kévin Renella at &lt;a href=&quot;http://localhost:4000&quot;&gt;Kévin Renella&lt;/a&gt; on June 01, 2011.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://drusy.github.io/articles/qt-remote-webcam/&quot;&gt;Remote webcams&lt;/a&gt; was originally published by Kévin Renella at &lt;a href=&quot;http://drusy.github.io&quot;&gt;Kévin Renella&lt;/a&gt; on June 01, 2011.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Plants vs Zombies SFML]]></title>
-  <link rel="alternate" type="text/html" href="http://localhost:4000/articles/sfml-pvz/"/>
-  <id>http://localhost:4000/articles/sfml-pvz</id>
+  <link rel="alternate" type="text/html" href="http://drusy.github.io/articles/sfml-pvz/"/>
+  <id>http://drusy.github.io/articles/sfml-pvz</id>
   <updated>2014-04-08T00:00:00-00:00</updated>
   <published>2010-10-01T00:00:00+02:00</published>
   
   <author>
     <name>Kévin Renella</name>
-    <uri>http://localhost:4000</uri>
+    <uri>http://drusy.github.io</uri>
     <email>kevin.renella@email.com</email>
   </author>
   <content type="html">&lt;p&gt;When I started programming C++ software, I have always dreamt to develop a little game. After some practices of hangman and brick breakers in second year of Bachelor of Science in computer science (DUT Informatique), we had to develop a Plants vs Zombies like using C++ and SFML. Let’s see the video.&lt;/p&gt;
@@ -712,7 +712,7 @@ At this point, I began to be experienced with Qt, so I tried to make my code as 
   &lt;li&gt;&lt;a href=&quot;https://github.com/Drusy&quot;&gt;Kévin Renella&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/sfml-pvz/&quot;&gt;Plants vs Zombies SFML&lt;/a&gt; was originally published by Kévin Renella at &lt;a href=&quot;http://localhost:4000&quot;&gt;Kévin Renella&lt;/a&gt; on October 01, 2010.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://drusy.github.io/articles/sfml-pvz/&quot;&gt;Plants vs Zombies SFML&lt;/a&gt; was originally published by Kévin Renella at &lt;a href=&quot;http://drusy.github.io&quot;&gt;Kévin Renella&lt;/a&gt; on October 01, 2010.&lt;/p&gt;</content>
 </entry>
 
 </feed>

@@ -1,106 +1,106 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>http://localhost:4000</loc>
+        <loc>http://drusy.github.io</loc>
     </url>
     
     
     <url>
-        <loc>http://localhost:4000/404.html</loc>
+        <loc>http://drusy.github.io/404.html</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/about/</loc>
+        <loc>http://drusy.github.io/about/</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/articles/</loc>
+        <loc>http://drusy.github.io/articles/</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/cv-resume/</loc>
+        <loc>http://drusy.github.io/cv-resume/</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/feed.xml</loc>
+        <loc>http://drusy.github.io/feed.xml</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/index.html</loc>
+        <loc>http://drusy.github.io/index.html</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/search.json</loc>
+        <loc>http://drusy.github.io/search.json</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/sitemap.xml</loc>
+        <loc>http://drusy.github.io/sitemap.xml</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/tags/</loc>
+        <loc>http://drusy.github.io/tags/</loc>
     </url>
     
 
     
     <url>
-        <loc>http://localhost:4000/articles/drive-jsf/</loc>
+        <loc>http://drusy.github.io/articles/drive-jsf/</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/articles/hotspotmap/</loc>
+        <loc>http://drusy.github.io/articles/hotspotmap/</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/articles/skfcm-algorithm/</loc>
+        <loc>http://drusy.github.io/articles/skfcm-algorithm/</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/articles/grailsoverflow/</loc>
+        <loc>http://drusy.github.io/articles/grailsoverflow/</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/articles/files-drag-and-drop/</loc>
+        <loc>http://drusy.github.io/articles/files-drag-and-drop/</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/articles/zombies-mas/</loc>
+        <loc>http://drusy.github.io/articles/zombies-mas/</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/articles/raspberry-robot/</loc>
+        <loc>http://drusy.github.io/articles/raspberry-robot/</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/articles/placement-management/</loc>
+        <loc>http://drusy.github.io/articles/placement-management/</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/articles/nanotechnology-image-processing/</loc>
+        <loc>http://drusy.github.io/articles/nanotechnology-image-processing/</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/articles/lagrange-plot/</loc>
+        <loc>http://drusy.github.io/articles/lagrange-plot/</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/articles/battery-state/</loc>
+        <loc>http://drusy.github.io/articles/battery-state/</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/articles/shot-detector/</loc>
+        <loc>http://drusy.github.io/articles/shot-detector/</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/articles/ipad-accounts-manager/</loc>
+        <loc>http://drusy.github.io/articles/ipad-accounts-manager/</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/articles/qt-remote-webcam/</loc>
+        <loc>http://drusy.github.io/articles/qt-remote-webcam/</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/articles/sfml-pvz/</loc>
+        <loc>http://drusy.github.io/articles/sfml-pvz/</loc>
     </url>
     
 </urlset>
