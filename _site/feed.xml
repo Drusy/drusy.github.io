@@ -4,7 +4,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://drusy.github.io/feed.xml" />
 <link rel="alternate" type="text/html" href="http://drusy.github.io" />
-<updated>2014-04-11T19:53:08+02:00</updated>
+<updated>2014-04-12T13:04:53+02:00</updated>
 <id>http://drusy.github.io/</id>
 <author>
   <name>Kévin Renella</name>
@@ -308,7 +308,7 @@ Files Drag &amp;amp; Drop is a software that will let you easily transfer files 
 &lt;p&gt;The goal was to make transfers between an Android device and a computer (running on Windows, OS X and Linux) easier. &lt;/p&gt;
 
 &lt;h2 id=&quot;how-it-works-&quot;&gt;How it works :&lt;/h2&gt;
-&lt;p&gt;Once you have installed the app on two devices (or on PC/Mac with the desktop version), Files Drag &amp;amp; Drop will automatically detect your devices on the Wi-Fi network. Then, simply drag &amp;amp; drop the content you want to send onto the device of your choice and your dat will be transfered.
+&lt;p&gt;Once you have installed the app on two devices (or on PC/Mac with the desktop version), Files Drag &amp;amp; Drop will automatically detect your devices on the Wi-Fi network. Then, simply drag &amp;amp; drop the content you want to send onto the device of your choice and your data will be transferred.
 From an Android device, use the share function of your device and choose Files Drag &amp;amp; Drop.&lt;/p&gt;
 
 &lt;p&gt;More technicaly, we are using the Apple Bonjour protocol to detect devices over the Wi-Fi network. After a few days testing the app, we met some issues detecting devices due to multicast compatibility of routers and devices. So we decided to implement a broadcast detection manually to resolve our detection problems. Once your devices are properly detected and you simply drop a file (or text/url) on them, a TCP connection is established and the transfer begins.&lt;/p&gt;
@@ -317,7 +317,7 @@ From an Android device, use the share function of your device and choose Files D
 
 &lt;h2 id=&quot;why-should-you-choose-files-drag--drop-&quot;&gt;Why should you choose Files Drag &amp;amp; Drop ?&lt;/h2&gt;
 &lt;p&gt;You don’t need to get the IP address of your device, don’t need to remember a password, and with the full version you can open files remotely !
-It works only through Wifi for now, but we have plans to widen the possibilities in future.&lt;/p&gt;
+It works only through Wi-Fi for now, but we have plans to widen the possibilities in future.&lt;/p&gt;
 
 &lt;h2 id=&quot;how-it-looks-&quot;&gt;How it looks :&lt;/h2&gt;
 

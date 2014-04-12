@@ -4,7 +4,7 @@ title: "Files Drag & Drop"
 description: "Simpler file transfer between your devices and your computer"
 category: articles
 modified: 2014-04-08
-tags: [wifi,network,transfer,drag & drop,filesdnd,android]
+tags: [Wi-Fi,network,transfer,drag & drop,filesdnd,android]
 comments: true
 share: true
 link: http://www.filesdnd.com
@@ -16,7 +16,7 @@ Files Drag & Drop is a software that will let you easily transfer files from a c
 The goal was to make transfers between an Android device and a computer (running on Windows, OS X and Linux) easier. 
 
 ## How it works : 
-Once you have installed the app on two devices (or on PC/Mac with the desktop version), Files Drag & Drop will automatically detect your devices on the Wi-Fi network. Then, simply drag & drop the content you want to send onto the device of your choice and your dat will be transfered.
+Once you have installed the app on two devices (or on PC/Mac with the desktop version), Files Drag & Drop will automatically detect your devices on the Wi-Fi network. Then, simply drag & drop the content you want to send onto the device of your choice and your data will be transferred.
 From an Android device, use the share function of your device and choose Files Drag & Drop.
 
 More technicaly, we are using the Apple Bonjour protocol to detect devices over the Wi-Fi network. After a few days testing the app, we met some issues detecting devices due to multicast compatibility of routers and devices. So we decided to implement a broadcast detection manually to resolve our detection problems. Once your devices are properly detected and you simply drop a file (or text/url) on them, a TCP connection is established and the transfer begins.
@@ -25,7 +25,7 @@ Try it, it's awesome.
 
 ## Why should you choose Files Drag & Drop ?
 You don't need to get the IP address of your device, don't need to remember a password, and with the full version you can open files remotely !
-It works only through Wifi for now, but we have plans to widen the possibilities in future.
+It works only through Wi-Fi for now, but we have plans to widen the possibilities in future.
 
 ## How it looks :
 
