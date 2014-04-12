@@ -1,9 +1,17 @@
 [
 	
 		{
+		  "title"      : "Qt 5.2 - Android &amp; iOS",
+		  "category"   : "articles",
+		  "url"        : "http://localhost:4000/articles/qt-android-ios/",
+		  "date"       : "2014-04-12 00:00:00 +0200",
+		  "shortdate"  : "April 12, 2014"
+		} ,
+	
+		{
 		  "title"      : "Drive.jsf",
 		  "category"   : "articles",
-		  "url"        : "http://drusy.github.io/articles/drive-jsf/",
+		  "url"        : "http://localhost:4000/articles/drive-jsf/",
 		  "date"       : "2014-04-01 00:00:00 +0200",
 		  "shortdate"  : "April 01, 2014"
 		} ,
@@ -11,7 +19,7 @@
 		{
 		  "title"      : "HotspotMap",
 		  "category"   : "articles",
-		  "url"        : "http://drusy.github.io/articles/hotspotmap/",
+		  "url"        : "http://localhost:4000/articles/hotspotmap/",
 		  "date"       : "2014-03-01 00:00:00 +0100",
 		  "shortdate"  : "March 01, 2014"
 		} ,
@@ -19,7 +27,7 @@
 		{
 		  "title"      : "Image processing - SKFCM algorithm",
 		  "category"   : "articles",
-		  "url"        : "http://drusy.github.io/articles/skfcm-algorithm/",
+		  "url"        : "http://localhost:4000/articles/skfcm-algorithm/",
 		  "date"       : "2014-02-01 00:00:00 +0100",
 		  "shortdate"  : "February 01, 2014"
 		} ,
@@ -27,7 +35,7 @@
 		{
 		  "title"      : "GrailsOverflow",
 		  "category"   : "articles",
-		  "url"        : "http://drusy.github.io/articles/grailsoverflow/",
+		  "url"        : "http://localhost:4000/articles/grailsoverflow/",
 		  "date"       : "2014-01-01 00:00:00 +0100",
 		  "shortdate"  : "January 01, 2014"
 		} ,
@@ -35,7 +43,7 @@
 		{
 		  "title"      : "Files Drag &amp; Drop",
 		  "category"   : "articles",
-		  "url"        : "http://drusy.github.io/articles/files-drag-and-drop/",
+		  "url"        : "http://localhost:4000/articles/files-drag-and-drop/",
 		  "date"       : "2013-03-01 00:00:00 +0100",
 		  "shortdate"  : "March 01, 2013"
 		} ,
@@ -43,7 +51,7 @@
 		{
 		  "title"      : "Agents based Simulation - Zombies attack!",
 		  "category"   : "articles",
-		  "url"        : "http://drusy.github.io/articles/zombies-mas/",
+		  "url"        : "http://localhost:4000/articles/zombies-mas/",
 		  "date"       : "2013-02-01 00:00:00 +0100",
 		  "shortdate"  : "February 01, 2013"
 		} ,
@@ -51,7 +59,7 @@
 		{
 		  "title"      : "Raspberry PI robot - Tracking algorithm",
 		  "category"   : "articles",
-		  "url"        : "http://drusy.github.io/articles/raspberry-robot/",
+		  "url"        : "http://localhost:4000/articles/raspberry-robot/",
 		  "date"       : "2012-07-01 00:00:00 +0200",
 		  "shortdate"  : "July 01, 2012"
 		} ,
@@ -59,7 +67,7 @@
 		{
 		  "title"      : "Placement manager",
 		  "category"   : "articles",
-		  "url"        : "http://drusy.github.io/articles/placement-management/",
+		  "url"        : "http://localhost:4000/articles/placement-management/",
 		  "date"       : "2012-06-01 00:00:00 +0200",
 		  "shortdate"  : "June 01, 2012"
 		} ,
@@ -67,7 +75,7 @@
 		{
 		  "title"      : "Nanotechnology Image Processing",
 		  "category"   : "articles",
-		  "url"        : "http://drusy.github.io/articles/nanotechnology-image-processing/",
+		  "url"        : "http://localhost:4000/articles/nanotechnology-image-processing/",
 		  "date"       : "2012-03-01 00:00:00 +0100",
 		  "shortdate"  : "March 01, 2012"
 		} ,
@@ -75,7 +83,7 @@
 		{
 		  "title"      : "Lagrange plot",
 		  "category"   : "articles",
-		  "url"        : "http://drusy.github.io/articles/lagrange-plot/",
+		  "url"        : "http://localhost:4000/articles/lagrange-plot/",
 		  "date"       : "2012-02-01 00:00:00 +0100",
 		  "shortdate"  : "February 01, 2012"
 		} ,
@@ -83,7 +91,7 @@
 		{
 		  "title"      : "Battery State",
 		  "category"   : "articles",
-		  "url"        : "http://drusy.github.io/articles/battery-state/",
+		  "url"        : "http://localhost:4000/articles/battery-state/",
 		  "date"       : "2012-01-01 00:00:00 +0100",
 		  "shortdate"  : "January 01, 2012"
 		} ,
@@ -91,7 +99,7 @@
 		{
 		  "title"      : "Shot detector",
 		  "category"   : "articles",
-		  "url"        : "http://drusy.github.io/articles/shot-detector/",
+		  "url"        : "http://localhost:4000/articles/shot-detector/",
 		  "date"       : "2011-11-01 00:00:00 +0100",
 		  "shortdate"  : "November 01, 2011"
 		} ,
@@ -99,7 +107,7 @@
 		{
 		  "title"      : "iPad account manager",
 		  "category"   : "articles",
-		  "url"        : "http://drusy.github.io/articles/ipad-accounts-manager/",
+		  "url"        : "http://localhost:4000/articles/ipad-accounts-manager/",
 		  "date"       : "2011-07-01 00:00:00 +0200",
 		  "shortdate"  : "July 01, 2011"
 		} ,
@@ -107,7 +115,7 @@
 		{
 		  "title"      : "Remote webcams",
 		  "category"   : "articles",
-		  "url"        : "http://drusy.github.io/articles/qt-remote-webcam/",
+		  "url"        : "http://localhost:4000/articles/qt-remote-webcam/",
 		  "date"       : "2011-06-01 00:00:00 +0200",
 		  "shortdate"  : "June 01, 2011"
 		} ,
@@ -115,7 +123,7 @@
 		{
 		  "title"      : "Plants vs Zombies SFML",
 		  "category"   : "articles",
-		  "url"        : "http://drusy.github.io/articles/sfml-pvz/",
+		  "url"        : "http://localhost:4000/articles/sfml-pvz/",
 		  "date"       : "2010-10-01 00:00:00 +0200",
 		  "shortdate"  : "October 01, 2010"
 		} 
