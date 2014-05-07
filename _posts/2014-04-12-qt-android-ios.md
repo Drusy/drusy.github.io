@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Qt 5.2 - Android & iOS"
+title: "Qt 5.2 - Android &amp; iOS"
 description: ""
 category: articles
 modified: 2014-04-12

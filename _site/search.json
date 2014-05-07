@@ -1,7 +1,7 @@
 [
 	
 		{
-		  "title"      : "Qt 5.2 - Android &amp; iOS",
+		  "title"      : "Qt 5.2 - Android &amp;amp; iOS",
 		  "category"   : "articles",
 		  "url"        : "http://drusy.github.io/articles/qt-android-ios/",
 		  "date"       : "2014-04-12 00:00:00 +0200",
@@ -41,7 +41,7 @@
 		} ,
 	
 		{
-		  "title"      : "Files Drag &amp; Drop",
+		  "title"      : "Files Drag &amp;amp; Drop",
 		  "category"   : "articles",
 		  "url"        : "http://drusy.github.io/articles/files-drag-and-drop/",
 		  "date"       : "2013-03-01 00:00:00 +0100",
