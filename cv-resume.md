@@ -103,7 +103,7 @@ Use of **UML** to design the application and databases before development.
 
 ## Project History
 
-There is a list of my main projects but you also can take a look at all my projects [on the article page](/articles/).
+Here is a list of my main projects but you also can take a look at all my projects [on the article page](/articles/).
 
 ---------
 
@@ -126,8 +126,8 @@ Files Drag & Drop is a software that will let you easily transfer files from a c
 
 Set up of an application with 3 people in order to pilot a robot using manual control (**Qt** graphical user interface) or autopilot by camera. The goal of the project was to make the entire robot based on a **Raspberry PI** and make it follow people.
 Initialization of tracking algorithm as **Meanshift** with a color filtered image to track a red item.
-￼￼￼￼￼
-￼￼￼￼Use of project management software and version control tools.
+
+Use of project management software and version control tools.
 
 [For more informations, look at the project link.](/articles/raspberry-robot/)
 
@@ -169,7 +169,7 @@ C, C++, Objective-C, Java, Shell (bash), Groovy, Grails, Java EE, Qt, OpenCV, C#
 
 ##### Methodology & languages
 
-Merise, objects analosys, UML, design pattern, continuous integration (Jenkins / Hudson).
+Merise, objects analisys, UML, design pattern, continuous integration (Jenkins / Hudson).
 
 ##### Languages
 

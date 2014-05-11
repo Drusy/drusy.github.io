@@ -6,15 +6,15 @@
     
     
     <url>
-        <loc>http://drusy.github.io/404.html</loc>
-    </url>
-    
-    <url>
         <loc>http://drusy.github.io/about/</loc>
     </url>
     
     <url>
-        <loc>http://drusy.github.io/articles/</loc>
+        <loc>http://drusy.github.io/sitemap.xml</loc>
+    </url>
+    
+    <url>
+        <loc>http://drusy.github.io/search.json</loc>
     </url>
     
     <url>
@@ -26,15 +26,15 @@
     </url>
     
     <url>
+        <loc>http://drusy.github.io/404.html</loc>
+    </url>
+    
+    <url>
         <loc>http://drusy.github.io/index.html</loc>
     </url>
     
     <url>
-        <loc>http://drusy.github.io/search.json</loc>
-    </url>
-    
-    <url>
-        <loc>http://drusy.github.io/sitemap.xml</loc>
+        <loc>http://drusy.github.io/articles/</loc>
     </url>
     
     <url>
