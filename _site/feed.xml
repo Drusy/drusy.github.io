@@ -4,13 +4,49 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://drusy.github.io/feed.xml" />
 <link rel="alternate" type="text/html" href="http://drusy.github.io" />
-<updated>2014-06-10T14:56:06+02:00</updated>
+<updated>2014-08-06T18:23:54+02:00</updated>
 <id>http://drusy.github.io/</id>
 <author>
   <name>Kévin Renella</name>
   <uri>http://drusy.github.io/</uri>
   <email>kevin.renella@email.com</email>
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[Qt borderless window - Native Windows events (aerosnap)]]></title>
+  <link rel="alternate" type="text/html" href="http://drusy.github.io/articles/qt-borderless-aerosnap/"/>
+  <id>http://drusy.github.io/articles/qt-borderless-aerosnap</id>
+  <updated>2014-08-06T00:00:00-00:00</updated>
+  <published>2014-08-06T00:00:00+02:00</published>
+  
+  <author>
+    <name>Kévin Renella</name>
+    <uri>http://drusy.github.io</uri>
+    <email>kevin.renella@email.com</email>
+  </author>
+  <content type="html">&lt;p&gt;It’s been a long time I was looking for a nice Qt borderless window as we can see on many application nowadays. So I first tryed making my own Qt window, it worked pretty well and I’ve got a nice and interactive window. The issue was that it was not able to catch Windows native events :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Aerosnap (maximize the window hitting the top of the screen for example)&lt;/li&gt;
+  &lt;li&gt;System shadow&lt;/li&gt;
+  &lt;li&gt;Minimizing animation&lt;/li&gt;
+  &lt;li&gt;Aero shake effect (minimize all other apps)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Today, I found this wonderful &lt;a href=&quot;https://github.com/deimos1877/BorderlessWindow&quot;&gt;GitHub repository&lt;/a&gt; that handle all my needs !
+Thanks a lot &lt;a href=&quot;https://github.com/deimos1877&quot;&gt;deimos1877&lt;/a&gt; for sharing your work. You will help many people making cross platform apps with a native look and feel!&lt;/p&gt;
+
+&lt;div class=&quot;zoom-gallery&quot;&gt;
+    &lt;figure&gt;
+        &lt;a href=&quot;/images/qt-borderless-aerosnap/qt-borderless-window.png&quot;&gt;&lt;img src=&quot;/images/qt-borderless-aerosnap/qt-borderless-window.png&quot; /&gt;&lt;/a&gt;
+        &lt;figcaption&gt;Qt borderless window&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+
+
+  &lt;p&gt;&lt;a href=&quot;http://drusy.github.io/articles/qt-borderless-aerosnap/&quot;&gt;Qt borderless window - Native Windows events (aerosnap)&lt;/a&gt; was originally published by Kévin Renella at &lt;a href=&quot;http://drusy.github.io&quot;&gt;Kévin Renella&lt;/a&gt; on August 06, 2014.&lt;/p&gt;</content>
+</entry>
 
 
 <entry>

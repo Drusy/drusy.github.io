@@ -1,6 +1,14 @@
 [
 	
 		{
+		  "title"      : "Qt borderless window - Native Windows events (aerosnap)",
+		  "category"   : "articles",
+		  "url"        : "http://drusy.github.io/articles/qt-borderless-aerosnap/",
+		  "date"       : "2014-08-06 00:00:00 +0200",
+		  "shortdate"  : "August 06, 2014"
+		} ,
+	
+		{
 		  "title"      : "Qt 5.2 - Android &amp;amp; iOS",
 		  "category"   : "articles",
 		  "url"        : "http://drusy.github.io/articles/qt-android-ios/",
