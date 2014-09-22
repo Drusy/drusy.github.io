@@ -37,15 +37,25 @@ My career objective is to bring my skills and creativity to a company.
 
 ## Employment and work experience
 
+**Mobile Development Engineer**
+<span class="right">October, 2014 - Today</span>
+<br />Openium | France
+
+My role at Openium is to develop various applications on Android and iOS operating systems. I also work on software quality and continuous integration to improve the deployment process of the company.
+
+*Key-words : Android, iOS, Mobility, Continuous Integration*
+
+----------
+
 **Solution Package Integrator**
 <span class="right">September, 2013 to September, 2014</span>
 <br />Michelin | France
 
-This is my current job, I am in block release training at ISIMA and I am a **SPI team member** of the **Supply Chain** group platform at Michelin .
+In block release training at ISIMA and I was a **SPI team member** of the **Supply Chain** group platform at Michelin .
 
-I am working on Hudson jobs automation and I developed and implemented a **generic process** to deploy applications in the supply chain.
+I was working on Hudson jobs automation and I developed and implemented a **generic process** to deploy applications in the supply chain.
 
-Application deployment is currently managed by Jenkins, a **continuous integration** solution, which automates most of the process. However, the accumulation of applications and the difficulty to remove obsolete ones drives us to duplicate **Jenkins** tasks for each new version of an application and for each environment on which it is deployed. This duplication makes the jobs difficult to maintain and is a hard work for the set up of a new version of an application. We defined new generic processes and implemented new Jenkins tasks to reduce the complexity of deployments. Finally, we informed the involved teams of this new deployment solution and demonstrated its benefits.
+Application deployment was managed by Jenkins, a **continuous integration** solution, which automates most of the process. However, the accumulation of applications and the difficulty to remove obsolete ones drives us to duplicate **Jenkins** tasks for each new version of an application and for each environment on which it is deployed. This duplication makes the jobs difficult to maintain and is a hard work for the set up of a new version of an application. We defined new generic processes and implemented new Jenkins tasks to reduce the complexity of deployments. Finally, we informed the involved teams of this new deployment solution and demonstrated its benefits.
 
 *Key-words : Hudson, Jenkins, SPI, Supply Chain, Generic process, Continuous Integration*
 
@@ -55,7 +65,7 @@ Application deployment is currently managed by Jenkins, a **continuous integrati
 <span class="right">June, 2013 to April, 2013</span>
 <br />Commissariat à l'énergie atomique (CEA) | France
 
- There is many regulatory aspect related to fires in the Basic Nuclear Installations (BNI). It requests from the french nuclear operators (ANDRA, AREVA, CEA, EDF) to prove that their installations comply with the legislation, so the CEA developed a numerical simulation software to simulate fire in a nuclear experimental plant. 
+There is many regulatory aspect related to fires in the Basic Nuclear Installations (BNI). It requests from the french nuclear operators (ANDRA, AREVA, CEA, EDF) to prove that their installations comply with the legislation, so the CEA developed a numerical simulation software to simulate fire in a nuclear experimental plant. 
 
 My job was to design and develop an alternative to Excel to manipulate the results from the numerical simulation software of the **CEA**. The software was realized unsing **C++** and the **Qt** framework.
 

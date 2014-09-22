@@ -37,7 +37,7 @@ It works only through Wi-Fi for now, but we have plans to widen the possibilitie
     </figure>
 
     <figure>
-        <a href="/images/filesdnd/screen-desktop.png"><img src="/images/filesdnd/screen-desktop.png" /></a>
+        <a href="/images/filesdnd/screen-desktop-v2.png"><img src="/images/filesdnd/screen-desktop-v2.png" /></a>
         <figcaption>Files Drag &amp; Drop Desktop</figcaption>
     </figure>
 </div>
