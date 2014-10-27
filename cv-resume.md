@@ -41,9 +41,9 @@ My career objective is to bring my skills and creativity to a company.
 <span class="right">October, 2014 - Today</span>
 <br />Openium | France
 
-My role at Openium is to develop various applications on Android and iOS operating systems. I also work on software quality and continuous integration to improve the deployment process of the company.
+My role at Openium is to develop applications on Android and iOS operating systems. I am mainly working on a push platform called Platinium using PHP and Symfony 2 framework. I also work on software quality and continuous integration to improve the deployment process of the company.
 
-*Key-words : Android, iOS, Mobility, Continuous Integration*
+*Key-words : Android, iOS, Mobility, Continuous Integration, Symfony*
 
 ----------
 
@@ -175,7 +175,7 @@ The goal of this project was to detect holes on a picture to automating the work
 
 ##### Developer skills
 
-C, C++, Objective-C, Java, Shell (bash), Groovy, Grails, Java EE, Qt, OpenCV, C# .NET, HTML, CSS, PHP, SQL, JavaScript, JQuery, LaTeX.
+C, C++, Objective-C, Java, Shell (bash), Groovy, Grails, Java EE, Qt, OpenCV, C# .NET, HTML, CSS, PHP, Symfony 2, SQL, JavaScript, JQuery, LaTeX.
 
 ##### Methodology & languages
 
