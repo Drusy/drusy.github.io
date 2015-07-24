@@ -111,7 +111,9 @@ function startSlider(images) {
     }
 
     if ( images.length <= 1 ) {
-        setTimeout(function() { $('#slides').superslides('stop'); }, 1000);
+        setTimeout(function() {
+            $('#slides').superslides('stop');
+        }, 1000);
     }
 }
 
@@ -130,7 +132,7 @@ function displayArticle(jsonObject) {
     document.getElementById('article-app-icon').style.display = 'block';
 
     document.getElementById("article-app-icon").src = 'images/' + jsonObject.application + ".png";
-    document.getElementById("article-title").innerHTML = jsonObject.title;
+    document.getElementById("article-title").innerHTML = jsonObject.title + "[" + jsonObject.images.length + "]";
     document.getElementById("article-subtitle").innerHTML = jsonObject.subtitle;
 
     startSlider(jsonObject.images);
