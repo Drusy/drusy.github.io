@@ -85,7 +85,7 @@ function displaySplashScreen(jsonObject) {
 function clearSlider() {
     document.getElementById("slides").innerHTML = "";
 
-    var div = document.createElement("img");
+    var div = document.createElement("div");
 
     div.setAttribute("id", "article-images-container");
     div.setAttribute("class", "slides-container");
