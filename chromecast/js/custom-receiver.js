@@ -93,12 +93,21 @@ function clearSlider() {
     document.getElementById("slides").appendChild(div);
 }
 
+var isSliding = false;
+
 function startSlider() {
-    $('#slides').superslides({
-        animation: 'fade',
-        pagination: false,
-        play: 4000
-    });
+
+    if( !isSliding ) {
+        isSliding = true;
+
+        $('#slides').superslides({
+            animation: 'fade',
+            pagination: false,
+            play: 4000
+        });
+    } else {
+        $('#slides').superslides('update')
+    }
 }
 
 function addImageToSlider(element, index, array) {
