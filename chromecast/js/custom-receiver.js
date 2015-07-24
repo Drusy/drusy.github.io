@@ -110,7 +110,7 @@ function startSlider(images) {
         $('#slides').superslides('start')
     }
 
-    if ( images.length == 0 ) {
+    if ( images.length <= 1 ) {
         $('#slides').superslides('stop')
     }
 }
