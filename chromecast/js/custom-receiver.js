@@ -83,19 +83,13 @@ function displaySplashScreen(jsonObject) {
 }
 
 function clearSlider() {
-    document.getElementById("slides").innerHTML = "";
-
-    var div = document.createElement("div");
-
-    div.setAttribute("id", "article-images-container");
-    div.setAttribute("class", "slides-container");
-
-    document.getElementById("slides").appendChild(div);
+    document.getElementById("article-images-container").innerHTML = "";
 }
 
 var isSliding = false;
 
-function startSlider() {
+function startSlider(images) {
+    images.forEach(addImageToSlider);
 
     if( !isSliding ) {
         isSliding = true;
@@ -107,6 +101,11 @@ function startSlider() {
         });
     } else {
         $('#slides').superslides('update')
+        $('#slides').superslides('start')
+    }
+
+    if ( images.length == 0 ) {
+        $('#slides').superslides('stop')
     }
 }
 
@@ -129,8 +128,7 @@ function displayArticle(jsonObject) {
     document.getElementById("article-subtitle").innerHTML = jsonObject.subtitle;
 
     clearSlider();
-    jsonObject.images.forEach(addImageToSlider);
-    startSlider();
+    startSlider(jsonObject.images);
 
     window.castReceiverManager.setApplicationState(jsonObject.title);
 };
