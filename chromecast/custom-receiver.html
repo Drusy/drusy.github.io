@@ -29,6 +29,7 @@
         window.onload = function() {
             cast.receiver.logger.setLevelValue(0);
             window.mediaElement = document.getElementById('media');
+            window.mediaManager = new cast.receiver.MediaManager(window.mediaElement);
             window.castReceiverManager = cast.receiver.CastReceiverManager.getInstance();
             console.log('Starting Receiver Manager');
 
