@@ -106,8 +106,10 @@ function startSlider(images) {
             play: 4000
         });
     } else {
-        $('#slides').superslides('update')
-        $('#slides').superslides('start')
+        if ( images.length > 1 ) {
+            $('#slides').superslides('update')
+            $('#slides').superslides('start')
+        }
     }
 
     if ( images.length <= 1 ) {
