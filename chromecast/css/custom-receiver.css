@@ -37,14 +37,14 @@ body {
     text-align: center;
 }
 
-.article-title {
+#article-title {
     font-weight:bold;
     font-size:30px;
     margin: 0 auto;
     max-width: 70%;
 }
 
-.article-subtitle {
+#article-subtitle {
     margin: 0 auto;
     font-size:30px;
     max-width: 70%;
