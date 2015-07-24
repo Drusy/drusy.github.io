@@ -1,0 +1,25 @@
+body {
+    overflow:hidden;
+}
+
+#container {
+    width:100%;
+    height:100%;
+    text-align:center;
+
+    font-weight:bold;
+    font-family:Verdana, Geneva, sans-serif;
+    font-size:40px;
+}
+
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+.logo-cf {
+    max-width: 55%;
+}
