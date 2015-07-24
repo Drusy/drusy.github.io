@@ -14,6 +14,8 @@ var CFFChromeCastApplication = {
     Lyonne           : 'lyonne'
 }
 
+var isSliding = false;
+
 window.onload = function() {
     cast.receiver.logger.setLevelValue(0);
     window.castReceiverManager = cast.receiver.CastReceiverManager.getInstance();
@@ -83,10 +85,9 @@ function displaySplashScreen(jsonObject) {
 }
 
 function clearSlider() {
+    $('#slides').superslides('stop')
     document.getElementById("article-images-container").innerHTML = "";
 }
-
-var isSliding = false;
 
 function startSlider(images) {
     images.forEach(addImageToSlider);
