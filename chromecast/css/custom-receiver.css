@@ -47,7 +47,7 @@ body {
 #article-subtitle {
     margin: 0 auto;
     font-size:30px;
-    max-width: 70%;
+    max-width: 100%;
 }
 
 .max-size {
