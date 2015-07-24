@@ -90,5 +90,11 @@ function displayArticle(jsonObject) {
 
     jsonObject.images.forEach(addImageToSlider);
 
+    $('#slides').superslides({
+      animation: 'fade',
+      pagination: false,
+      play: 4000
+    });
+
     window.castReceiverManager.setApplicationState(jsonObject.title);
 };
