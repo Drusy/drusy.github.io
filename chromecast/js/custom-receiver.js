@@ -111,7 +111,7 @@ function startSlider(images) {
     }
 
     if ( images.length <= 1 ) {
-        $('#slides').superslides('stop')
+        setTimeout(function() { $('#slides').superslides('stop'); }, 1000);
     }
 }
 
