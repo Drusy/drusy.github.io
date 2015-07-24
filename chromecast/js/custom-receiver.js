@@ -1,3 +1,9 @@
+var CFFChromeCastJsonObjectType = {
+    CFFChromeCastJsonObjectTypeUnknown       : -1,
+    CFFChromeCastJsonObjectTypeArticleDetail : 0,
+    CFFChromeCastJsonObjectTypeVideo         : 1
+}
+
 window.onload = function() {
     cast.receiver.logger.setLevelValue(0);
     window.castReceiverManager = cast.receiver.CastReceiverManager.getInstance();
@@ -32,13 +38,23 @@ window.onload = function() {
     // create a CastMessageBus to handle messages for a custom namespace
     window.messageBus =
     window.castReceiverManager.getCastMessageBus(
-        'urn:x-cast:com.google.cast.sample.helloworld');
+        'urn:x-cast:fr.centrefrance.afpmobile');
 
     // handler for the CastMessageBus message event
     window.messageBus.onMessage = function(event) {
         console.log('Message [' + event.senderId + ']: ' + event.data);
         // display the message from the sender
-        displayText(event.data);
+         var jsonObject = JSON.parse(event.data)
+
+         switch (jsonObject.type) {
+            case CFFChromeCastJsonObjectType.CFFChromeCastJsonObjectTypeArticleDetail:
+                displayArticle(jsonObject);
+               break;
+             default:
+                displaySplashScreen();
+                break;
+         }
+
         // inform all senders on the CastMessageBus of the incoming message event
         // sender message listener will be invoked
         window.messageBus.send(event.senderId, event.data);
@@ -49,9 +65,20 @@ window.onload = function() {
     console.log('Receiver Manager started');
 };
 
-// utility function to display the text message in the input field
-function displayText(text) {
-    console.log(text);
-    document.getElementById("message").innerHTML = text;
-    window.castReceiverManager.setApplicationState(text);
+function displayArticle(jsonObject) {
+    document.getElementById('logo-cf').style.display = 'block';
+    document.getElementById('article-container').style.display = 'none';
+
+    window.castReceiverManager.setApplicationState("splashscreen");
+}
+
+function displayArticle(jsonObject) {
+    document.getElementById('logo-cf').style.display = 'none';
+    document.getElementById('article-container').style.display = 'block';
+
+    document.getElementById("article-image").src = jsonObject.images[0];
+    document.getElementById("article-title").innerHTML = jsonObject.title;
+    document.getElementById("article-subtitle").innerHTML = jsonObject.subtitle;
+
+    window.castReceiverManager.setApplicationState(jsonObject.title);
 };

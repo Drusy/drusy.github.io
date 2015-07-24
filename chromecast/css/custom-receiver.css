@@ -19,6 +19,7 @@ body {
 
 #article-container {
     background-color: white;
+    display: none;
 }
 
 #logo-cf {
