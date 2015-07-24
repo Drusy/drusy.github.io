@@ -112,7 +112,7 @@ function displayArticle(jsonObject) {
     document.getElementById('article-app-icon').style.display = 'block';
 
     document.getElementById("article-app-icon").src = 'images/' + jsonObject.application + ".png";
-    document.getElementById("article-title").innerHTML = jsonObject.title + "[" + jsonObject.images.length + "]";
+    document.getElementById("article-title").innerHTML = jsonObject.title;
     document.getElementById("article-subtitle").innerHTML = jsonObject.subtitle;
 
     startSlider(jsonObject.images);
