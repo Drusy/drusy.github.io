@@ -85,11 +85,16 @@ function displaySplashScreen(jsonObject) {
 }
 
 function clearSlider() {
-    $('#slides').superslides('stop')
-    document.getElementById("article-images-container").innerHTML = "";
+    if( isSliding )
+    {
+        $('#slides').superslides('stop')
+        document.getElementById("article-images-container").innerHTML = "";
+    }
 }
 
 function startSlider(images) {
+    clearSlider();
+
     images.forEach(addImageToSlider);
 
     if( !isSliding ) {
@@ -128,7 +133,6 @@ function displayArticle(jsonObject) {
     document.getElementById("article-title").innerHTML = jsonObject.title;
     document.getElementById("article-subtitle").innerHTML = jsonObject.subtitle;
 
-    clearSlider();
     startSlider(jsonObject.images);
 
     window.castReceiverManager.setApplicationState(jsonObject.title);
