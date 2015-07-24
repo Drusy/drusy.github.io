@@ -83,7 +83,14 @@ function displaySplashScreen(jsonObject) {
 }
 
 function clearSlider() {
-    document.getElementById("article-images-container").innerHTML = "";
+    document.getElementById("slides").innerHTML = "";
+
+    var div = document.createElement("img");
+
+    div.setAttribute("id", "article-images-container");
+    div.setAttribute("class", "slides-container");
+
+    document.getElementById("slides").appendChild(div);
 }
 
 function startSlider() {
@@ -106,9 +113,9 @@ function addImageToSlider(element, index, array) {
 function displayArticle(jsonObject) {
     document.getElementById('logo-cf').style.display = 'none';
     document.getElementById('article-container').style.display = 'block';
-    document.getElementById("article-app-icon").style.display = 'block';
+    document.getElementById('article-app-icon').style.display = 'block';
 
-    document.getElementById("article-app-icon").src = 'images/' + jsonObject.application;
+    document.getElementById("article-app-icon").src = 'images/' + jsonObject.application + ".png";
     document.getElementById("article-title").innerHTML = jsonObject.title;
     document.getElementById("article-subtitle").innerHTML = jsonObject.subtitle;
 
