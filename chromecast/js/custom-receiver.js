@@ -14,8 +14,6 @@ var CFFChromeCastApplication = {
     Lyonne           : 'lyonne'
 }
 
-var isSliding = false;
-
 window.onload = function() {
     cast.receiver.logger.setLevelValue(0);
     window.castReceiverManager = cast.receiver.CastReceiverManager.getInstance();
@@ -85,11 +83,8 @@ function displaySplashScreen(jsonObject) {
 }
 
 function clearSlider() {
-    if( isSliding )
-    {
-        $('#slides').superslides('stop')
-        document.getElementById("article-images-container").innerHTML = "";
-    }
+    cbpBGSlideshow.stopSlideshow();
+    document.getElementById("cbp-bislideshow").innerHTML = "";
 }
 
 function startSlider(images) {
@@ -97,33 +92,18 @@ function startSlider(images) {
 
     images.forEach(addImageToSlider);
 
-    if( !isSliding ) {
-        isSliding = true;
-
-        $('#slides').superslides({
-            animation: 'fade',
-            pagination: false,
-            play: 4000
-        });
-    } else {
-        if ( images.length > 1 ) {
-            $('#slides').superslides('update')
-            $('#slides').superslides('start')
-        }
-    }
-
-    if ( images.length <= 1 ) {
-        $('#slides').superslides('stop');
-    }
+    cbpBGSlideshow.reset();
+    cbpBGSlideshow.init();
 }
 
 function addImageToSlider(element, index, array) {
-    var image = document.createElement("img");
+    var li = document.createElement("li");
+    document.getElementById("cbp-bislideshow").appendChild(li);
 
+    var image = document.createElement("img");
     image.setAttribute("src", element);
     image.setAttribute("class", "article-image max-size");
-
-    document.getElementById("article-images-container").appendChild(image);
+    li.appendChild(image);
 }
 
 function displayArticle(jsonObject) {
