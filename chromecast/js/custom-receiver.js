@@ -65,7 +65,7 @@ window.onload = function() {
     console.log('Receiver Manager started');
 };
 
-function displayArticle(jsonObject) {
+function displaySplashScreen(jsonObject) {
     document.getElementById('logo-cf').style.display = 'block';
     document.getElementById('article-container').style.display = 'none';
 
