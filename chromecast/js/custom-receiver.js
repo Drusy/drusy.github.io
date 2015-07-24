@@ -1,7 +1,17 @@
 var CFFChromeCastJsonObjectType = {
-    CFFChromeCastJsonObjectTypeUnknown       : -1,
-    CFFChromeCastJsonObjectTypeArticleDetail : 0,
-    CFFChromeCastJsonObjectTypeVideo         : 1
+    Unknown       : -1,
+    ArticleDetail : 0,
+    TypeVideo     : 1
+}
+
+var CFFChromeCastApplication = {
+    LaMontagne       : 'lamontagne',
+    LaRep            : 'larep',
+    LeBerry          : 'leberry',
+    LEchoRepublicain : 'lechorepublicain',
+    LeJDC            : 'lejdc',
+    LePopulaire      : 'lepopulaire',
+    Lyonne           : 'lyonne'
 }
 
 window.onload = function() {
@@ -47,7 +57,7 @@ window.onload = function() {
          var jsonObject = JSON.parse(event.data)
 
          switch (jsonObject.type) {
-            case CFFChromeCastJsonObjectType.CFFChromeCastJsonObjectTypeArticleDetail:
+            case CFFChromeCastJsonObjectType.ArticleDetail:
                 displayArticle(jsonObject);
                break;
              default:
@@ -72,6 +82,18 @@ function displaySplashScreen(jsonObject) {
     window.castReceiverManager.setApplicationState("splashscreen");
 }
 
+function clearSlider() {
+    document.getElementById("article-images-container").innerHTML = "";
+}
+
+function startSlider() {
+    $('#slides').superslides({
+        animation: 'fade',
+        pagination: false,
+        play: 4000
+    });
+}
+
 function addImageToSlider(element, index, array) {
     var image = document.createElement("img");
 
@@ -84,17 +106,15 @@ function addImageToSlider(element, index, array) {
 function displayArticle(jsonObject) {
     document.getElementById('logo-cf').style.display = 'none';
     document.getElementById('article-container').style.display = 'block';
+    document.getElementById("article-app-icon").style.display = 'block';
 
+    document.getElementById("article-app-icon").src = 'images/' + jsonObject.application;
     document.getElementById("article-title").innerHTML = jsonObject.title;
     document.getElementById("article-subtitle").innerHTML = jsonObject.subtitle;
 
+    clearSlider();
     jsonObject.images.forEach(addImageToSlider);
-
-    $('#slides').superslides({
-      animation: 'fade',
-      pagination: false,
-      play: 4000
-    });
+    startSlider();
 
     window.castReceiverManager.setApplicationState(jsonObject.title);
 };
