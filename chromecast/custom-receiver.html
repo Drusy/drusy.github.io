@@ -2,23 +2,40 @@
 <html>
     <head>
         <link type="text/css" href="css/custom-receiver.css" rel="stylesheet" />
+        <link type="text/css" href="css/superslides.css" rel="stylesheet" />
+
         <script type="text/javascript" src="//www.gstatic.com/cast/sdk/libs/receiver/2.0.0/cast_receiver.js"></script>
         <script type="text/javascript" src="//www.gstatic.com/cast/sdk/libs/mediaplayer/1.0.0/media_player.js"></script>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
         <title>Centre France Chromscast</title>
     </head>
     <body>
         <div id="container">
             <img id="logo-cf" class="centered" src="images/groupe-centre-france.jpg" alt="Logo Centre France" />
             <div id="article-container" class="centered max-size">
-                <img id="article-image" class="max-size" src="http://www.lamontagne.fr/photoSRC/VVZTJ19dUQ--/barrages-filtrants-des-eleveurs-paysans-rond-point-de-beaumo_2196470.jpeg" />
-
+                <div id="slides">
+                    <div id="article-images-container" class="slides-container">
+                        <img class="article-image max-size" src="http://www.lamontagne.fr/photoSRC/VVZTJ19dUQ--/barrages-filtrants-des-eleveurs-paysans-rond-point-de-beaumo_2196470.jpeg" />
+                    </div>
+                </div>
                 <div id="article-text">
-                    <div id="article-title"></div>
-                    <div id="article-subtitle"></div>
+                    <div id="article-title">test</div>
+                    <div id="article-subtitle">test</div>
                 </div>
             </div>
         </div>
 
+        <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+        <script type="text/javascript" src="js/jquery.animate-enhanced.min.js"></script>
+        <script type="text/javascript" src="js/jquery.superslides.min.js" type="text/javascript" charset="utf-8"></script>
         <script type="text/javascript" src="js/custom-receiver.js"></script>
+        <script>
+            $('#slides').superslides({
+              animation: 'fade',
+              pagination: false,
+              play: 4000
+            });
+        </script>
     </body>
 </html>

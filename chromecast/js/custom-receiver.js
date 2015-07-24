@@ -72,13 +72,23 @@ function displaySplashScreen(jsonObject) {
     window.castReceiverManager.setApplicationState("splashscreen");
 }
 
+function addImageToSlider(element, index, array) {
+    var image = document.createElement("img");
+
+    image.setAttribute("src", element);
+    image.setAttribute("class", "article-image max-size");
+
+    document.getElementById("article-images-container").appendChild(image);
+}
+
 function displayArticle(jsonObject) {
     document.getElementById('logo-cf').style.display = 'none';
     document.getElementById('article-container').style.display = 'block';
 
-    document.getElementById("article-image").src = jsonObject.images[0];
     document.getElementById("article-title").innerHTML = jsonObject.title;
     document.getElementById("article-subtitle").innerHTML = jsonObject.subtitle;
+
+    jsonObject.images.forEach(addImageToSlider);
 
     window.castReceiverManager.setApplicationState(jsonObject.title);
 };
