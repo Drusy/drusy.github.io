@@ -7,19 +7,20 @@ body {
     height:100%;
     text-align:center;
 
+    background-color: white;
+
     font-weight:bold;
     font-family:Verdana, Geneva, sans-serif;
     font-size:40px;
 }
 
 .centered {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  /* bring your own prefixes */
-  transform: translate(-50%, -50%);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-.logo-cf {
+#logo-cf {
     max-width: 55%;
 }
