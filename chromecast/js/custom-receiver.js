@@ -76,8 +76,8 @@ window.onload = function() {
     }
 
     // initialize the CastReceiverManager with an application status message
-    window.castReceiverManager.start({statusText: "Application is starting"});
-    console.log('Receiver Manager started');
+    // window.castReceiverManager.start({statusText: "Application is starting"});
+    // console.log('Receiver Manager started');
 
     //window.video = document.getElementById('video-container');
     // window.mediaSource = new MediaSource();
@@ -85,8 +85,8 @@ window.onload = function() {
     // window.allSegments = null;
 
     window.mediaElement = document.getElementById('video-container');
-// Create the media manager. This will handle all media messages by default.
     window.mediaManager = new cast.receiver.MediaManager(window.mediaElement);
+    window.castReceiverManager.start();
 };
 
 function displaySplashScreen() {
