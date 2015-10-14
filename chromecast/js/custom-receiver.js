@@ -82,7 +82,10 @@ window.onload = function() {
 };
 
 function displaySplashScreen() {
+    clearSlider();
+
     document.getElementById('logo-cf').style.display = 'block';
+    document.getElementById('cbp-bislideshow').style.display = 'none';
     document.getElementById('article-container').style.display = 'none';
 
     document.getElementById("video-container").pause();
@@ -115,6 +118,8 @@ function addImageToSlider(element, index, array) {
 }
 
 function displayVideo(jsonObject) {
+    clearSlider();
+
     document.getElementById('logo-cf').style.display = 'none';
     document.getElementById('cbp-bislideshow').style.display = 'none';
     document.getElementById('video-container').style.display = 'block';
