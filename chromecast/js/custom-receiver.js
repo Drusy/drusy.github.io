@@ -79,10 +79,14 @@ window.onload = function() {
     window.castReceiverManager.start({statusText: "Application is starting"});
     console.log('Receiver Manager started');
 
-    window.video = document.getElementById('video-container');
-    window.mediaSource = new MediaSource();
-    window.video.src = window.URL.createObjectURL(window.mediaSource);
-    window.allSegments = null;
+    //window.video = document.getElementById('video-container');
+    // window.mediaSource = new MediaSource();
+    // window.video.src = window.URL.createObjectURL(window.mediaSource);
+    // window.allSegments = null;
+
+    window.mediaElement = document.getElementById('video-container');
+// Create the media manager. This will handle all media messages by default.
+    window.mediaManager = new cast.receiver.MediaManager(window.mediaElement);
 };
 
 function displaySplashScreen() {
@@ -126,13 +130,13 @@ function displayVideo(jsonObject) {
     document.getElementById('article-app-icon').style.display = 'block';
 
     document.getElementById("article-app-icon").src = 'images/' + jsonObject.application + ".png";
-    document.getElementById("article-title").innerHTML = jsonObject.title;
-    document.getElementById("article-subtitle").innerHTML = jsonObject.subtitle;
+    document.getElementById("article-title").innerHTML = jsonObject.title + " test";
+    document.getElementById("article-subtitle").innerHTML = jsonObject.subtitle + "test";
 
-    window.sourceBuffer = window.mediaSource.addSourceBuffer(
-        'video/mp4');
-    fileDownload(jsonObject.video);
-    clearSlider();
+    //window.sourceBuffer = window.mediaSource.addSourceBuffer(
+    //    'video/mp4');
+    //fileDownload(jsonObject.video);
+    //clearSlider();
 
     //document.getElementById("video-container-src").src = jsonObject.video;
     //document.getElementById("video-container").play();
