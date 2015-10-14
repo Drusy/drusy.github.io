@@ -48,7 +48,7 @@ video#video-container {
 
 #article-container {
     background-color: white;
-    display: none;
+    /*display: none;*/
 }
 
 #logo-cf {
