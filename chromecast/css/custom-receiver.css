@@ -53,6 +53,7 @@ video#video-container {
 
 #logo-cf {
     max-width: 55%;
+    display: none;
 }
 
 #text-container {
@@ -122,4 +123,105 @@ video#video-container {
   left: 50%;
   /* bring your own prefixes */
   transform: translate(-50%, -50%);
+}
+
+.bottom-right {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+
+body {
+  background-color: #333;
+}
+
+.chromecast-loader {
+  background-color: #fff;
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+}
+
+.wrapper,
+.shape,
+.masks,
+.mask {
+  position: absolute;
+  dipslay: inline-block;
+}
+
+.wrapper {
+  top: 5px;
+  right: 5px;
+  left: 5px;
+  bottom: 5px;
+}
+
+.shape {
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 100%;
+  border-color: #4285F4 #0F9D58 #F4B400 #CB4437;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.masks {
+  top: -1px;
+  right: -1px;
+  left: -1px;
+  bottom: -1px;
+}
+
+.mask {
+  width: 50%;
+  height: 50%;
+  background-color: #fff;
+}
+
+.mask-top {
+  top: 0;
+  right: 0;
+  border-radius: 0 100% 0 0;
+}
+
+.mask-bottom {
+  bottom: 0;
+  right: 0;
+  border-radius: 0 0 100%;
+  background: linear-gradient(-135deg, white 0%, transparent 75%);
+}
+
+.masks {
+  -webkit-animation: mask-rotate 1s linear infinite;
+  animation: mask-rotate 1s linear infinite;
+}
+
+@-webkit-keyframes mask-rotate {
+  from {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes mask-rotate {
+  from {
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
 }

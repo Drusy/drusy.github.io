@@ -67,7 +67,7 @@ window.onload = function() {
                 break;
 
              default:
-                displaySplashScreen();
+                displaySplashScreen(jsonObject);
                 break;
          }
 
@@ -81,12 +81,19 @@ window.onload = function() {
     window.castReceiverManager.start({statusText: "Application is starting"});
 };
 
-function displaySplashScreen() {
+function displaySplashScreen(jsonObject) {
     clearSlider();
+
+    if( jsonObject.application == "sports-auvergne" ) {
+        document.getElementById("logo-cf").src = "images/sport-auvergne-logo.png";
+    } else {
+        document.getElementById("logo-cf").src = "images/groupe-centre-france.jpg";
+    }
 
     document.getElementById('logo-cf').style.display = 'block';
     document.getElementById('cbp-bislideshow').style.display = 'none';
     document.getElementById('article-container').style.display = 'none';
+    document.getElementById('chromecast-loader').style.display = 'none';
 
     document.getElementById("video-container").pause();
 
@@ -120,6 +127,7 @@ function addImageToSlider(element, index, array) {
 function displayVideo(jsonObject) {
     clearSlider();
 
+    document.getElementById('chromecast-loader').style.display = 'none';
     document.getElementById('logo-cf').style.display = 'none';
     document.getElementById('cbp-bislideshow').style.display = 'none';
     document.getElementById('video-container').style.display = 'block';
@@ -134,6 +142,7 @@ function displayVideo(jsonObject) {
 };
 
 function displayArticle(jsonObject) {
+    document.getElementById('chromecast-loader').style.display = 'none';
     document.getElementById('video-container').style.display = 'none';
     document.getElementById('logo-cf').style.display = 'none';
     document.getElementById('article-container').style.display = 'block';
