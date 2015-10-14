@@ -34,7 +34,7 @@ window.onload = function() {
     // handler for 'senderdisconnected' event
     castReceiverManager.onSenderDisconnected = function(event) {
         console.log('Received Sender Disconnected event: ' + event.data);
-        if (window.castReceiverManager.getSenders().length == 0) {
+        if (window.castReceiverManager.getSenders().length == 0 && event.reason == cast.receiver.system.DisconnectReason.REQUESTED_BY_SENDER) {
             window.close();
         }
     };
@@ -78,13 +78,18 @@ window.onload = function() {
     // initialize the CastReceiverManager with an application status message
     window.castReceiverManager.start({statusText: "Application is starting"});
     console.log('Receiver Manager started');
+
+    window.video = document.getElementById('video-container');
+    window.mediaSource = new MediaSource();
+    window.video.src = window.URL.createObjectURL(window.mediaSource);
+    window.allSegments = null;
 };
 
 function displaySplashScreen() {
     document.getElementById('logo-cf').style.display = 'block';
     document.getElementById('article-container').style.display = 'none';
 
-    document.getElementById("video-container").pause();
+    //document.getElementById("video-container").pause();
 
     window.castReceiverManager.setApplicationState("splashscreen");
 }
@@ -123,8 +128,12 @@ function displayVideo(jsonObject) {
     document.getElementById("article-title").innerHTML = jsonObject.title;
     document.getElementById("article-subtitle").innerHTML = jsonObject.subtitle;
 
-    document.getElementById("video-container-src").src = jsonObject.video;
-    document.getElementById("video-container").play();
+    window.sourceBuffer = window.mediaSource.addSourceBuffer(
+        'video/mp4; codecs="avc1.42c01e"');
+    fileDownload(jsonObject.video);
+
+    //document.getElementById("video-container-src").src = jsonObject.video;
+    //document.getElementById("video-container").play();
 
     window.castReceiverManager.setApplicationState(jsonObject.title);
 };
@@ -139,9 +148,61 @@ function displayArticle(jsonObject) {
     document.getElementById("article-title").innerHTML = jsonObject.title;
     document.getElementById("article-subtitle").innerHTML = jsonObject.subtitle;
 
-    document.getElementById("video-container").pause();
+    //document.getElementById("video-container").pause();
 
     startSlider(jsonObject.images);
 
     window.castReceiverManager.setApplicationState(jsonObject.title);
+};
+
+/**
+* Processes the next video segment for the video.
+*/
+function processNextSegment() {
+    // Wait for the source buffer to be updated
+    if (!window.sourceBuffer.updating && window.sourceBuffer.buffered.length > 0) {
+        // Only push a new fragment if we are not updating and we have
+        // less than 10 seconds in the pipeline
+        if (window.sourceBuffer.buffered.end(window.sourceBuffer.buffered.length - 1) - window.video.currentTime < 10) {
+            // Append the video segments and adjust the timestamp offset forward
+            window.sourceBuffer.timestampOffset = window.sourceBuffer.buffered.end(this.sourceBuffer.buffered.length - 1);
+            window.sourceBuffer.appendBuffer(window.allSegments);
+        }
+        // Start playing the video
+        if (window.video.paused) {
+            window.video.play();
+        }
+    }
+    setTimeout(processNextSegment, 1000);
+};
+
+function onLoad(arrayBuffer) {
+    if (!arrayBuffer) {
+        window.video.src = null;
+        return;
+    }
+    window.allSegments = new Uint8Array(arrayBuffer);
+    window.sourceBuffer.appendBuffer(window.allSegments);
+    processNextSegment();
+}
+
+/**
+* Sends the xhr request to download the video.
+* @param {string} url to load.
+*/
+function fileDownload(url) {
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', url, true);
+    xhr.responseType = 'arraybuffer';
+    xhr.send();
+    xhr.onload = function(e) {
+        if (xhr.status != 200) {
+            onLoad();
+            return;
+        }
+        onLoad(xhr.response);
+    };
+    xhr.onerror = function(e) {
+        window.video.src = null;
+    };
 };
