@@ -120,6 +120,7 @@ function addImageToSlider(element, index, array) {
 
 function displayVideo(jsonObject) {
     document.getElementById('logo-cf').style.display = 'none';
+    document.getElementById('cbp-bislideshow').style.display = 'none';
     document.getElementById('video-container').style.display = 'block';
     document.getElementById('article-container').style.display = 'block';
     document.getElementById('article-app-icon').style.display = 'block';
@@ -131,6 +132,7 @@ function displayVideo(jsonObject) {
     window.sourceBuffer = window.mediaSource.addSourceBuffer(
         'video/mp4');
     fileDownload(jsonObject.video);
+    clearSlider();
 
     //document.getElementById("video-container-src").src = jsonObject.video;
     //document.getElementById("video-container").play();
@@ -143,6 +145,7 @@ function displayArticle(jsonObject) {
     document.getElementById('logo-cf').style.display = 'none';
     document.getElementById('article-container').style.display = 'block';
     document.getElementById('article-app-icon').style.display = 'block';
+    document.getElementById('cbp-bislideshow').style.display = 'block';
 
     document.getElementById("article-app-icon").src = 'images/' + jsonObject.application + ".png";
     document.getElementById("article-title").innerHTML = jsonObject.title;
