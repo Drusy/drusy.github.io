@@ -123,7 +123,7 @@ function displayVideo(jsonObject) {
     document.getElementById("article-title").innerHTML = jsonObject.title;
     document.getElementById("article-subtitle").innerHTML = jsonObject.subtitle;
 
-    document.getElementById("video-container").src = jsonObject.video;
+    document.getElementById("video-container-src").src = jsonObject.video;
     document.getElementById("video-container").play();
 
     window.castReceiverManager.setApplicationState(jsonObject.title);
