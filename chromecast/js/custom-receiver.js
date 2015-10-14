@@ -54,12 +54,17 @@ window.onload = function() {
     window.messageBus.onMessage = function(event) {
         console.log('Message [' + event.senderId + ']: ' + event.data);
         // display the message from the sender
-         var jsonObject = JSON.parse(event.data)
+        var jsonObject = JSON.parse(event.data)
 
-         switch (jsonObject.type) {
+        switch (jsonObject.type) {
             case CFFChromeCastJsonObjectType.ArticleDetail:
                 displayArticle(jsonObject);
-               break;
+                break;
+
+            case CFFChromeCastJsonObjectType.TypeVideo:
+                dusplayVideo(jsonObject);
+                break;
+
              default:
                 displaySplashScreen();
                 break;
@@ -75,9 +80,11 @@ window.onload = function() {
     console.log('Receiver Manager started');
 };
 
-function displaySplashScreen(jsonObject) {
+function displaySplashScreen() {
     document.getElementById('logo-cf').style.display = 'block';
     document.getElementById('article-container').style.display = 'none';
+
+    document.getElementById("video-container").pause();
 
     window.castReceiverManager.setApplicationState("splashscreen");
 }
@@ -106,7 +113,24 @@ function addImageToSlider(element, index, array) {
     li.appendChild(image);
 }
 
+function displayVideo(jsonObject) {
+    document.getElementById('logo-cf').style.display = 'none';
+    document.getElementById('video-container').style.display = 'block';
+    document.getElementById('article-container').style.display = 'block';
+    document.getElementById('article-app-icon').style.display = 'block';
+
+    document.getElementById("article-app-icon").src = 'images/' + jsonObject.application + ".png";
+    document.getElementById("article-title").innerHTML = jsonObject.title;
+    document.getElementById("article-subtitle").innerHTML = jsonObject.subtitle;
+
+    document.getElementById("video-container").src = jsonObject.video;
+    document.getElementById("video-container").play();
+
+    window.castReceiverManager.setApplicationState(jsonObject.title);
+};
+
 function displayArticle(jsonObject) {
+    document.getElementById('video-container').style.display = 'none';
     document.getElementById('logo-cf').style.display = 'none';
     document.getElementById('article-container').style.display = 'block';
     document.getElementById('article-app-icon').style.display = 'block';
@@ -114,6 +138,8 @@ function displayArticle(jsonObject) {
     document.getElementById("article-app-icon").src = 'images/' + jsonObject.application + ".png";
     document.getElementById("article-title").innerHTML = jsonObject.title;
     document.getElementById("article-subtitle").innerHTML = jsonObject.subtitle;
+
+    document.getElementById("video-container").pause();
 
     startSlider(jsonObject.images);
 
