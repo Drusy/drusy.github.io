@@ -62,7 +62,7 @@ window.onload = function() {
                 break;
 
             case CFFChromeCastJsonObjectType.TypeVideo:
-                dusplayVideo(jsonObject);
+                displayVideo(jsonObject);
                 break;
 
              default:
