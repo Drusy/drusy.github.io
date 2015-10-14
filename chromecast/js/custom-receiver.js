@@ -129,7 +129,7 @@ function displayVideo(jsonObject) {
     document.getElementById("article-subtitle").innerHTML = jsonObject.subtitle;
 
     window.sourceBuffer = window.mediaSource.addSourceBuffer(
-        'video/mp4; codecs="avc1.42c01e"');
+        'video/mp4');
     fileDownload(jsonObject.video);
 
     //document.getElementById("video-container-src").src = jsonObject.video;
@@ -203,6 +203,7 @@ function fileDownload(url) {
         onLoad(xhr.response);
     };
     xhr.onerror = function(e) {
+        displaySplashScreen();
         window.video.src = null;
     };
 };
