@@ -127,8 +127,8 @@ video#video-container {
 
 .bottom-right {
     position: fixed;
-    bottom: 0px;
-    right: 0px;
+    bottom: 50px;
+    right: 50px;
 }
 
 body {
