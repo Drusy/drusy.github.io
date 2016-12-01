@@ -12,6 +12,7 @@ var CFFChromeCastApplication = {
     LeJDC               : 'lejdc',
     LePopulaire         : 'lepopulaire',
     Lyonne              : 'lyonne',
+    LEveil              : 'leveil',
     SportsAuvergne      : 'sportsauvergne'
 }
 
