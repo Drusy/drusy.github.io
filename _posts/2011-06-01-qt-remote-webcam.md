@@ -5,8 +5,8 @@ description: "Remote webcam control using Qt"
 category: articles
 modified: 2014-04-08
 tags: [c++,Qt,OpenCV,remote,webcam]
-comments: true
-share: true
+category: projects
+projects: true
 ---
 
 As I told, my favourite programming language remain the C++, using the Qt framework... So I began to develop some amazing desktop applications such as this remote webcam client. This software allow you to control multiple webcam remotely through Wi-Fi network or over the internet.

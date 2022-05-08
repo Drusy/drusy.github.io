@@ -5,8 +5,8 @@ description: ""
 category: articles
 modified: 2014-08-06
 tags: [Qt,C++,Windows,Aerosnap,Native events]
-comments: true
-share: true
+category: projects
+projects: true
 ---
 
 It's been a long time I was looking for a nice Qt borderless window as we can see on many application nowadays. So I first tryed making my own Qt window, it worked pretty well and I've got a nice and interactive window. The issue was that it was not able to catch Windows native events :

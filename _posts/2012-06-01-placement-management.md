@@ -5,8 +5,8 @@ description: "Lagrange interpolation plotter"
 category: articles
 modified: 2014-04-08
 tags: [C++,Qt,SQLite,placement,manager]
-comments: true
-share: true
+category: projects
+projects: true
 ---
 
 I worked for the [LASMEA](http://w3.anr-proteus.fr/?q=node/124) laboratory in 2012 to improve the [hole detector](/articles/nanotechnology-image-processing/) and to develop a placement manager in C++/Qt. Before the development of this software, the management of students placements was done by editing Excel files. So, the goal is to simply :

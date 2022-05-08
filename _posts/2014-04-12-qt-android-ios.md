@@ -5,8 +5,8 @@ description: ""
 category: articles
 modified: 2014-04-12
 tags: [Qt 5.2,QtQuick,QML,Android,iOS]
-comments: true
-share: true
+category: projects
+projects: true
 ---
 
 Today, after a long break working with Qt, I decided to test how it looks on it version 5.2 and particulary to try the Android and iOS integration for `QtWidgets` and `QtQuick`. I encountered many troubles setting up the projects and I will try to share my advices to build your applications.

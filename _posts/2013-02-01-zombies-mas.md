@@ -5,8 +5,8 @@ description: "Multi-agents Simulation using C++"
 category: articles
 modified: 2014-04-08
 tags: [C++,Qt,simulation,multi-agents]
-comments: true
-share: true
+category: projects
+projects: true
 ---
 
 ## Goal

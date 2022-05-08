@@ -5,8 +5,8 @@ description: "Medical image segmentation"
 category: articles
 modified: 2014-04-08
 tags: [C,CImg,SKFCM,algorithm,image processing]
-comments: true
-share: true
+category: projects
+projects: true
 ---
 
 ## Subject presentation

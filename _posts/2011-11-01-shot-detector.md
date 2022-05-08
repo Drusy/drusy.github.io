@@ -5,8 +5,8 @@ description: "Competitive Shooting Program"
 category: articles
 modified: 2014-04-08
 tags: [C++,Qt,OpenCV,shooting,competition]
-comments: true
-share: true
+category: projects
+projects: true
 ---
 
 For a long time, Metallic silhouette shooting was one of my passion :)

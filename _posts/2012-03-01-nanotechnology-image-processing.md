@@ -5,8 +5,8 @@ description: "Nanotechnology Image Processing"
 category: articles
 modified: 2014-04-08
 tags: [C++,Qt,OpenCV,Nanotechnology]
-comments: true
-share: true
+category: projects
+projects: true
 ---
 
 This project started from a school project in 2011 and I worked again on that in 2012 for the [LASMEA](http://w3.anr-proteus.fr/?q=node/124) laboratory.  

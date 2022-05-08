@@ -5,8 +5,8 @@ description: "Find the best place to work when you are far from your workplace o
 category: articles
 modified: 2014-04-08
 tags: [PHP,Silex,developer,JavaScript]
-comments: true
-share: true
+category: projects
+projects: true
 ---
 
 HotspotMap is an application that shows Hotspots dedicated to developers. The goal is to find the best place to work when you are far from your workplace or your home.

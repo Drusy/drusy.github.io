@@ -5,8 +5,8 @@ description: "Laptop battery state (wear level)"
 category: articles
 modified: 2014-04-08
 tags: [C++,Qt,battery,laptop]
-comments: true
-share: true
+category: projects
+projects: true
 ---
 
 Any of the available software on windows fits my needs about battery usage, wear level etc. so I decided to develop my own. I would like a software that :

@@ -5,8 +5,8 @@ description: "StackOverflow like developed in Groovy on rails"
 category: articles
 modified: 2014-04-08
 tags: [groovy,grails,stackoverflow,grailsoverflow,grow]
-comments: true
-share: true
+category: projects
+projects: true
 ---
 
 GrailsOverflow is a StackOverflow like developed in Grails.

@@ -5,8 +5,8 @@ description: "Simpler file transfer between your devices and your computer"
 category: articles
 modified: 2014-04-08
 tags: [Wi-Fi,network,transfer,drag & drop,filesdnd,android]
-comments: true
-share: true
+category: projects
+projects: true
 link: http://www.filesdnd.com
 ---
 

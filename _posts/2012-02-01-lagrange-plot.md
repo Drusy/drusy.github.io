@@ -5,8 +5,8 @@ description: "Lagrange interpolation plotter"
 category: articles
 modified: 2014-04-08
 tags: [C++,Qt,plot,Lagrange]
-comments: true
-share: true
+category: projects
+projects: true
 ---
 
 First year engineering school project, a very little bit of mathematics but fortunately Qt is always there to save my life :)
