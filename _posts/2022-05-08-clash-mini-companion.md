@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Clash Mini Companion (Post)"
+title: "Clash Mini Companion"
 description: "Unofficial Clash Mini Helper"
-modified: 2022-05-09
+modified: 2022-05-08
 tags: [iOS,app,helper]
 category: projects
 projects: true
