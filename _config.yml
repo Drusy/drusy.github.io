@@ -23,7 +23,7 @@ resume-url:
 url: https://drusy.github.io
 # your url: https://USERNAME.github.io
 
-permalink: /_:title/
+permalink: /:title/
 
 # To enable google analytics, supply your token below
 # analytics-google: 'UA-MYANALYTICS'
