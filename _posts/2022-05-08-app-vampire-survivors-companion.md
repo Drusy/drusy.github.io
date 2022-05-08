@@ -2,7 +2,7 @@
 layout: post
 title: "Vampire Survivors Companion"
 description: "Unofficial Vampire Survivors Helper"
-modified: 2022-05-09
+modified: 2022-05-08
 tags: [iOS,app,helper]
 category: projects
 projects: true
