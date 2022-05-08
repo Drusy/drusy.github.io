@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "App Exile Companion"
+title: "Exile Companion"
 description: "Unofficial Path of Exile Helper"
 modified: 2022-05-08
 tags: [iOS,app,helper]
