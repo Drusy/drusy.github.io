@@ -3,7 +3,7 @@ layout: post
 title: "Exile Companion"
 description: "Unofficial Path of Exile Helper"
 modified: 2022-05-09
-tags: [ios,app,helper]
+tags: [iOS,app,helper]
 category: projects
 projects: true
 ---

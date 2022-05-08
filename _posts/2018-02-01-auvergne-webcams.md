@@ -3,7 +3,7 @@ layout: post
 title: "Auvergne Webcams"
 description: "Gardez un oeil sur votre région"
 modified: 2018-02-01
-tags: [ios, app, auvergne, webcam]
+tags: [iOS, app, auvergne, webcam]
 category: projects
 projects: true
 ---
